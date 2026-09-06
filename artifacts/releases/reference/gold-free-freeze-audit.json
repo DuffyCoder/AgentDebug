@@ -1,0 +1,54 @@
+{
+  "schema_version": "agentdebug.gold-free-gaia50-freeze.v1",
+  "protocol": "agentdebug.codex-agent-judge.gaia-v3.83-clean-v3.20-model-only-gpt55-medium",
+  "dataset": "gaia-paper-v1",
+  "case_count": 50,
+  "model": "gpt-5.5",
+  "reasoning_effort": "medium",
+  "prediction_manifest_sha256": "77815b429514b136d715c5914eee912637a2e942979dd23f7d614aa33ee508cc",
+  "cohort_manifest_sha256": "31140b667a479431abf5e0e274752cb9a486ec5f4a9d80b471b617e586b48126",
+  "all_schema_taxonomy_evidence_validation_passed": true,
+  "all_selected_predictions_exact_anchor_or_challenger_copies": true,
+  "gold_free_validation": true,
+  "case_routing": false,
+  "prior_predictions_visible_to_inference": false,
+  "smoke_gate_used": false,
+  "artifacts": {
+    "anchor-predictions.json": {
+      "path": "${REPO_ROOT}/output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50/anchor-predictions.json",
+      "sha256": "a97474d15d0f590e9fd1a2675e725f46847f8f54692ca44c2749c5928f75316d"
+    },
+    "anchor-step-candidates.json": {
+      "path": "${REPO_ROOT}/output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50/anchor-step-candidates.json",
+      "sha256": "17dffbdd510e91e63a8e0bca57f85ccab4c30721479790fbe4a721dacf27a56b"
+    },
+    "anchor-step-freezes.json": {
+      "path": "${REPO_ROOT}/output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50/anchor-step-freezes.json",
+      "sha256": "37ef2c0b262e27ef681a53455ff500fb661d4bf87441d202fb826b686dc1d2f0"
+    },
+    "challengers.json": {
+      "path": "${REPO_ROOT}/output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50/challengers.json",
+      "sha256": "7b9b085a9a0f4e02c7ffdc84ca9cd955df6fc447550a062c10556a28056fa64b"
+    },
+    "arbiters.json": {
+      "path": "${REPO_ROOT}/output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50/arbiters.json",
+      "sha256": "bb94fd5d0bafec8344f0d198f24a4210c2afcb0fb873ce9788ffe969a3bfa608"
+    },
+    "predictions.json": {
+      "path": "${REPO_ROOT}/output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50/predictions.json",
+      "sha256": "f74161b06c456461ccacdcf7c708157154e8e9810cb5dffa8ef09352698fca3d"
+    },
+    "prediction-audit.json": {
+      "path": "${REPO_ROOT}/output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50/prediction-audit.json",
+      "sha256": "f8bd9c88f44aaa90e19579c564cfcf8ef954346b65cee5174a07bdffab118f64"
+    },
+    "prediction-diagnostics.json": {
+      "path": "${REPO_ROOT}/output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50/prediction-diagnostics.json",
+      "sha256": "333184b872509b8cba0f367c31254ea1b4b8b896eb497903e0fbcdf67a3ccf15"
+    },
+    "execution-summary.json": {
+      "path": "${REPO_ROOT}/output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50/execution-summary.json",
+      "sha256": "1da5b861b46c6bcd8e8cd16aed0a671dc9de6bd7f9f59f9b2752da6b3e42e7a3"
+    }
+  }
+}

@@ -1,8 +1,38 @@
+# Python bytecode and tool caches
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local environments and packaging artifacts
+/.venv/
+/venv/
+/env/
 *.egg-info/
 dist/
 build/
+
+# Local configuration
 .env
+.env.*
+!.env.example
+!.env.template
 .DS_Store
+/.codex/
+/.idea/
+/.vscode/
+*.pem
+*.key
+
+# Local trajectory corpora and generated diagnostics may contain credentials.
+/data/
+/output/
+/AgentDebug/
+
+# Curated, path-sanitized artifacts under /artifacts/releases are intentionally
+# tracked. Do not add a blanket /artifacts ignore rule.

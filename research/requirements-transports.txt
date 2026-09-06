@@ -1,0 +1,10 @@
+# Additive runtime for the v3.83 transport replications.
+# Install only after `uv sync --frozen --extra dev`; this file intentionally
+# stays outside uv.lock so the already-published v3.83 lock hash is immutable.
+annotated-types==0.8.0
+openai-codex==0.147.0
+openai-codex-cli-bin==0.147.0
+pydantic==2.13.5
+pydantic-core==2.46.5
+typing-extensions==4.16.0
+typing-inspection==0.4.4

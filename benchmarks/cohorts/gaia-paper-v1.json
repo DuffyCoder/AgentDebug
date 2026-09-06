@@ -1,0 +1,369 @@
+{
+  "schema_version": "agentdebug.benchmark.paper-release-cohort.v1",
+  "cohort_name": "gaia-paper-v1",
+  "dataset_manifest_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+  "selection": {
+    "algorithm": "all-released-environment-source-files-lexical-id-v1",
+    "environment": "gaia",
+    "membership_rule": "all 50 JSON files in the released GAIA trajectory directory",
+    "ordering_rule": "trajectory_id lexical order",
+    "source_only": true,
+    "development_cohort": false,
+    "paper_comparison_scope": true
+  },
+  "trajectory_ids": [
+    "GPT-4o_001_memory_b000_t00_e00-7743eba0",
+    "GPT-4o_002_memory_b000_t00_e01-7ab08a46",
+    "GPT-4o_003_memory_b000_t00_e03-21a3a421",
+    "GPT-4o_004_memory_b000_t00_e04-5e8c1dcf",
+    "GPT-4o_005_memory_b000_t00_e05-c9015705",
+    "GPT-4o_006_memory_b000_t00_e06-71f77595",
+    "GPT-4o_007_memory_b000_t00_e08-f572f2ad",
+    "GPT-4o_008_memory_b000_t00_e09-f0557a9f",
+    "GPT-4o_009_memory_b001_t00_e01-7ab08a46",
+    "GPT-4o_010_memory_b001_t00_e02-8d639e26",
+    "GPT-4o_011_memory_b001_t00_e03-21a3a421",
+    "GPT-4o_012_memory_b001_t00_e04-5e8c1dcf",
+    "GPT-4o_013_memory_b001_t00_e05-c9015705",
+    "GPT-4o_014_memory_b001_t00_e06-71f77595",
+    "GPT-4o_015_memory_b001_t00_e07-f5b5d66a",
+    "GPT-4o_016_memory_b001_t00_e08-f572f2ad",
+    "Llama3.3-70B-Turbo_001_memory_b000_t00_e00-7743eba0",
+    "Llama3.3-70B-Turbo_002_memory_b000_t00_e01-7ab08a46",
+    "Llama3.3-70B-Turbo_003_memory_b000_t00_e02-8d639e26",
+    "Llama3.3-70B-Turbo_004_memory_b000_t00_e03-21a3a421",
+    "Llama3.3-70B-Turbo_005_memory_b000_t00_e04-5e8c1dcf",
+    "Llama3.3-70B-Turbo_006_memory_b000_t00_e05-c9015705",
+    "Llama3.3-70B-Turbo_007_memory_b000_t00_e08-f572f2ad",
+    "Llama3.3-70B-Turbo_008_memory_b000_t00_e09-f0557a9f",
+    "Llama3.3-70B-Turbo_009_memory_b001_t00_e00-7743eba0",
+    "Llama3.3-70B-Turbo_010_memory_b001_t00_e01-7ab08a46",
+    "Llama3.3-70B-Turbo_011_memory_b001_t00_e02-8d639e26",
+    "Llama3.3-70B-Turbo_012_memory_b001_t00_e03-21a3a421",
+    "Llama3.3-70B-Turbo_013_memory_b001_t00_e04-5e8c1dcf",
+    "Llama3.3-70B-Turbo_014_memory_b001_t00_e05-c9015705",
+    "Llama3.3-70B-Turbo_015_memory_b001_t00_e06-71f77595",
+    "Llama3.3-70B-Turbo_016_memory_b001_t00_e07-f5b5d66a",
+    "Llama3.3-70B-Turbo_017_memory_b001_t00_e08-f572f2ad",
+    "Qwen3-8B_001_memory_b000_t00_e00-7743eba0",
+    "Qwen3-8B_002_memory_b000_t00_e01-7ab08a46",
+    "Qwen3-8B_003_memory_b000_t00_e02-8d639e26",
+    "Qwen3-8B_004_memory_b000_t00_e04-5e8c1dcf",
+    "Qwen3-8B_005_memory_b000_t00_e05-c9015705",
+    "Qwen3-8B_006_memory_b000_t00_e06-71f77595",
+    "Qwen3-8B_007_memory_b000_t00_e07-f5b5d66a",
+    "Qwen3-8B_008_memory_b000_t00_e08-f572f2ad",
+    "Qwen3-8B_009_memory_b000_t00_e09-f0557a9f",
+    "Qwen3-8B_010_memory_b001_t00_e00-7743eba0",
+    "Qwen3-8B_011_memory_b001_t00_e01-7ab08a46",
+    "Qwen3-8B_012_memory_b001_t00_e02-8d639e26",
+    "Qwen3-8B_013_memory_b001_t00_e03-21a3a421",
+    "Qwen3-8B_014_memory_b001_t00_e04-5e8c1dcf",
+    "Qwen3-8B_015_memory_b001_t00_e05-c9015705",
+    "Qwen3-8B_016_memory_b001_t00_e06-71f77595",
+    "Qwen3-8B_017_memory_b001_t00_e07-f5b5d66a"
+  ],
+  "entries": [
+    {
+      "environment": "gaia",
+      "trajectory_id": "GPT-4o_001_memory_b000_t00_e00-7743eba0",
+      "rank": 1,
+      "trajectory_file_sha256": "d7aced8a54d459118aae7cf0fdd327f752de1e6ca2f41eb5648617c08cf2ed9d"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "GPT-4o_002_memory_b000_t00_e01-7ab08a46",
+      "rank": 2,
+      "trajectory_file_sha256": "5c7916dc1eef89e0b77a7ce53ded886c6e26252a51c98d57939f38b01d962756"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "GPT-4o_003_memory_b000_t00_e03-21a3a421",
+      "rank": 3,
+      "trajectory_file_sha256": "5cbb0e303ed080519a37bb8132ff58c71b76289551de157b412ea3dfde1299b3"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "GPT-4o_004_memory_b000_t00_e04-5e8c1dcf",
+      "rank": 4,
+      "trajectory_file_sha256": "285837423e8e4e3ebd92bd8091441d24b54a28bbe134bd5a127e68db47936622"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "GPT-4o_005_memory_b000_t00_e05-c9015705",
+      "rank": 5,
+      "trajectory_file_sha256": "3f89cff67faf6751fa1879fdb1d810ad0dea0436fc8c9ccb20ae4e299cf87ea0"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "GPT-4o_006_memory_b000_t00_e06-71f77595",
+      "rank": 6,
+      "trajectory_file_sha256": "b05f656093dfa079860b7efed85640a6cf7a0ba2d1e383e740d39ead78b66bc4"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "GPT-4o_007_memory_b000_t00_e08-f572f2ad",
+      "rank": 7,
+      "trajectory_file_sha256": "9f9779b25916d6e63f368db68bd53e192faf14e011c275bf445e4fc3a99bc1a6"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "GPT-4o_008_memory_b000_t00_e09-f0557a9f",
+      "rank": 8,
+      "trajectory_file_sha256": "62dff2ae693f7f3c4f0957d5f5a1cc6b312a88945116af59ccf2e654b53f3973"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "GPT-4o_009_memory_b001_t00_e01-7ab08a46",
+      "rank": 9,
+      "trajectory_file_sha256": "ab1dcd183799261e0506c0a101c01f55b0e784504c1225f121db7acf35ac4110"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "GPT-4o_010_memory_b001_t00_e02-8d639e26",
+      "rank": 10,
+      "trajectory_file_sha256": "107bcc896e2a323f04d37ede0269d35a5915149fc264f524494e823f3f3b07b0"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "GPT-4o_011_memory_b001_t00_e03-21a3a421",
+      "rank": 11,
+      "trajectory_file_sha256": "6d5961d1a59bbc7995a8e8299025a397474e6aa06b48c606ac218035b13c6508"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "GPT-4o_012_memory_b001_t00_e04-5e8c1dcf",
+      "rank": 12,
+      "trajectory_file_sha256": "6916f49b67994dc1af910f87a789f90ee0d8e86e0259539b466e76bd1dbbe6cc"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "GPT-4o_013_memory_b001_t00_e05-c9015705",
+      "rank": 13,
+      "trajectory_file_sha256": "b5648b8bc22beab153f4859a00435c888174eb703833d20eb8f809db0e39fdf4"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "GPT-4o_014_memory_b001_t00_e06-71f77595",
+      "rank": 14,
+      "trajectory_file_sha256": "dd3dc2eee2173bfa92b165a758a38f07b10a9a416a9f6b27887add5f55d79e81"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "GPT-4o_015_memory_b001_t00_e07-f5b5d66a",
+      "rank": 15,
+      "trajectory_file_sha256": "6cce935b4358224d36f477327804e12b7da3a3cb45a20fb9f33c829b9d695530"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "GPT-4o_016_memory_b001_t00_e08-f572f2ad",
+      "rank": 16,
+      "trajectory_file_sha256": "0b35a0b6e4f519a238e686249c6cbc5a103efca6773e91fcc2d8b56234cd6c4f"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Llama3.3-70B-Turbo_001_memory_b000_t00_e00-7743eba0",
+      "rank": 17,
+      "trajectory_file_sha256": "2da1d3710864d5b5efed0faa965434f5938437a04982e7207edec20b82ca6a20"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Llama3.3-70B-Turbo_002_memory_b000_t00_e01-7ab08a46",
+      "rank": 18,
+      "trajectory_file_sha256": "726ebaa52222395cf6a2f8cfd34a5c9afd88173cf0a5fb7c7f44954f201ebdb1"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Llama3.3-70B-Turbo_003_memory_b000_t00_e02-8d639e26",
+      "rank": 19,
+      "trajectory_file_sha256": "944c488df90a60bfdaeda1b9e144b056c39010265c0c84814376fbea808cbdfb"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Llama3.3-70B-Turbo_004_memory_b000_t00_e03-21a3a421",
+      "rank": 20,
+      "trajectory_file_sha256": "9de7a8deca70740f440c967214b5ad315ec0a8e7c6c785d3d387b472fc7c2e26"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Llama3.3-70B-Turbo_005_memory_b000_t00_e04-5e8c1dcf",
+      "rank": 21,
+      "trajectory_file_sha256": "6080c812b684c966c3e56f3aabdf24fae857a6ef22a284e837f2ad64af864ef1"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Llama3.3-70B-Turbo_006_memory_b000_t00_e05-c9015705",
+      "rank": 22,
+      "trajectory_file_sha256": "483b822edc64dc0593f4a5835b4a5d4f55d38ba83284ab453090fd78cf315964"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Llama3.3-70B-Turbo_007_memory_b000_t00_e08-f572f2ad",
+      "rank": 23,
+      "trajectory_file_sha256": "0e5d0076445ac6faa84b1e7534d8328e7ffc003dcba13959ab2119878dff07dd"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Llama3.3-70B-Turbo_008_memory_b000_t00_e09-f0557a9f",
+      "rank": 24,
+      "trajectory_file_sha256": "70b9eb57b8325829f03344c66baafbe740611f3b13589f4963733b888d3f2da0"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Llama3.3-70B-Turbo_009_memory_b001_t00_e00-7743eba0",
+      "rank": 25,
+      "trajectory_file_sha256": "8aef4c6db4f6a69a87cf7fa0c3cdb4a75b62bafc46d10e0d186f9b97ecd99020"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Llama3.3-70B-Turbo_010_memory_b001_t00_e01-7ab08a46",
+      "rank": 26,
+      "trajectory_file_sha256": "ba819fcfb4c8f7725eeefa1b601d1a5dd082243aab92ae984fdfe2441ccb1a37"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Llama3.3-70B-Turbo_011_memory_b001_t00_e02-8d639e26",
+      "rank": 27,
+      "trajectory_file_sha256": "4deb4a37d3b7760f5bcb4a272ff10a3f9db520492ba07c9b0cc36685cadfff64"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Llama3.3-70B-Turbo_012_memory_b001_t00_e03-21a3a421",
+      "rank": 28,
+      "trajectory_file_sha256": "3a3f106dfb23f883a616cd16e2cee45b5e4a66cbb83f9bedfea7661e517d2929"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Llama3.3-70B-Turbo_013_memory_b001_t00_e04-5e8c1dcf",
+      "rank": 29,
+      "trajectory_file_sha256": "170ed42108edebcd426c5a13d9bb4552d4f4c6bd5f6039a32735ba42a394ed3e"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Llama3.3-70B-Turbo_014_memory_b001_t00_e05-c9015705",
+      "rank": 30,
+      "trajectory_file_sha256": "716f788378f8f571efe47ab85b0139745677c8b046ef0ebbbcb9719b9c4d784b"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Llama3.3-70B-Turbo_015_memory_b001_t00_e06-71f77595",
+      "rank": 31,
+      "trajectory_file_sha256": "a7b3904d997ffe054bc12b4de534680db960dc842a61f87495eae458ff137f21"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Llama3.3-70B-Turbo_016_memory_b001_t00_e07-f5b5d66a",
+      "rank": 32,
+      "trajectory_file_sha256": "640fbde9660d40374495042f57a7cf2df3a21d61bf408e842f73eba974aae111"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Llama3.3-70B-Turbo_017_memory_b001_t00_e08-f572f2ad",
+      "rank": 33,
+      "trajectory_file_sha256": "e8d982cbd1cc4c7443bdc363ef63e47b48ca301f32d9658b57e65ea5fed9ed91"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Qwen3-8B_001_memory_b000_t00_e00-7743eba0",
+      "rank": 34,
+      "trajectory_file_sha256": "55867ff05fda444cddf110b202f2fdb349d8eb89588ea7eb9ac70cbcea1b4d52"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Qwen3-8B_002_memory_b000_t00_e01-7ab08a46",
+      "rank": 35,
+      "trajectory_file_sha256": "47405469f3235872d32c6258ec1341841bd57219a13162768d44a90117c95883"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Qwen3-8B_003_memory_b000_t00_e02-8d639e26",
+      "rank": 36,
+      "trajectory_file_sha256": "ac53174eecbec3a68fbd5162bf278836eb3099b37842a4732b8faeeb0b2aa888"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Qwen3-8B_004_memory_b000_t00_e04-5e8c1dcf",
+      "rank": 37,
+      "trajectory_file_sha256": "12b0cb5468aa5adf6042e62471d35e8887c297598b0e4a2a06819d116c74e32d"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Qwen3-8B_005_memory_b000_t00_e05-c9015705",
+      "rank": 38,
+      "trajectory_file_sha256": "f23925c3a3b639cc9cb96f9a32aeb581a18d30d731900e917d9286add6ef48ec"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Qwen3-8B_006_memory_b000_t00_e06-71f77595",
+      "rank": 39,
+      "trajectory_file_sha256": "884a54b25ae9cdf5fca2a7f171377141c512de933b24ea7d4b728119bb57f0cb"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Qwen3-8B_007_memory_b000_t00_e07-f5b5d66a",
+      "rank": 40,
+      "trajectory_file_sha256": "f966bfcf1e10173aa512d00e9d2c7befd9448d22c094dd986031c9e15314cd9b"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Qwen3-8B_008_memory_b000_t00_e08-f572f2ad",
+      "rank": 41,
+      "trajectory_file_sha256": "a2b72d6caff9df883b35185b0017e3820a58420fd38f40b5baeb86203624a7b1"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Qwen3-8B_009_memory_b000_t00_e09-f0557a9f",
+      "rank": 42,
+      "trajectory_file_sha256": "ae746abf7c860add6fbe4be0650509e4cef242ee2fdc200480acb2ee822752a3"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Qwen3-8B_010_memory_b001_t00_e00-7743eba0",
+      "rank": 43,
+      "trajectory_file_sha256": "3d857bec2b8fcc9224246bbcd2a7cca1a9a2e7a19c278e583089ae4d38763067"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Qwen3-8B_011_memory_b001_t00_e01-7ab08a46",
+      "rank": 44,
+      "trajectory_file_sha256": "f37f61a87825e765bd8f2fa3193fb8e38f7b4717e104d7b3e66196607da245bf"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Qwen3-8B_012_memory_b001_t00_e02-8d639e26",
+      "rank": 45,
+      "trajectory_file_sha256": "cd63c8f1d539565d0ec4fba0ef7e52150b9e8a743c735871691b915d602ff9b8"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Qwen3-8B_013_memory_b001_t00_e03-21a3a421",
+      "rank": 46,
+      "trajectory_file_sha256": "3024500fb1ff4f272cd14141e56f8cdc6222a550433d9199295608d519041569"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Qwen3-8B_014_memory_b001_t00_e04-5e8c1dcf",
+      "rank": 47,
+      "trajectory_file_sha256": "698a16c72ca24c6ea88ed4644c3b377884903ff5c2c57721304266cd5cc16e18"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Qwen3-8B_015_memory_b001_t00_e05-c9015705",
+      "rank": 48,
+      "trajectory_file_sha256": "b20f3fb010c07a9f646d065830e16b0a6ea7b8680102d26dace1debc46baebcb"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Qwen3-8B_016_memory_b001_t00_e06-71f77595",
+      "rank": 49,
+      "trajectory_file_sha256": "f7e47be2ac799e0219f5fb638cbf041da852e690266900bc473d94ff0c2a2fdf"
+    },
+    {
+      "environment": "gaia",
+      "trajectory_id": "Qwen3-8B_017_memory_b001_t00_e07-f5b5d66a",
+      "rank": 50,
+      "trajectory_file_sha256": "4dc65c30a1caae63c707d3c35e8c7e85461af921ecf371d1e7f0872888d63e6d"
+    }
+  ],
+  "cohort_sha256": "193dea48f9f9cd672215a8bdf4c82ab771836cb3fffe8768468facd5c6870240"
+}

@@ -1,0 +1,82 @@
+{
+  "scope": "gaia-paper-v1",
+  "trajectory_count": 50,
+  "strict_validation_passed": true,
+  "paper_release_label_count": 50,
+  "generalization_claim_permitted": false,
+  "module_counts": {
+    "action": 2,
+    "memory": 7,
+    "planning": 31,
+    "reflection": 7,
+    "system": 3
+  },
+  "error_type_counts": {
+    "constraint_ignorance": 15,
+    "hallucination": 2,
+    "impossible_action": 7,
+    "inefficient_plan": 9,
+    "misalignment": 1,
+    "outcome_misinterpretation": 5,
+    "over_simplification": 5,
+    "parameter_error": 1,
+    "progress_misjudge": 2,
+    "tool_execution_error": 3
+  },
+  "validation_audit": {
+    "schema_version": "agentdebug.codex-agent-judge-audit.v1",
+    "agent_judge_version": "agentdebug.codex-agent-judge.gaia-v3.83-clean-v3.20-model-only-gpt55-medium",
+    "model": "gpt-5.5",
+    "reasoning_effort": "medium",
+    "gold_free_validation": true,
+    "case_count": 50,
+    "unique_trajectory_ids": 50,
+    "cohort_order_matches": true,
+    "manifest_order_matches": true,
+    "all_status_success": true,
+    "all_predicted_steps_in_range": true,
+    "all_taxonomy_pairs_valid": true,
+    "all_evidence_quotes_found_in_selected_step_module": true,
+    "forbidden_read_occurred": false,
+    "input_sha256": {
+      "prediction_manifest": "77815b429514b136d715c5914eee912637a2e942979dd23f7d614aa33ee508cc",
+      "cohort": "31140b667a479431abf5e0e274752cb9a486ec5f4a9d80b471b617e586b48126"
+    },
+    "output_sha256": {
+      "predictions.json": "f74161b06c456461ccacdcf7c708157154e8e9810cb5dffa8ef09352698fca3d"
+    },
+    "validation_method": "Gold-free exact JSON, cohort/manifest order, trajectory identity, step range, taxonomy pair, and selected-owner evidence checks.",
+    "selection_policy": "packet_state_closure_v3_4_anchor_one_earliest_causal_later_challenger_default_keep_exact_copy_arbiter",
+    "all_selected_predictions_exact_copies": true,
+    "arbiter_decision_counts": {
+      "accept_challenger": 2,
+      "keep_anchor": 48
+    },
+    "input_sidecar_sha256": {
+      "anchor-predictions.json": "a97474d15d0f590e9fd1a2675e725f46847f8f54692ca44c2749c5928f75316d",
+      "anchor-step-candidates.json": "17dffbdd510e91e63a8e0bca57f85ccab4c30721479790fbe4a721dacf27a56b",
+      "anchor-step-freezes.json": "37ef2c0b262e27ef681a53455ff500fb661d4bf87441d202fb826b686dc1d2f0",
+      "challengers.json": "7b9b085a9a0f4e02c7ffdc84ca9cd955df6fc447550a062c10556a28056fa64b",
+      "arbiters.json": "bb94fd5d0bafec8344f0d198f24a4210c2afcb0fb873ce9788ffe969a3bfa608"
+    },
+    "path_intervention_required": true,
+    "earliest_later_boundary_required": true,
+    "packet_state_closure": {
+      "required": true,
+      "valid": true,
+      "path": "${REPO_ROOT}/output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50/anchor-step-candidates.json",
+      "ledger_count": 50,
+      "row_count": 169,
+      "state_counts": {
+        "memory_reflection:dropped_necessary_fact": 4,
+        "memory_reflection:faithful": 91,
+        "memory_reflection:outcome_misread": 7,
+        "memory_reflection:unsupported_fact": 3,
+        "none:not_applicable": 64
+      },
+      "nonfaithful_state_admission_count": 14
+    },
+    "semantic_parent": "agentdebug.codex-agent-judge.luna-gaia-v3.20-packet-state-closure",
+    "model_only_swap": true
+  }
+}

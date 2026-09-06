@@ -1,0 +1,202 @@
+[
+  {
+    "trajectory_id": "GPT-4o_001_memory_b000_t00_e00-7743eba0",
+    "predicted_step": 2
+  },
+  {
+    "trajectory_id": "GPT-4o_002_memory_b000_t00_e01-7ab08a46",
+    "predicted_step": 4
+  },
+  {
+    "trajectory_id": "GPT-4o_003_memory_b000_t00_e03-21a3a421",
+    "predicted_step": 1
+  },
+  {
+    "trajectory_id": "GPT-4o_004_memory_b000_t00_e04-5e8c1dcf",
+    "predicted_step": 1
+  },
+  {
+    "trajectory_id": "GPT-4o_005_memory_b000_t00_e05-c9015705",
+    "predicted_step": 3
+  },
+  {
+    "trajectory_id": "GPT-4o_006_memory_b000_t00_e06-71f77595",
+    "predicted_step": 5
+  },
+  {
+    "trajectory_id": "GPT-4o_007_memory_b000_t00_e08-f572f2ad",
+    "predicted_step": 3
+  },
+  {
+    "trajectory_id": "GPT-4o_008_memory_b000_t00_e09-f0557a9f",
+    "predicted_step": 5
+  },
+  {
+    "trajectory_id": "GPT-4o_009_memory_b001_t00_e01-7ab08a46",
+    "predicted_step": 10
+  },
+  {
+    "trajectory_id": "GPT-4o_010_memory_b001_t00_e02-8d639e26",
+    "predicted_step": 2
+  },
+  {
+    "trajectory_id": "GPT-4o_011_memory_b001_t00_e03-21a3a421",
+    "predicted_step": 7
+  },
+  {
+    "trajectory_id": "GPT-4o_012_memory_b001_t00_e04-5e8c1dcf",
+    "predicted_step": 5
+  },
+  {
+    "trajectory_id": "GPT-4o_013_memory_b001_t00_e05-c9015705",
+    "predicted_step": 5
+  },
+  {
+    "trajectory_id": "GPT-4o_014_memory_b001_t00_e06-71f77595",
+    "predicted_step": 3
+  },
+  {
+    "trajectory_id": "GPT-4o_015_memory_b001_t00_e07-f5b5d66a",
+    "predicted_step": 4
+  },
+  {
+    "trajectory_id": "GPT-4o_016_memory_b001_t00_e08-f572f2ad",
+    "predicted_step": 2
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_001_memory_b000_t00_e00-7743eba0",
+    "predicted_step": 4
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_002_memory_b000_t00_e01-7ab08a46",
+    "predicted_step": 7
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_003_memory_b000_t00_e02-8d639e26",
+    "predicted_step": 2
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_004_memory_b000_t00_e03-21a3a421",
+    "predicted_step": 1
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_005_memory_b000_t00_e04-5e8c1dcf",
+    "predicted_step": 1
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_006_memory_b000_t00_e05-c9015705",
+    "predicted_step": 3
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_007_memory_b000_t00_e08-f572f2ad",
+    "predicted_step": 1
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_008_memory_b000_t00_e09-f0557a9f",
+    "predicted_step": 7
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_009_memory_b001_t00_e00-7743eba0",
+    "predicted_step": 9
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_010_memory_b001_t00_e01-7ab08a46",
+    "predicted_step": 4
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_011_memory_b001_t00_e02-8d639e26",
+    "predicted_step": 2
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_012_memory_b001_t00_e03-21a3a421",
+    "predicted_step": 5
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_013_memory_b001_t00_e04-5e8c1dcf",
+    "predicted_step": 2
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_014_memory_b001_t00_e05-c9015705",
+    "predicted_step": 4
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_015_memory_b001_t00_e06-71f77595",
+    "predicted_step": 4
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_016_memory_b001_t00_e07-f5b5d66a",
+    "predicted_step": 4
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_017_memory_b001_t00_e08-f572f2ad",
+    "predicted_step": 2
+  },
+  {
+    "trajectory_id": "Qwen3-8B_001_memory_b000_t00_e00-7743eba0",
+    "predicted_step": 3
+  },
+  {
+    "trajectory_id": "Qwen3-8B_002_memory_b000_t00_e01-7ab08a46",
+    "predicted_step": 2
+  },
+  {
+    "trajectory_id": "Qwen3-8B_003_memory_b000_t00_e02-8d639e26",
+    "predicted_step": 2
+  },
+  {
+    "trajectory_id": "Qwen3-8B_004_memory_b000_t00_e04-5e8c1dcf",
+    "predicted_step": 1
+  },
+  {
+    "trajectory_id": "Qwen3-8B_005_memory_b000_t00_e05-c9015705",
+    "predicted_step": 3
+  },
+  {
+    "trajectory_id": "Qwen3-8B_006_memory_b000_t00_e06-71f77595",
+    "predicted_step": 1
+  },
+  {
+    "trajectory_id": "Qwen3-8B_007_memory_b000_t00_e07-f5b5d66a",
+    "predicted_step": 3
+  },
+  {
+    "trajectory_id": "Qwen3-8B_008_memory_b000_t00_e08-f572f2ad",
+    "predicted_step": 3
+  },
+  {
+    "trajectory_id": "Qwen3-8B_009_memory_b000_t00_e09-f0557a9f",
+    "predicted_step": 4
+  },
+  {
+    "trajectory_id": "Qwen3-8B_010_memory_b001_t00_e00-7743eba0",
+    "predicted_step": 1
+  },
+  {
+    "trajectory_id": "Qwen3-8B_011_memory_b001_t00_e01-7ab08a46",
+    "predicted_step": 5
+  },
+  {
+    "trajectory_id": "Qwen3-8B_012_memory_b001_t00_e02-8d639e26",
+    "predicted_step": 2
+  },
+  {
+    "trajectory_id": "Qwen3-8B_013_memory_b001_t00_e03-21a3a421",
+    "predicted_step": 4
+  },
+  {
+    "trajectory_id": "Qwen3-8B_014_memory_b001_t00_e04-5e8c1dcf",
+    "predicted_step": 2
+  },
+  {
+    "trajectory_id": "Qwen3-8B_015_memory_b001_t00_e05-c9015705",
+    "predicted_step": 2
+  },
+  {
+    "trajectory_id": "Qwen3-8B_016_memory_b001_t00_e06-71f77595",
+    "predicted_step": 4
+  },
+  {
+    "trajectory_id": "Qwen3-8B_017_memory_b001_t00_e07-f5b5d66a",
+    "predicted_step": 3
+  }
+]

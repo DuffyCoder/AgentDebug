@@ -1,0 +1,50 @@
+{
+  "returncode": 0,
+  "artifacts": {
+    "predictions": "${REPO_ROOT}/output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50/scored/predictions.jsonl",
+    "per_example": "${REPO_ROOT}/output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50/scored/per_example.csv",
+    "metrics": "${REPO_ROOT}/output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50/scored/metrics.json",
+    "report": "${REPO_ROOT}/output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50/scored/report.md",
+    "artifact_manifest": "${REPO_ROOT}/output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50/scored/artifact-manifest.json",
+    "paper_release_score_policy": "${REPO_ROOT}/output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50/scored/paper-release-score-policy.json"
+  },
+  "paper_release_accounting": {
+    "released_gaia_label_count": 50,
+    "prediction_count": 50,
+    "strictly_audited_prediction_count": 50,
+    "released_gold_step_mappable_count": 49,
+    "released_gold_step_unmappable_count": 1,
+    "released_gold_step_unmappable_trajectory_ids": [
+      "GPT-4o_003_memory_b000_t00_e03-21a3a421"
+    ],
+    "denominator_policy": "All 50 released GAIA labels remain in the paper-comparison denominator. A released gold step outside the public source-step mapping cannot receive Step credit.",
+    "evaluation_ready_49_overall": {
+      "trajectory_count": 49,
+      "successful_prediction_count": 49,
+      "failed_prediction_count": 0,
+      "step_exact": {
+        "correct": 26,
+        "denominator": 49,
+        "accuracy": 0.5306122448979592
+      },
+      "step_module_exact": {
+        "correct": 16,
+        "denominator": 49,
+        "accuracy": 0.32653061224489793
+      },
+      "all_correct": {
+        "correct": 13,
+        "denominator": 49,
+        "accuracy": 0.2653061224489796,
+        "unscorable_missing_gold_type": 0,
+        "gold_type_coverage": 1.0
+      },
+      "status_counts": {
+        "success": 49
+      },
+      "failure_code_counts": {}
+    }
+  },
+  "stdout_sha256": "a4fc0bb589782a4aacfd4c0ce0e7f7058c0fe2551abb6f6111650575c0e0cf17",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,3616 @@
+{
+  "R001": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4o-smoke/metrics.json",
+        "sha256": "f692c99a628b56a701c6dc687cdc7e971d49d1665db16024e2d133e18a85bc2c"
+      }
+    },
+    "run": {
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R002": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4o-smoke/metrics.json",
+        "sha256": "f692c99a628b56a701c6dc687cdc7e971d49d1665db16024e2d133e18a85bc2c"
+      }
+    },
+    "run": {
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R003": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4o-smoke-v2/metrics.json",
+        "sha256": "4e15767c26359353d6c530aa2ca03103831dfed386530a72febf3e845431dc59"
+      }
+    },
+    "run": {
+      "retry_backoff": 2.0,
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R004": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4o-smoke-v2/metrics.json",
+        "sha256": "4e15767c26359353d6c530aa2ca03103831dfed386530a72febf3e845431dc59"
+      }
+    },
+    "run": {
+      "retry_backoff": 2.0,
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R005": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4o-v2/metrics.json",
+        "sha256": "6e97e39897cb5b1dedc55e97ab22021122daf70b5f2bbe65a61c6d09996e379a"
+      }
+    },
+    "run": {
+      "retry_backoff": 2.0,
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R006": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4o-v2/metrics.json",
+        "sha256": "6e97e39897cb5b1dedc55e97ab22021122daf70b5f2bbe65a61c6d09996e379a"
+      }
+    },
+    "run": {
+      "retry_backoff": 2.0,
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R007": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gemini-3.1-smoke/metrics.json",
+        "sha256": "a74630a61aa32564a44f42b47565888278c9631ebedf415f8733d7eeb7354573"
+      }
+    },
+    "run": {
+      "retry_backoff": 2.0,
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R008": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gemini-3.1-smoke/metrics.json",
+        "sha256": "a74630a61aa32564a44f42b47565888278c9631ebedf415f8733d7eeb7354573"
+      }
+    },
+    "run": {
+      "retry_backoff": 2.0,
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R009": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gemini-3.1-largest-smoke/metrics.json",
+        "sha256": "6ac55153f2b51a0a9d75444cb1881ecfe23ef0ecfb80f9bdf7f1479dffe5fac1"
+      }
+    },
+    "run": {
+      "retry_backoff": 2.0,
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R010": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gemini-3.1-largest-smoke-v3/metrics.json",
+        "sha256": "5f1a2f80d59d10303a2e1318acdfd345e2b9783932eb87aa90317f758b1cc4c0"
+      }
+    },
+    "run": {
+      "retry_backoff": 2.0,
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R011": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gemini-3.1-largest-two-stage-smoke-v3/metrics.json",
+        "sha256": "b5d38dce0a5b1bd8a711752db53776b8895dd33d737a89533227852eb90348ad"
+      }
+    },
+    "run": {
+      "retry_backoff": 2.0,
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R012": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gemini-3.1-max-output-smoke/metrics.json",
+        "sha256": "aedc1baf6b844a909d039fa66a4074349acbed123cc75f53b29c100d786fcf80"
+      }
+    },
+    "run": {
+      "retry_backoff": 2.0,
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R013": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gemini-3.1-pro-preview/metrics.json",
+        "sha256": "c359eaaf5b3c6d0505ecb387e75fe4a6e9814e5773101495a2008bd1e5baed45"
+      }
+    },
+    "run": {
+      "retry_backoff": 2.0,
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R014": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gemini-3.1-pro-preview/metrics.json",
+        "sha256": "c359eaaf5b3c6d0505ecb387e75fe4a6e9814e5773101495a2008bd1e5baed45"
+      }
+    },
+    "run": {
+      "retry_backoff": 2.0,
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R015": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-baseline/metrics.json",
+        "sha256": "1fee6459540726909042ab797d102354b5c338706133fbaae756c65fe907e855"
+      }
+    },
+    "run": {
+      "retry_backoff": 2.0,
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R016": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-smoke-v1-baseline/metrics.json",
+        "sha256": "520749a1012b4187b455773ad5e8541216fd75e5588479af49132a0bacdafdd4"
+      }
+    },
+    "run": {
+      "retry_backoff": 2.0,
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R017": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e1-dry3/metrics.json",
+        "sha256": "513f0af0e4f9dd28653f9dba95057cc240db2a4565a810dc3c4f2992116c7c6f"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v4-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R018": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e1b-web-format/metrics.json",
+        "sha256": "b0d1be114c2a72e2b14b377f44cf55a1a13d72eb75554176c1f36152098d8d82"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v4-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R019": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e1-v7/metrics.json",
+        "sha256": "287d64c80cc1fc7598865acf45127cb16a14661a78416b314212408eb4f79a17"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v4-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R020": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e2-matrix-dry3/metrics.json",
+        "sha256": "809ae65eb33160a058bb8c8f30d41638d7d562c92040196c1c5fd7cf5522ec6a"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v4-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R021": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e2-v9-schema-dry3/metrics.json",
+        "sha256": "62a4c28b8b5320a9fc7b10456ba5bad53c5d0d8abb560abc2cc6b3b30dc35b2b"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v4-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R022": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e2-v10-validity-dry3/metrics.json",
+        "sha256": "a2652843cb211a3d6f14de5712a546eed25cbf883985b726e86f533d846fd2bb"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v4-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R023": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-m3-v1-dry3/metrics.json",
+        "sha256": "1069708476a8e0898ef9ec5f8ff76c7d44bfdb4a7c2d70d8913394bc81e1d252"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v4-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R024": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e4-v1-dry3/metrics.json",
+        "sha256": "ee90b59b88c5d16c540090a200ba6178d9547717a3c4272ef261b6295c08d255"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v4-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R025": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e5a-replay-critic-dry3/metrics.json",
+        "sha256": "f4c69ebcf404720ef179b84ba1f5075d72c5f1991bc1963477c576d482a0fade"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e5a-replay-critic-dry3/predict-run.json",
+        "sha256": "713b319c1540b035830a2c8630f62b929d2a88539c3ec55b578ce9658d834e3e"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v4-telemetry",
+      "retry_backoff": 2.0
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R026": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e5b-explicit-audit-dry3/metrics.json",
+        "sha256": "bc49af4d54edf80df8fcfeeb097b7b78832c04b87f232058cb906c4e19da874e"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e5b-explicit-audit-dry3/predict-run.json",
+        "sha256": "374489067237767c51d7cb158a488f0dc992e64c4bc385061154d17f060b5c53"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v4-telemetry",
+      "retry_backoff": 2.0
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R027": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e5c-handoff-dry3/metrics.json",
+        "sha256": "dc0fa6e7612c0fb6cc0f3277727920525e0a26917ac6d4ba8391ba70d70dd331"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e5c-handoff-dry3/predict-run.json",
+        "sha256": "b96b29d674e20831f8c9e5d52b4ace92707383525ae2cfb757db25f6089afe0b"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v4-telemetry",
+      "retry_backoff": 2.0
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R028": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e5c-strict-revalidation-dry3/metrics.json",
+        "sha256": "415fd3a89303f66566a89b619cfb79bb1e1c9f3a0ec6b0d302ac6c1619a5b8f8"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e5c-strict-revalidation-dry3/predict-run.json",
+        "sha256": "68f2f7cf58e5539418f3f0192ae20325edf890b154673259ce0114938ec65b0d"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v4-telemetry",
+      "retry_backoff": 2.0,
+      "evidence_validation_version": "agentdebug.evidence-validation.v2.strict-normalized-single-leaf"
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R029": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e5d-evidence-repair-dry3/metrics.json",
+        "sha256": "fe6276d96570fe3bfaee4f255132da10c432bf66235c0579d0f96d6257309e49"
+      }
+    },
+    "run": {
+      "evidence_validation_version": "agentdebug.evidence-validation.v2.strict-normalized-single-leaf"
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R030": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e5d-v2-json-fallback-dry3/metrics.json",
+        "sha256": "12071ffea02488baf71525b1044e8d0800216bc888d6393a66f76abe7e75c9ff"
+      }
+    },
+    "run": {
+      "evidence_validation_version": "agentdebug.evidence-validation.v2.strict-normalized-single-leaf"
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R031": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e6-v2-production-full30/metrics.json",
+        "sha256": "b0b7ebab6eb47d5c04868d687d821faf03021a05748b7122494863016f8760b7"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e6-v2-production-full30/preregistration.json",
+        "sha256": "ef9422b24b0ffa9deb76c4c609cac72ef1fea16c13cb91648551dd62f0e55cd2"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e6-v2-production-full30/predict-run.json",
+        "sha256": "878230b52751129d768f8a1aac02ff11f8ef68f48aa6c11c51b0d1d877f5377a"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "agentdebug.production-two-stage-handoff-selector-conditional-evidence-repair.v1",
+      "logical_completion_budget_used": 63,
+      "max_logical_completions": 90,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "agentdebug.evidence-validation.v2.strict-normalized-single-leaf"
+    },
+    "provider_settings": {
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R032": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e7-v3-global-critic-dry5/metrics.json",
+        "sha256": "104fd4b519dd69347f7eda433d1e62d359d2a415a1db130b4a5ea8b9c0032f91"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e7-v3-global-critic-dry5/preregistration.json",
+        "sha256": "36e5347efb32f8a3ba4582bbb9dd2e2d001f7b0deb02743ef4533c8de7e7707d"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e7-v3-global-critic-dry5/predict-run.json",
+        "sha256": "76e9096ea73ca4511985ae1ae72a468d3f274d49f5c8e31b1faa6345ad7f41df"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e7-fresh-global-causal-critic-fallible-prior-evidence-repair-v3",
+      "logical_completion_budget_used": 5,
+      "max_logical_completions": 10,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "agentdebug.evidence-validation.v2.strict-normalized-single-leaf"
+    },
+    "provider_settings": {
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R033": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e8-v3-fresh-semantic-dry5/metrics.json",
+        "sha256": "7a34994dff5efcf41b2809d60d9bd4157b44cb4fda764bf40417f696eeffe8b7"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e8-v3-fresh-semantic-dry5/preregistration.json",
+        "sha256": "6673deaf81244fada3f3a10654ee442f09a35aa2a3a3d7b1ce8a2281129c4257"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e8-v3-fresh-semantic-dry5/predict-run.json",
+        "sha256": "1ee718b1c439ea176dc91ec8819a852b09ad726803ca5b6c732aa29f804446cf"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e8-fresh-benchmark-semantic-judge-owner-evidence-repair-v3",
+      "logical_completion_budget_used": 9,
+      "max_logical_completions": 10,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "agentdebug.e8-evidence-validation.v2-exact-owner-current-step-source"
+    },
+    "provider_settings": {
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R034": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v1-batched-causal-dry3/metrics.json",
+        "sha256": "c99f3001d8fc217d0df7b015b82600b9e463abccb1b4d674ba9b58874b73ebf8"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v1-batched-causal-dry3/preregistration.json",
+        "sha256": "e37e26fa98fb50cd2c3cc39778a04905bd7972496070d791a836ac2fa95e3b84"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v1-batched-causal-dry3/predict-run.json",
+        "sha256": "d3c28420ad35fa9ec89ddb7944ddf2fe385ad75926c98df43b1425ff9a9d89a7"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-batched-score-free-scout-independent-arbiter-v1",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-arbiter-selected-source-owner-exact-substring-v1"
+    },
+    "provider_settings": {
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R035": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v2-batched-module-audit-dry3/metrics.json",
+        "sha256": "e096f6c520fc47af5eabd6ae4aee640ec6496215ba6550e3edb596f920b2fcef"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v2-batched-module-audit-dry3/preregistration.json",
+        "sha256": "ca209986d9375528d9a76a39156b5ba38e3a4609817dccac73caeb449a217f3d"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v2-batched-module-audit-dry3/predict-run.json",
+        "sha256": "4e7fc5e6cbc6e579da3261bb698340a9af816b1f1b4aa9a2072a5ba535fbdbdb"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-batched-score-free-module-audit-independent-arbiter-v2",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-arbiter-selected-source-owner-exact-substring-v1"
+    },
+    "provider_settings": {
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R036": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v3-candidate-review-dry3/metrics.json",
+        "sha256": "1502a54a18390846f6e337e881169155e4f9a4726ffd4dde23d169c73d319fa4"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v3-candidate-review-dry3/preregistration.json",
+        "sha256": "1fa055451888684d1b69744fa209c6d5c16632b744c4126abd18b71708391cce"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v3-candidate-review-dry3/predict-run.json",
+        "sha256": "50b63d090106351e1d66dd3d0f92ece9ec13531c150df736ea84c43a7e2e7d77"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-batched-score-free-module-audit-independent-arbiter-v3",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-arbiter-selected-source-owner-exact-substring-v1"
+    },
+    "provider_settings": {
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R037": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v4-chronology-first-dry3/metrics.json",
+        "sha256": "8c1228626d1e02f7f6177c2b152206c470eb2ae3887ca32b6f67078486bd7797"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v4-chronology-first-dry3/preregistration.json",
+        "sha256": "777f1f414cfd82b5c127b99eff76d182f53f9ee7593040ee781108691f20fcba"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v4-chronology-first-dry3/predict-run.json",
+        "sha256": "e3040eaf1f92b656124fd29307930f35ed1c228179684f64a25da079d31d8f8b"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-batched-chronology-first-independent-arbiter-v4",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-arbiter-owner-proof-source-exact-substring-v4"
+    },
+    "provider_settings": {
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R038": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v5-owner-maturity-dry3/metrics.json",
+        "sha256": "d4cbab1b72c11643dfdb62227fe38027ab3548031fde8de684cdc259699b7bff"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v5-owner-maturity-dry3/preregistration.json",
+        "sha256": "974e9b83887fced32f2d7e9456a1e7e573251e1c0bb0c8250f67d0f09da8df93"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v5-owner-maturity-dry3/predict-run.json",
+        "sha256": "a36f07856a7dbedcfd01f9c9b4037720e4e5bc8407cdf52344d59e32a12e2565"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-batched-chronology-first-independent-arbiter-v5",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-arbiter-owner-preview-nonempty-substring-v5"
+    },
+    "provider_settings": {
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R039": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v6-atomic-boundary-cycle-dry3/metrics.json",
+        "sha256": "763aef55ebf4e7a0224d9e45560ccb2c7403cbed80b27a22ae53a646fe9d18bb"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v6-atomic-boundary-cycle-dry3/preregistration.json",
+        "sha256": "dc2f5c1d52fda0fe582321fb06865580d7707f2babe6c180d7c6b54c7c17468e"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v6-atomic-boundary-cycle-dry3/predict-run.json",
+        "sha256": "a93e4793e6773d06ef69109fe84e76eeba1c6684cb9310e2bed5dd8d20d08684"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-batched-course-checkpoint-atomic-arbiter-v6",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-arbiter-atomic-same-step-owner-preview-substring-v6"
+    },
+    "provider_settings": {
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R040": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v7-flat-arbiter-dry3/metrics.json",
+        "sha256": "6a2b650865410bd0893171d5d81463521ee5d6098a1997b8c97f24948a199df4"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v7-flat-arbiter-dry3/preregistration.json",
+        "sha256": "65ec234ec1c77aa9b05a09cab9c088050486dcb96032b127a2332736e1fe73be"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v7-flat-arbiter-dry3/predict-run.json",
+        "sha256": "a4da72bf686a35eadaaf40b717d984a6e90a410ee4fd7e9e97335030225ea6aa"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-batched-course-checkpoint-flat-arbiter-v7",
+      "logical_completion_budget_used": 1,
+      "max_logical_completions": 1,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-arbiter-same-step-owner-exact-substring-derived-source-v7"
+    },
+    "provider_settings": {
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R041": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v8-tail-recency-dry3/metrics.json",
+        "sha256": "ec37d9b188bbfcdb10d4f94b6b52b9853b5caf909fc23c7b262840d721edfbeb"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v8-tail-recency-dry3/preregistration.json",
+        "sha256": "2a3b9071c54e94ab3ba4973bf8780be9cee087f3b202cb53bd9d01ec7cc0c4b7"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v8-tail-recency-dry3/predict-run.json",
+        "sha256": "93484337c0f48e6d01e698aa3d5c1f4be6667161feaa04826cd2fce3f92cc785"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-batched-course-checkpoint-recency-audit-arbiter-v8",
+      "logical_completion_budget_used": 1,
+      "max_logical_completions": 1,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-arbiter-same-step-owner-exact-substring-no-length-cap-v8"
+    },
+    "provider_settings": {
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R042": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v9-literal-constraint-dry3/metrics.json",
+        "sha256": "24fd27a14910b2c8a48b601c8c0ce4b1d213a2808fb68dd5c840b944f6b4f9cc"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v9-literal-constraint-dry3/preregistration.json",
+        "sha256": "ccc488553693a7affc73a3bc15b5dffd010b2c1a3a74ecfa843d3fe2de2f68d7"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v9-literal-constraint-dry3/predict-run.json",
+        "sha256": "bee0f07915412d8ab0f8f124315a7ea881c36863ef017779d73ffac29c4503c4"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-batched-literal-constraint-audit-arbiter-v9",
+      "logical_completion_budget_used": 1,
+      "max_logical_completions": 1,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-arbiter-same-step-owner-exact-substring-no-length-cap-v9"
+    },
+    "provider_settings": {
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R043": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v10-ordered-root-dry3/metrics.json",
+        "sha256": "6c0ee0afdb99e9bb163e007a3b806e32529bd23fc7ff0ce50c4e7fab3846f474"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v10-ordered-root-dry3/preregistration.json",
+        "sha256": "d8c904a9d0339af12f778c95c91101e7a9d864c82fae89182e5b3fc53bb9d8bd"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v10-ordered-root-dry3/predict-run.json",
+        "sha256": "f0a52b03953815ba716b46c0dd8353602b13cd8990d0424145feaefe6b64e855"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-batched-ordered-root-eligibility-arbiter-v10",
+      "logical_completion_budget_used": 1,
+      "max_logical_completions": 1,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-arbiter-same-step-owner-exact-substring-no-length-cap-v10"
+    },
+    "provider_settings": {
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R044": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v11-visible-audit-dry3/metrics.json",
+        "sha256": "3dc43987f27129506107b2e45fcd31bcc0a7b237f0a5ceb14ceeef7aac2efef8"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v11-visible-audit-dry3/preregistration.json",
+        "sha256": "992b415b3f7a7029400020aaf035b085680ed60c1c3c6e8e671c31a5e1f01662"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v11-visible-audit-dry3/predict-run.json",
+        "sha256": "6e175ad6497c2f79bcd3cec456ccda1750d1b47aed1554acd1f61a86cb627493"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-batched-visible-audit-certificate-arbiter-v11",
+      "logical_completion_budget_used": 1,
+      "max_logical_completions": 1,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-arbiter-same-step-owner-exact-substring-no-length-cap-v11"
+    },
+    "provider_settings": {
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R045": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v12-semantic-candidates-dry3/metrics.json",
+        "sha256": "1325a2f61926f825726552d681a59e134e61441dd8e360664c1da131dac74af3"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v12-semantic-candidates-dry3/preregistration.json",
+        "sha256": "29cf9c2ef9ed93e42d43a31017a61b484d49e654c564fd7bd8302209a8299d5b"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v12-semantic-candidates-dry3/predict-run.json",
+        "sha256": "f3c7c554f1e4344bb7c4a7655c15b550def9050c88a2939ba8abdb5d7fd6d1e9"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-batched-semantic-candidate-scout-arbiter-v12",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-raw-arbiter-same-step-owner-exact-substring-no-length-cap-v12"
+    },
+    "provider_settings": {
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R046": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v13-atomic-taxonomy-pair-dry3/metrics.json",
+        "sha256": "57e624e9ebcfca871c32da40e3e5b14dc4fd78dc750c2ed550fc7338e2a77371"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v13-atomic-taxonomy-pair-dry3/preregistration.json",
+        "sha256": "67db22f4a5402d9aa3109a0e8f14a6def1885df0fcafe3a6dc81adf74a238bf0"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v13-atomic-taxonomy-pair-dry3/predict-run.json",
+        "sha256": "af79f82a767c7c968a2664fb6a4dde690ccea1f0d3915065633f2a28fe2d4ad8"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-batched-semantic-candidate-scout-arbiter-v13",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-raw-arbiter-same-step-owner-exact-substring-no-length-cap-v13"
+    },
+    "provider_settings": {
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R047": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v13-atomic-taxonomy-pair-full30/metrics.json",
+        "sha256": "f67d58feedec7a7d5613c84ec295b604d1686ce913c77ea717125eaf8918089a"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v13-atomic-taxonomy-pair-full30/preregistration.json",
+        "sha256": "5f02626517fc5809a6e4428396a7f367c7aca280db6a7919e90e2234730a2603"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v13-atomic-taxonomy-pair-full30/predict-run.json",
+        "sha256": "3460ecad5c0fa8221e0907539be13ac01cde04458b1cb74a01366c6a83c6449f"
+      }
+    },
+    "run": {
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-batched-semantic-candidate-scout-arbiter-v13",
+      "logical_completion_budget_used": 20,
+      "max_logical_completions": 20,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-raw-arbiter-same-step-owner-exact-substring-no-length-cap-v13"
+    },
+    "provider_settings": {
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R048": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v14-prior-late-balanced-critic-dry3/metrics.json",
+        "sha256": "a0881ef4ad933df3530524d7905e019f32d38995ce6896c883bc89c31853107a"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v14-prior-late-balanced-critic-dry3/preregistration.json",
+        "sha256": "78e42e673e89c0ced464cc93c7fdbdd37a3b874b86e0df6067c1cd3febd382fb"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-gpt-4.1-tuning-v1-e9-v14-prior-late-balanced-critic-dry3/predict-run.json",
+        "sha256": "a06320260aba3475d131744fa7985117cfbf107a8c2f6793f6daead0a9c2c002"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-late-balanced-critic-v14",
+      "logical_completion_budget_used": 1,
+      "max_logical_completions": 1,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v14-raw-critic-same-step-owner-exact-substring-atomic-pair"
+    },
+    "provider_settings": {
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R049": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v15-prior-late-balanced-critic-dry3/metrics.json",
+        "sha256": "38adc46a79151c12778ab471d657453f77727610a81dab857987ea3496a508ba"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v15-prior-late-balanced-critic-dry3/preregistration.json",
+        "sha256": "26b94930bba328716fda913c70fed8463a186235bdd476d0f589c3da6b24d422"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v15-prior-late-balanced-critic-dry3/predict-run.json",
+        "sha256": "4cd95a371d1fa999b6f668cf23dd0eea97df2872391573fca2ca0fc4a2f789bc"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-late-balanced-critic-v15-deepseek-v4-flash",
+      "logical_completion_budget_used": 1,
+      "max_logical_completions": 1,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v14-raw-critic-same-step-owner-exact-substring-atomic-pair"
+    },
+    "provider_settings": {
+      "thinking_mode": "disabled",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R050": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v16-retry1-prior-late-balanced-critic-dry3/metrics.json",
+        "sha256": "dab13f9ec815658ae0720ef59d44eca862508e9c2951ca8c93bd477c0386fc9e"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v16-retry1-prior-late-balanced-critic-dry3/preregistration.json",
+        "sha256": "60cc8fda408dc017607da5f3700c50d9a4b6fdb99c23ff58f6e2fe3a7262a1b5"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v16-retry1-prior-late-balanced-critic-dry3/predict-run.json",
+        "sha256": "47ac234e316ebd89ec5ce6d39365737fa8f14e786b3683916099a2ccf6d51811"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-late-balanced-critic-v16-deepseek-v4-flash-retry1",
+      "logical_completion_budget_used": 1,
+      "max_logical_completions": 1,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v14-raw-critic-same-step-owner-exact-substring-atomic-pair"
+    },
+    "provider_settings": {
+      "thinking_mode": "disabled",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R051": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v17-default-prior-late-balanced-critic-dry3/metrics.json",
+        "sha256": "0d83d4f4d3f029fdcfc2b7b7077e89f4bd928889e3804efd3de3862430338d1c"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v17-default-prior-late-balanced-critic-dry3/preregistration.json",
+        "sha256": "a70fa5e671c9dac518a6c859f320451d69817e798c3d4783e4c4441b06e420f8"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v17-default-prior-late-balanced-critic-dry3/predict-run.json",
+        "sha256": "80eb54439068b734130a02e0fa6ce4d4d00483f03d94cea9fe103eb04c8a4549"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-late-balanced-critic-v17-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 1,
+      "max_logical_completions": 1,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v14-raw-critic-same-step-owner-exact-substring-atomic-pair"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R052": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v18-conservative-prior-critic-dry3/metrics.json",
+        "sha256": "473dff460f81b62ed53824ed4f54e02a5af99e84b0307d99049cef0f7aa48d87"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v18-conservative-prior-critic-dry3/preregistration.json",
+        "sha256": "f322af98135fa200df4ece276d5ffdb86807f264af30db60ab88eea85ead831f"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v18-conservative-prior-critic-dry3/predict-run.json",
+        "sha256": "9081ac03857d1358135609fb82b4cbac8a7ef40be2894248712170a4ca3803eb"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-conservative-critic-v18-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 1,
+      "max_logical_completions": 1,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v14-raw-critic-same-step-owner-exact-substring-atomic-pair"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R053": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-pro-tuning-v1-e9-v19-task-closing-prior-critic-dry3/metrics.json",
+        "sha256": "9fe139f37ab86380a1a948b9dec42c022defd2445549a7a39a28eb9cc7706040"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-pro-tuning-v1-e9-v19-task-closing-prior-critic-dry3/preregistration.json",
+        "sha256": "dc340e6bd1b5a26b96f9ae7188f012e782098c09f58f4a6aaa4c73fcefd97e6e"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-pro-tuning-v1-e9-v19-task-closing-prior-critic-dry3/predict-run.json",
+        "sha256": "df07537f0b9c3280de667c76a6371acc9405068707eefaaa54b28666304fdac5"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-conservative-critic-v19-deepseek-v4-pro-default",
+      "logical_completion_budget_used": 1,
+      "max_logical_completions": 1,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v14-raw-critic-same-step-owner-exact-substring-atomic-pair"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R054": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-pro-tuning-v1-e9-v20-minimal-final-prior-critic-dry3/metrics.json",
+        "sha256": "70307e45bcafcb9ca4613843f1c399a19257e8ac0e45e4f5b7c48325ba5c4ac8"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-pro-tuning-v1-e9-v20-minimal-final-prior-critic-dry3/preregistration.json",
+        "sha256": "6852f57ba34a05f7d7fb880c36df02f73ac2df8a878be6ecbef327900e2aeac1"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-pro-tuning-v1-e9-v20-minimal-final-prior-critic-dry3/predict-run.json",
+        "sha256": "3a12b6c0efaf014c36d4bfb9f2a2b7b4e84700839cb0872be5f9aef9fc33ea14"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-minimal-critic-v20-deepseek-v4-pro-default",
+      "logical_completion_budget_used": 1,
+      "max_logical_completions": 1,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v14-raw-critic-same-step-owner-exact-substring-atomic-pair"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R055": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v21-format-safe-critic-dry3/metrics.json",
+        "sha256": "bd1d3888ffd4e4c8a187de9d597ad0614568cd5f1b17330e4f599caa63770e92"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v21-format-safe-critic-dry3/preregistration.json",
+        "sha256": "6ea44ec968e756731e828fe066d7b926942e7e4a40a97044e3d6f6d931ee1a32"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v21-format-safe-critic-dry3/predict-run.json",
+        "sha256": "87848f93fc2fe8c04d14fca0766e96b0feb32d0574439c3d4c97cbb329bc5ee6"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-format-safe-critic-v21-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 1,
+      "max_logical_completions": 1,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v14-raw-critic-same-step-owner-exact-substring-atomic-pair"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R056": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v22-recovery-checkpoint-critic-dry3/metrics.json",
+        "sha256": "7a39babec082a62a83607e06c4641d750d8055a9cb0967a04ad46c69d689e1ad"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v22-recovery-checkpoint-critic-dry3/preregistration.json",
+        "sha256": "7d368d8afc8ee1908e171aacff3e6b3289a5296e585ef1d4300e8aa92aac4d06"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v22-recovery-checkpoint-critic-dry3/predict-run.json",
+        "sha256": "f71583d0d79edd46252bc53999b272ae43601fd0714a5bcecb35b729ad96d4a6"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-recovery-checkpoint-critic-v22-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 1,
+      "max_logical_completions": 1,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v22-raw-critic-owner-source-id-verbatim-projection-atomic-pair"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R057": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v23-novelty-recovery-critic-dry3/metrics.json",
+        "sha256": "f4e1a63a4c17427c3cd192ddf87a367b7925afd8188999665a72205add8405cb"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v23-novelty-recovery-critic-dry3/preregistration.json",
+        "sha256": "1c8a1b0b8659deff8ba0e0fc5bda23c5eaa1d0a395c31e7e35a8d21ff470205a"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v23-novelty-recovery-critic-dry3/predict-run.json",
+        "sha256": "943f29c86e0c38398f3578588eab2a75e10f9b840d8a8460edb7207c32110243"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-novelty-recovery-critic-v23-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 1,
+      "max_logical_completions": 1,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v23-raw-critic-owner-source-id-verbatim-projection-atomic-pair"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R058": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v24-final-content-critic-dry3/metrics.json",
+        "sha256": "aaf61666b1530a78d4463d4001c49a536b2d216008bfb5d4bf6e54002d241437"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v24-final-content-critic-dry3/preregistration.json",
+        "sha256": "935e9160491c6a0949d746f103f4d6d391be59d879d6098ab442677c66658c37"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v24-final-content-critic-dry3/predict-run.json",
+        "sha256": "9d5d4c20f20cdc5c8760a2de6ed58276f947e8c1fb89bd09213015805eb38608"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-final-content-critic-v24-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 1,
+      "max_logical_completions": 1,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v24-raw-critic-owner-source-id-verbatim-projection-atomic-pair"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R059": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v24-final-content-critic-full30/metrics.json",
+        "sha256": "947ccb938c0381de02bec833272c2a05d1786951b77244a343b15d5b5b1b5a70"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v24-final-content-critic-full30/preregistration.json",
+        "sha256": "4b29e645ea1fd3a0e978caa6de162d28e8300282dc2809b273daaae3ebc8d165"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v24-final-content-critic-full30/predict-run.json",
+        "sha256": "ba9b79f204384a8bd5424483b68030876cb623bcec8f512ccd03a9dd87b9c8ca"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-final-content-critic-v24-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 10,
+      "max_logical_completions": 10,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v24-raw-critic-owner-source-id-verbatim-projection-atomic-pair"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R060": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v25-local-error-critic-dry3/metrics.json",
+        "sha256": "b4d0635cd5f90c06a786653b563777b82479b6b4cc10de6c2dc2e7ed894b9c75"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v25-local-error-critic-dry3/preregistration.json",
+        "sha256": "c156ebb767a7fd258324ef76b839b70bdd4d7fef1c3c4a6a5b16508af7e83771"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v25-local-error-critic-dry3/predict-run.json",
+        "sha256": "c7e22f0daa9b4d563fccaad5248481fdb0fd2e66fe7b724e9f3767fff1947007"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-local-error-critic-v25-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 1,
+      "max_logical_completions": 1,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v25-raw-critic-owner-source-id-verbatim-projection-atomic-pair"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R061": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v25-local-error-critic-full30/metrics.json",
+        "sha256": "773eea2886d666414fa52276e44a46f2baf2d4cb6095fc7f50bcb9efeaa5d602"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v25-local-error-critic-full30/preregistration.json",
+        "sha256": "5d7dbf72e270fc4cec2cca2f919384459b0bde4197a0db15539d641f52baf925"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v25-local-error-critic-full30/predict-run.json",
+        "sha256": "ad78cb7a1c6ac3b072c86fe9af7acdcd4cf0f5b9ae5106972a524e6048ec1667"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-local-error-critic-v25-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 10,
+      "max_logical_completions": 10,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v25-raw-critic-owner-source-id-verbatim-projection-atomic-pair"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R062": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v26-upstream-owner-critic-dry3/metrics.json",
+        "sha256": "3d95c058ff21b51f8a51029b80cf28f584038fd12571ec3ef17412414b1e8fb3"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v26-upstream-owner-critic-dry3/preregistration.json",
+        "sha256": "2e393cbd8c4587e48e2112e795ad39fbd4ec0b6be1f242798d123ef4448832ac"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v26-upstream-owner-critic-dry3/predict-run.json",
+        "sha256": "a1c526ab502c53307fd37cb3e63d2912e8e8941a9ac9497f5b57c410e391966c"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-upstream-owner-critic-v26-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 1,
+      "max_logical_completions": 1,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v26-raw-critic-owner-source-id-verbatim-projection-atomic-pair"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R063": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v27-critical-event-critic-dry3/metrics.json",
+        "sha256": "65885566ea451a6fae2222eddefd61ff98293e39d25882801472a5c468f742aa"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v27-critical-event-critic-dry3/preregistration.json",
+        "sha256": "ea11c09bbd9597f45af18090593ff5709ef254050ad765158755f30aeede76a1"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v27-critical-event-critic-dry3/predict-run.json",
+        "sha256": "d0f865e686172aa00738ac3184d6e51fd6cf29335e6476182bc4beeb9135d916"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-critical-event-critic-v27-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 1,
+      "max_logical_completions": 1,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v27-raw-critic-critical-event-source-id-verbatim-projection-atomic-pair"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R064": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v27-critical-event-critic-full30/metrics.json",
+        "sha256": "0a29c903f3b7ed2b06965ff59b4b9ff756e860a652cb6874129c045bec436956"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v27-critical-event-critic-full30/preregistration.json",
+        "sha256": "a17595ed56d7f15dbda742c7102c648bfe2b447459a78ff414a62c4f42d0cbf3"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v27-critical-event-critic-full30/predict-run.json",
+        "sha256": "4cb9d0949f817ddee374fe725bb0c629520be919067e9049e0c1826c51f4dacb"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-critical-event-critic-v27-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 10,
+      "max_logical_completions": 10,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v27-raw-critic-critical-event-source-id-verbatim-projection-atomic-pair"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R065": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v28-flat-review-critic-dry3/metrics.json",
+        "sha256": "c397fbc6053e70c4f6092e72149d59c4105788f94a87e0fbcddcca88a869e921"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v28-flat-review-critic-dry3/preregistration.json",
+        "sha256": "37d066ac0998bd03165cb50ee0797aa179617298e750cfc1331b5ba365615f4a"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v28-flat-review-critic-dry3/predict-run.json",
+        "sha256": "dfcf99a4e1714529825550dc9c41f5103fdec43c1b52bee9cced88e758efcd8d"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-flat-review-critic-v28-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 1,
+      "max_logical_completions": 1,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v28-raw-critic-flat-review-source-id-verbatim-projection-atomic-pair"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R066": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v29-terminal-guard-critic-dry3/metrics.json",
+        "sha256": "ddb65318ab93032c241b7291613a459bda76e8cfb0876db61218b992fb91d8b9"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v29-terminal-guard-critic-dry3/preregistration.json",
+        "sha256": "d8cff7cb9c1107f69dfbd72cc361920f12d761eadeb66ffe53089a94fe54889e"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v29-terminal-guard-critic-dry3/predict-run.json",
+        "sha256": "8ed80349b504073a19861a4240f2c7a6e2a0fd1d037572dc3218de4d95bfff04"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-terminal-guard-critic-v29-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 1,
+      "max_logical_completions": 1,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v29-raw-critic-terminal-guard-source-id-verbatim-projection-atomic-pair"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R067": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v29-terminal-guard-critic-full30/metrics.json",
+        "sha256": "39d1e33e69507c26ef1e26a067828d497ff21819721504f2f001b046dce6a376"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v29-terminal-guard-critic-full30/preregistration.json",
+        "sha256": "514854369700adb8a9d8dea1673d6fc1250967f9f562ed52770e738275d0c156"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v29-terminal-guard-critic-full30/predict-run.json",
+        "sha256": "bab3b9f375999ba16561bcd9846fd9b4d3e253b431a255a5b7858a0e872ea420"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-terminal-guard-critic-v29-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 10,
+      "max_logical_completions": 10,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v29-raw-critic-terminal-guard-source-id-verbatim-projection-atomic-pair"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R068": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v30-first-defect-critic-dry3/metrics.json",
+        "sha256": "04e6683951f036f1a4638838e1b6361911cd9c1e43eaf0e5ff76a9f807bbb030"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v30-first-defect-critic-dry3/preregistration.json",
+        "sha256": "8a55e24191557f01160ee79a67c427554b20a9640d0ad292dff26a9b151b5d64"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v30-first-defect-critic-dry3/predict-run.json",
+        "sha256": "d740b828fea597e58bdf5772fcf37f62444979b60d78eaefed69a664828dbfd5"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-first-defect-critic-v30-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 1,
+      "max_logical_completions": 1,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v30-raw-critic-first-defect-source-id-verbatim-projection-atomic-pair"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R069": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v30-first-defect-critic-full30/metrics.json",
+        "sha256": "0c837a50d7165d765df8ad4d1811e6cb21f66d5523c391bddb91ed609f57fe1d"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v30-first-defect-critic-full30/preregistration.json",
+        "sha256": "5a079f97b140026faac5bde2c9dcd30636280552b0590b47832fca471dfab5af"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v30-first-defect-critic-full30/predict-run.json",
+        "sha256": "770f6f5fdba7baa9cabd568690d944c1eba6097a293048f7648850306968ffa1"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-first-defect-critic-v30-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 10,
+      "max_logical_completions": 10,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v30-raw-critic-first-defect-source-id-verbatim-projection-atomic-pair"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R070": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v31-pairwise-candidate-critic-dry3/metrics.json",
+        "sha256": "cb80a3f07e42d594af4be87d3ce31abd446cdb74c55cecf31bfe91a784ab3ff2"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v31-pairwise-candidate-critic-dry3/preregistration.json",
+        "sha256": "6480e227135a94d4936b78abc19946ba89b64c674010594d4366370077ece84d"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v31-pairwise-candidate-critic-dry3/predict-run.json",
+        "sha256": "f848139c516a083b4df8a630f18870ddc9f2dcb2a80255b95caf964d6b8e9734"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-pairwise-candidate-critic-v31-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 1,
+      "max_logical_completions": 1,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v31-raw-critic-pairwise-candidate-source-id-verbatim-projection-atomic-pair"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R071": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v32-candidate-selector-dry3/metrics.json",
+        "sha256": "76063f121667620ff0de8227dfedc1f9e86e61a4e2c10935d7f59caa2270f024"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v32-candidate-selector-dry3/preregistration.json",
+        "sha256": "a484918e44015c06828895778f9a0de3388bad98cf5f16a8e0651f533fa05f92"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v32-candidate-selector-dry3/predict-run.json",
+        "sha256": "1004f522c66d7ba75363d067139bf792e25ebf9023453d9a846c56a6e52e157e"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-independent-candidate-selector-v32-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v32-raw-selector-source-id-verbatim-projection-atomic-pair-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R072": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v33-maturity-calibrated-dry3/metrics.json",
+        "sha256": "95a67b2447fd1cdeb9b0be8a65aeefcd08285f3ce4e34ff8498e1b0180a2cf47"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v33-maturity-calibrated-dry3/preregistration.json",
+        "sha256": "6a8a42ebecc2189982dfe87dc12e9f2def33472c6bb38825178a97e494ef20c4"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v33-maturity-calibrated-dry3/predict-run.json",
+        "sha256": "6b861849ee8a34ee12da5338dc7045c5b4ffcf89bc6eb5d21060c1b3aebee4a1"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-independent-selector-maturity-calibrated-v33-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v33-raw-selector-source-id-verbatim-projection-atomic-pair-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R073": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v34-capability-query-epoch-dry3/metrics.json",
+        "sha256": "de95bbcb0f4b2e7d362f8275b26e692678a014d2148e890f9ed9cf03e407adf7"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v34-capability-query-epoch-dry3/preregistration.json",
+        "sha256": "519d449404c4502ea67c026fe7540eeb6f6313056cbdbc8563dafde5417adc39"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v34-capability-query-epoch-dry3/predict-run.json",
+        "sha256": "58bee56368d6e4bd39297a101bc367db99e2834f0437a1d62fe4454ae094f1eb"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-independent-selector-capability-epoch-v34-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v34-raw-selector-source-id-verbatim-projection-atomic-pair-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R074": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v35-symmetric-brace-dry3/metrics.json",
+        "sha256": "f6185f8becdeb6f99287f9cba2b901c26a8365660075b66c86bde88cbd06b43a"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v35-symmetric-brace-dry3/preregistration.json",
+        "sha256": "291aef2d5a0a7d4494c1011c3d4dbcb99539866fecbda8b79c177ce03ba40fa3"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v35-symmetric-brace-dry3/predict-run.json",
+        "sha256": "95d9c333c6fc45e5a1d0aa22be2b3c7af3ab3ea8661ad93ff28b54fdb557b4aa"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-independent-selector-symmetric-brace-v35-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v35-raw-selector-source-id-verbatim-projection-atomic-pair-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R075": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v35-symmetric-brace-full30/metrics.json",
+        "sha256": "4c4592886fdbd52654871db63c1038cada6f73d3fce22eedd120657c93ba9f5c"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v35-symmetric-brace-full30/preregistration.json",
+        "sha256": "7aba7bf2d614aa22069ef9d3c2712fab77e76cbd1f42f3e270017549228559df"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v35-symmetric-brace-full30/predict-run.json",
+        "sha256": "d7a33654d5a85d62fff46a2da45c989cf0c81070ea975ae7e59f85115dc1e188"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-independent-selector-symmetric-brace-v35-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 20,
+      "max_logical_completions": 20,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v35-raw-selector-source-id-verbatim-projection-atomic-pair-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R076": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v36-original-causal-dry3/metrics.json",
+        "sha256": "11a110fcede8e2d567415a0101b9d29b593ff09efa4e638c65293f44a1d43bab"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v36-original-causal-dry3/preregistration.json",
+        "sha256": "4032165b6cd3fc46eccb6323010d3f553b010fecbd06ef0887f485b9cd4160fc"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v36-original-causal-dry3/predict-run.json",
+        "sha256": "515ede15ec0f1d830585843c9ad315a8114409ac773f211813287387325dca0d"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-independent-selector-original-causal-contract-v36-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v36-raw-selector-source-id-verbatim-projection-atomic-pair-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R077": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v37-incumbent-preserving-dry3/metrics.json",
+        "sha256": "3e9b9f17e87b2e1a6781766bb5068899575b3fd36ea709db2c99ba581f1c83f1"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v37-incumbent-preserving-dry3/preregistration.json",
+        "sha256": "e04d2d38153b0a1b2d0b4304a1f3c01ae8671dcf41cd05ba22dd7b2a9314ce8e"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v37-incumbent-preserving-dry3/predict-run.json",
+        "sha256": "21cf794297ce87ed6c87a58fe4a344c2669aaf5f3c63db38d9dfcd65ecf95d54"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-incumbent-preserving-original-causal-contract-v37-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v37-raw-selector-incumbent-source-id-atomic-pair-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R078": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v38-first-defect-terminal-guard-dry3/metrics.json",
+        "sha256": "6166c5dfc06827da7eb4b4273f24bf060edc136a190b91d0d22c3f872072821e"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v38-first-defect-terminal-guard-dry3/preregistration.json",
+        "sha256": "a128d47e50778039f6a84ca6429012e79fd52833e6bcf5aa8c3715f5f9285cca"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v38-first-defect-terminal-guard-dry3/predict-run.json",
+        "sha256": "524dd1c883252d454f65310436270a74aed95ff0d5887cb147b6a13e5422606e"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-first-defect-terminal-guard-contract-v38-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v38-raw-selector-incumbent-source-id-atomic-pair-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R079": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v38-first-defect-terminal-guard-full30/metrics.json",
+        "sha256": "ef8f312efb05309d8c1a3d24ee633cfabf37c892797cb1141af75be61035d42a"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v38-first-defect-terminal-guard-full30/preregistration.json",
+        "sha256": "5561c6c4b418d43d957c384b0307246d6fbdcfd538d73d821d94feb0da45d651"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v38-first-defect-terminal-guard-full30/predict-run.json",
+        "sha256": "20fbfc773257dae4cffa940d37f4bd5b0be0bc6a6f1932014f6d300f5dbdf9e7"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-first-defect-terminal-guard-contract-v38-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 20,
+      "max_logical_completions": 20,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v38-raw-selector-incumbent-source-id-atomic-pair-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R080": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v39-multi-hypothesis-causal-ledger-dry3/metrics.json",
+        "sha256": "63aa53dcf49a08a16c30cf626595c22c2ec6d3e347670efc629ec86e81835f69"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v39-multi-hypothesis-causal-ledger-dry3/preregistration.json",
+        "sha256": "4db4920381e5b1c704e48fc5039815a08458cb27007cd3af894040e5f5bd15f0"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v39-multi-hypothesis-causal-ledger-dry3/predict-run.json",
+        "sha256": "e358048427cd8f7ebace8f96910052ce73274af4de170e668ce94d5c99181874"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-multi-hypothesis-causal-ledger-v39-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v39-raw-selector-causal-ledger-source-id-atomic-pair-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R081": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v40-causal-ledger-length-dry3/metrics.json",
+        "sha256": "892bf03d7d4ba18a5cbe219436e4386a1bb0847579d7e7469fd4dbd219b84414"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v40-causal-ledger-length-dry3/preregistration.json",
+        "sha256": "b8d370e482ffa86c32625c0d5e625dcbdc67be61579ce3b1fd761c29e3e8bd87"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v40-causal-ledger-length-dry3/predict-run.json",
+        "sha256": "743da100c8696d60743710a55be4e6c9ba5cc25002db2d30447833e06cb4f53b"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-multi-hypothesis-causal-ledger-v40-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v40-raw-selector-causal-ledger-source-id-atomic-pair-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R082": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v40-causal-ledger-length-full30/metrics.json",
+        "sha256": "7dbac9436aa2053c8d3c7428ee3a8ccac108996b70c33ffeb124a190a245d4b4"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v40-causal-ledger-length-full30/preregistration.json",
+        "sha256": "85c1bab8ee2803f492160e094097cc62ec21faf2ae4d4585d72a42e4fe76e709"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v40-causal-ledger-length-full30/predict-run.json",
+        "sha256": "e4bd4aae510fb632dc97f9d699f54f91261a36f3243440e9a301c0b8a3af1c9f"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-multi-hypothesis-causal-ledger-v40-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 20,
+      "max_logical_completions": 20,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v40-raw-selector-causal-ledger-source-id-atomic-pair-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R083": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v41-symmetric-module-census-dry3/metrics.json",
+        "sha256": "0a9cbb3c37aa28c6c8d9cd1b1aa32957c27ecda1f654027c1bd2884d139f7d30"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v41-symmetric-module-census-dry3/preregistration.json",
+        "sha256": "4eb8a9a34aeefd05c40a67b2f47dd310b73559d848c7e7e442243f2518afe6b7"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v41-symmetric-module-census-dry3/predict-run.json",
+        "sha256": "190a6ab9879cf2ece44dd8021aa8e3d3a40566211ffa6767062bbf43bf9b21c0"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-symmetric-module-census-v41-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v41-raw-selector-anonymous-census-source-id-atomic-pair-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R084": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v42-chronological-module-census-dry3/metrics.json",
+        "sha256": "880483d3cc24d39ea497c0d782d1a474324353745340703ea26466ffa3ef993e"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v42-chronological-module-census-dry3/preregistration.json",
+        "sha256": "ccbadfb22caf6050a49af04d2c846e6952eb1ca8c27abbec0605d3b5003e78de"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v42-chronological-module-census-dry3/predict-run.json",
+        "sha256": "d9a6b014b859eff442f6b97892895ff4095c1b662d1b3a965f8b4c51ebb8b39f"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-chronological-module-census-v42-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v42-raw-selector-chronological-census-source-id-atomic-pair-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R085": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v43-symmetric-causal-lanes-dry3/metrics.json",
+        "sha256": "a5ddb3d8d02849a4964ac7c6a3fd822a1314aa205806afb24fb9100f5137f3e0"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v43-symmetric-causal-lanes-dry3/preregistration.json",
+        "sha256": "f11041725c806e2a44c46472a2a0dd08c192f2f54822fe405c55af9f458f446f"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v43-symmetric-causal-lanes-dry3/predict-run.json",
+        "sha256": "6c01a9154bfd8d81f6ebbbaff7ba388af41a9942c04562becea4af002f9ca9ea"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-symmetric-causal-lanes-v43-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v43-raw-selector-causal-lanes-source-id-atomic-pair-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R086": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v44-failure-preventing-causal-lanes-dry3/metrics.json",
+        "sha256": "02bda85cb5935060b2de72870b66b33daee9393eb41f5bd709eaf867f4f1ac4f"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v44-failure-preventing-causal-lanes-dry3/preregistration.json",
+        "sha256": "76d3c3de98bdfd12c19fd9f69aa110e009a6e579c614f2f490f6d389f2f19fb3"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v44-failure-preventing-causal-lanes-dry3/predict-run.json",
+        "sha256": "b258322f6f7b2ae30ea9846c1e0cc4f623ae1a4935e6c9f78dc77e38a5000d30"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-failure-preventing-causal-lanes-v44-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v44-raw-selector-failure-preventing-source-id-atomic-pair-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R087": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v45-categorical-boundary-action-dry3/metrics.json",
+        "sha256": "b8707225937e348268fedc023d01c8d13c021a5b19c699ab2b698943c8fc75ba"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v45-categorical-boundary-action-dry3/preregistration.json",
+        "sha256": "442e1c464232d91ebd7a246d7f55a77e6d4dfd33fc19254e97b40ce6db95b1db"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v45-categorical-boundary-action-dry3/predict-run.json",
+        "sha256": "e4ebe2a8e8e6964fcbf13d453cec448acd86fef7dfa09f752996ff648cbade0d"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-categorical-selector-v45-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v45-raw-selector-categorical-boundary-action-source-id-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R088": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v46-persistent-information-root-dry3/metrics.json",
+        "sha256": "d220e0f7a95f92a64466141db6182a8bc7d805814f34dcd3be41958882bdbb85"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v46-persistent-information-root-dry3/preregistration.json",
+        "sha256": "222d47e50513d69a33c880b4b2861fbf7c82f75aa91e73692e55a4cc7229614f"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v46-persistent-information-root-dry3/predict-run.json",
+        "sha256": "81cf474de102b7cbb6279a98c7482fc4f48375566a801e7906a0c40e9babdd92"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-persistent-information-root-v46-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v46-raw-selector-persistent-information-root-source-id-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R089": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v46-persistent-information-root-full30/metrics.json",
+        "sha256": "a886f67513aa0e417257e6d5cec32e12f05cce45d063226bd7266edbb24f94fa"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v46-persistent-information-root-full30/preregistration.json",
+        "sha256": "eb95f95f1fb8e7ef3d313403f709b967d1aa78745ed276c2add95879260bea94"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v46-persistent-information-root-full30/predict-run.json",
+        "sha256": "248fc46183770da46cd714b92254042e881185d5d5a02a9e3321be5badeaef3b"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-persistent-information-root-v46-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 20,
+      "max_logical_completions": 20,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v46-raw-selector-persistent-information-root-source-id-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R090": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v47-five-lane-handoff-dry3/metrics.json",
+        "sha256": "3678b583131cafd7b9ee135513dd78e650a06cd2ee976e8d5c75288e0d287df7"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v47-five-lane-handoff-dry3/preregistration.json",
+        "sha256": "47721f576045e0e9e2bb1e98a4b46930a1fff7163eeed79f26ea08080dd325ce"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v47-five-lane-handoff-dry3/predict-run.json",
+        "sha256": "c1367aae2a5501554fe9e2d30a497bd3659d591a24030deaf3bf3fb9eefd4068"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-five-lane-handoff-v47-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v47-raw-selector-five-lane-handoff-source-id-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R091": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v48-scout-broadened-handoff-dry3/metrics.json",
+        "sha256": "781f5099ef2e9c08eea095588c1afe01cd50397114bf1e062389d593b1d9aa48"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v48-scout-broadened-handoff-dry3/preregistration.json",
+        "sha256": "6a92cf6924afdbb7f60fad344dd43341954718ea93ecb9bf5cf8abd99b608022"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v48-scout-broadened-handoff-dry3/predict-run.json",
+        "sha256": "9cc780cb2324d664041233a6ae615a741f689000c61473972d76cf75b368a10d"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-scout-broadened-handoff-v48-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v48-raw-selector-scout-broadened-handoff-source-id-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R092": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v49-cross-module-consistency-dry3/metrics.json",
+        "sha256": "5162ac99b8f901b3523721095961be4b133eb4f57d11201bd5cc5bbc69cb0f6c"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v49-cross-module-consistency-dry3/preregistration.json",
+        "sha256": "34bfe2dc5c40d8fbeb603dfcfa3b2885f764ed1a7f205a0e5b5399d3ff363e12"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v49-cross-module-consistency-dry3/predict-run.json",
+        "sha256": "7c4c36446a1a5ff3e4003dd4f39acdc412567f19ca5fb7b479a7b3c4eb22c065"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-cross-module-consistency-v49-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v49-raw-selector-lane-isolated-state-consistency-source-id-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R093": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v50-selector-capacity-dry3/metrics.json",
+        "sha256": "329d59d657305958f51ef8bd4f5c74b06d390f9d5175acfee75f0e36f3f206e3"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v50-selector-capacity-dry3/preregistration.json",
+        "sha256": "baa5cd60797d828b0d11e85a7e361245c75604999cf9eb76621671710dc6f19d"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v50-selector-capacity-dry3/predict-run.json",
+        "sha256": "2633e7a03072930ce6e20ec505cdaf72708bdd28ad128fa822d0dcefe956c59e"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-selector-capacity-v50-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v49-raw-selector-lane-isolated-state-consistency-source-id-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R094": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v51-whitespace-brace-dry3/metrics.json",
+        "sha256": "40d36be70897e6700da9ef6a1c564ffba6a12b5efd7007298204f7623bb4efdb"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v51-whitespace-brace-dry3/preregistration.json",
+        "sha256": "2aeef2cc034484e178a8746c712fa8c820ceedd90e5f33572a1d4a25dbe21cb1"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v51-whitespace-brace-dry3/predict-run.json",
+        "sha256": "064edb2a898d8058ec71c844220e22241644a0836749081898ba91cff4eb72a9"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-whitespace-brace-v51-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v49-raw-selector-lane-isolated-state-consistency-source-id-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R095": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v51-whitespace-brace-full30/metrics.json",
+        "sha256": "8d3e46f38534e26f93f52f3a98fe9d6a691257ad7f7615af744392cef5a2db8e"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v51-whitespace-brace-full30/preregistration.json",
+        "sha256": "81e1c34b9b89becd60cb7b9e7d66461f40c19669cfeb09fbe83d1cade2b5b01f"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v51-whitespace-brace-full30/predict-run.json",
+        "sha256": "f201ad8694ffcad2e0cbc200877000baef830f1b0fcc26c9f828da670220b86b"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-whitespace-brace-v51-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 20,
+      "max_logical_completions": 20,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v49-raw-selector-lane-isolated-state-consistency-source-id-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R096": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v52-module-census-dry3/metrics.json",
+        "sha256": "62db77cdddb6aa08b3b44ee7e5eb60749b2ab7e318c461d1d3d6f2692ca4439e"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v52-module-census-dry3/preregistration.json",
+        "sha256": "40fec06915dcaf6f460d0434df3c6bea469e65ccd94e451364289fbe1fe4ffef"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v52-module-census-dry3/predict-run.json",
+        "sha256": "4db8d0402d4236e9edceed63d8b37384b19cd3220ab665705775cfc6c6df1d11"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-module-census-v52-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v52-raw-selector-module-census-likely-cascade-source-id-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R097": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v52-module-census-recovery-v2-full30/metrics.json",
+        "sha256": "304655f90fa2937c1c5630b4760d651734f4d954aef1f836337355e537592428"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v52-module-census-recovery-v2-full30/preregistration.json",
+        "sha256": "ac609da8dcdd6500c5acccc795e79b14883c18fb30b9b2e180bb12cbb5ab70c7"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v52-module-census-recovery-v2-full30/predict-run.json",
+        "sha256": "f79d8a1505e990eae48f6358a75d9ea07abf1e3a2e95e02a642c5a3d3b46ccf4"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": true,
+      "production_two_stage_pipeline_version": "e9-module-census-v52-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 8,
+      "max_logical_completions": 8,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v52-raw-selector-module-census-likely-cascade-source-id-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": true
+  },
+  "R098": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v53-dual-timescale-dry3/metrics.json",
+        "sha256": "669189586f7b9594619a7a73b4d8c34296c14833e86f144ea80921fab5c49f37"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v53-dual-timescale-dry3/preregistration.json",
+        "sha256": "4e762e32375c1d450807d3bc342517c36967e207c3ccd6e9e78c43d06611f73d"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v53-dual-timescale-dry3/predict-run.json",
+        "sha256": "9b441508c102a3b42b3af9f70cb10572044507e3bc45886f509d1e64a4a470b8"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-dual-timescale-planning-v53-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v53-raw-selector-dual-timescale-planning-source-id-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R099": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v54-contradiction-first-dry3/metrics.json",
+        "sha256": "d2fee4547446036c7ac43ffa200166ebd2aee6f860f3106350bb4cc8e3872feb"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v54-contradiction-first-dry3/preregistration.json",
+        "sha256": "3a8d4423f89baa42af44c929941f8b8dd57fd1f29fe1d0cdd8d441435f6ae129"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v54-contradiction-first-dry3/predict-run.json",
+        "sha256": "6fc095049893e62ede1b9ada0317cd15668c000007ca1a4f692e67375201fdf2"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "transport_policy_version": "judge-http-json-object-v5-nonjson-probe-fallback-telemetry",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-contradiction-first-planning-v54-deepseek-v4-flash-default",
+      "logical_completion_budget_used": 2,
+      "max_logical_completions": 2,
+      "judge_view_version": "canonical-judge-view-v3-aeb-incremental-execution-facts",
+      "evidence_validation_version": "e9-v54-raw-selector-contradiction-first-planning-source-id-no-fallback"
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": [
+      "batched_causal_critic",
+      "batched_causal_selector"
+    ],
+    "same_case_frozen_upstream_proven": true
+  },
+  "R100": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v55-one-stage-global-dry3/metrics.json",
+        "sha256": "9ce3c2c3767911dd4d9d98d1a18bf3032442dcbb6c9c91fbf63625117e8cf84f"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v55-one-stage-global-dry3/preregistration.json",
+        "sha256": "cdd0d35eacb0428ca621aa4d226c8312558eade02b023678ebfabdcb553044e9"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v55-one-stage-global-dry3/predict-run.json",
+        "sha256": "e3ff6f2ba5d74bba6b45cb2b3f308c1a84b2e45cd8017f369f6092a3dce35e47"
+      }
+    },
+    "run": {},
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R101": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v31-pairwise-candidate-recovered-full30/metrics.json",
+        "sha256": "a19680408b4bccc8b4cf3a50026a4d0a47e26bd80e7e7b95f9dd8746d698fa60"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v31-pairwise-candidate-recovered-full30/predict-run.json",
+        "sha256": "7470a2d5fd8baa368b1b2e9c9d14158ded3cc9ecf2a666e8cef68d28637f9b89"
+      }
+    },
+    "run": {
+      "upstream_mode": "frozen_v13_tuning",
+      "retry_backoff": 2.0,
+      "retry_failures": false,
+      "production_two_stage_pipeline_version": "e9-frozen-v13-prior-pairwise-candidate-critic-v31-deepseek-v4-flash-default",
+      "logical_completions_used": 1,
+      "cumulative_logical_completions_before": 645,
+      "cumulative_logical_completions_after": 646,
+      "max_logical_completions": 1
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v13_tuning",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": true
+  },
+  "R102": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v56-v30-incumbent-review-dry3/metrics.json",
+        "sha256": "80dcc2d12f3ed88ad2eaa5b029e98d590c948269e8e76b95c8dbe4a2554f9573"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v56-v30-incumbent-review-dry3/preregistration.json",
+        "sha256": "2860e5304832dcd1aed0004b68f6683f2fa4785ea82cb8d9e54431d017d2456c"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v56-v30-incumbent-review-dry3/predict-run.json",
+        "sha256": "5d89ae539473014f494cc1fd0ffa91d219a7d57a9d073aac05bfa9a5881dbdfc"
+      }
+    },
+    "run": {
+      "retry_backoff": 2.0,
+      "production_two_stage_pipeline_version": "e9-v30-conservative-incumbent-review-v56-deepseek-v4-flash-default",
+      "logical_completions_used": 1,
+      "cumulative_logical_completions_before": 646,
+      "cumulative_logical_completions_after": 647,
+      "max_logical_completions": 1
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v30_incumbent",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": true
+  },
+  "R103": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v57-v30-earlier-only-review-dry3/metrics.json",
+        "sha256": "a66753905c48a1de89768208662dfd7e51ad887104516572af2e4c90ac6dae6e"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v57-v30-earlier-only-review-dry3/preregistration.json",
+        "sha256": "d32432ebcde0778c7777765dfe18a1f65dea8c5dcf2712e976c14b02829f48ca"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v57-v30-earlier-only-review-dry3/predict-run.json",
+        "sha256": "7189e0c2815bb40a292a80d022da4abaa3975d1d9d834eb86603d87449845d69"
+      }
+    },
+    "run": {
+      "retry_backoff": 2.0,
+      "production_two_stage_pipeline_version": "e9-v30-earlier-only-incumbent-review-v57-deepseek-v4-flash-default",
+      "logical_completions_used": 1,
+      "cumulative_logical_completions_before": 647,
+      "cumulative_logical_completions_after": 648,
+      "max_logical_completions": 1
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v30_incumbent",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": true
+  },
+  "R104": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v57-v30-earlier-only-review-full30/metrics.json",
+        "sha256": "c8b58ca40232463178e536490a93301ae1ffae96fd424f1fa2a4d88d84715e3d"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v57-v30-earlier-only-review-full30/preregistration.json",
+        "sha256": "19c00a11e23e58fa24fcab2f9637fd1935f2b39fcf8ce2663a2cc796c5903f2c"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v57-v30-earlier-only-review-full30/predict-run.json",
+        "sha256": "aac7017c3bc81f3490aa3c2e927caef074af29175f5016c891e0e3066a585ee5"
+      }
+    },
+    "run": {
+      "retry_backoff": 2.0,
+      "production_two_stage_pipeline_version": "e9-v30-earlier-only-incumbent-review-v57-deepseek-v4-flash-default",
+      "logical_completions_used": 10,
+      "cumulative_logical_completions_before": 648,
+      "cumulative_logical_completions_after": 658,
+      "max_logical_completions": 10
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v30_incumbent",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": true
+  },
+  "R105": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v58-v30-incumbent-copy-review-dry3/metrics.json",
+        "sha256": "359571b89477086743ea85aa70d8e341faf488a5337e1b98804aab7c3d1dc682"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v58-v30-incumbent-copy-review-dry3/preregistration.json",
+        "sha256": "2ce84e6ddd5bb4273a1b8d2bf94b25e149d446e2ed3ef0c98b57645904a4620a"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v58-v30-incumbent-copy-review-dry3/predict-run.json",
+        "sha256": "e15ba866dee2d1b5e2bbef7bc7083cbb3da43eb1221c0095cb28f36d9e1af5d0"
+      }
+    },
+    "run": {
+      "retry_backoff": 2.0,
+      "production_two_stage_pipeline_version": "e9-v30-incumbent-copy-review-v58-deepseek-v4-flash-default",
+      "logical_completions_used": 1,
+      "cumulative_logical_completions_before": 658,
+      "cumulative_logical_completions_after": 659,
+      "max_logical_completions": 1
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v30_incumbent",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": true
+  },
+  "R106": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v58-v30-incumbent-copy-review-full30/metrics.json",
+        "sha256": "58317cd8ad318b4454ac47c5edb5b56ed36018eeb3e540b843f0860714a2fc40"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v58-v30-incumbent-copy-review-full30/preregistration.json",
+        "sha256": "b2a5b2c2297f3234b52c5f31eb45c5e33006e87c7a9e661006c261bcf55f8451"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-tuning-v1-e9-v58-v30-incumbent-copy-review-full30/predict-run.json",
+        "sha256": "7f63925fbe008aaae5e0419153687500a26b8633630e1776ed7aaec6ecbeecf9"
+      }
+    },
+    "run": {
+      "retry_backoff": 2.0,
+      "production_two_stage_pipeline_version": "e9-v30-incumbent-copy-review-v58-deepseek-v4-flash-default",
+      "logical_completions_used": 10,
+      "cumulative_logical_completions_before": 659,
+      "cumulative_logical_completions_after": 669,
+      "max_logical_completions": 10
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "frozen_v30_incumbent",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": true
+  },
+  "R107": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-smoke-v1-e9-v58-fresh-v30-review/metrics.json",
+        "sha256": "5d6be5ba1c1bf81a9a3192e98f6044e08f0ce6ea6c1f2de64abc98501b465deb"
+      },
+      "preregistration.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-smoke-v1-e9-v58-fresh-v30-review/preregistration.json",
+        "sha256": "1065626e9ac4b2416bd5b0fe198d2dc2ab27f858ed99a12442d0f5c4b253d222"
+      },
+      "predict-run.json": {
+        "path": "output/agenterrorbench-deepseek-v4-flash-smoke-v1-e9-v58-fresh-v30-review/predict-run.json",
+        "sha256": "66c14e7bf89a6ccec26c5f4ece6ac42cdd6c8cd57edbb2ad9ad668a2fe925ded"
+      }
+    },
+    "run": {
+      "retry_backoff": 2.0,
+      "production_two_stage_pipeline_version": "e9-v30-incumbent-copy-review-v58-deepseek-v4-flash-default",
+      "logical_completions_used": 43,
+      "cumulative_logical_completions_before": 669,
+      "cumulative_logical_completions_after": 712,
+      "max_logical_completions": 43
+    },
+    "provider_settings": {
+      "request_body_mode": "default",
+      "retry_backoff": 2.0,
+      "max_retries": 5,
+      "max_output_tokens": 8192,
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R150": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-sophnet-gpt-4.1-gaia-paper-v6-agent-judge-official-repo-topology-v1-case50/scored/metrics.json",
+        "sha256": "476923da6b7f8ee7b1e80a8f252a20a165f0f8e98fbabe780bd262cc845a32f3"
+      }
+    },
+    "run": {
+      "transport_policy_version": "sophnet-openai-compatible-chat-completions",
+      "production_two_stage_pipeline_version": "agentdebug.llm-judge.gaia-official-repo-gpt4.1-v1",
+      "evidence_validation_version": "agentdebug.llm-judge.gaia-official-repo-gpt4.1-v1"
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R154": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-sophnet-gpt-4.1-gaia-paper-v1-agent-judge-strict-v8p2-paper50-v1-case50/scored/metrics.json",
+        "sha256": "483ff100f6c4bfdfade4dbde8a1060944c37e0bd00ddf2e06f537b6b40f3589d"
+      }
+    },
+    "run": {
+      "transport_policy_version": "sophnet-openai-compatible-chat-completions",
+      "production_two_stage_pipeline_version": "agentdebug.llm-judge.gaia-official-repo-gpt4.1-strict-v8.2",
+      "evidence_validation_version": "agentdebug.llm-judge.gaia-official-repo-gpt4.1-strict-v8.2"
+    },
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R221": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-sophnet-gpt-4.1-gaia-step-error-gate-v1-agent-judge-candidate-v3-case8/scored/metrics.json",
+        "sha256": "a084103748ef3ee3a6000687439cae02c41711aa301f71e202047b81899e1d5e"
+      }
+    },
+    "run": {},
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R222": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-sophnet-gpt-4.1-gaia-step-error-gate-v2-agent-judge-serial-v4-case8/scored/metrics.json",
+        "sha256": "efd25c729e3959ed1967cf4e997791ee051cfde3671cb1fd34a35fa289423ba6"
+      }
+    },
+    "run": {},
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R223": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-sophnet-gpt-4.1-gaia-step-error-gate-v3-agent-judge-boundary-v5-case8/scored/metrics.json",
+        "sha256": "743ad884b60af5650700be849c1f1cb1cc7057fc2b8d86d2aa27212498b671f6"
+      }
+    },
+    "run": {},
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R224": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-sophnet-gpt-4.1-gaia-step-error-gate-v6-agent-judge-strict-v8-case8/scored/metrics.json",
+        "sha256": "a02713276751960d093991194c9e22221dab4b114b76a878c4d4a1c002f61ab8"
+      }
+    },
+    "run": {},
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R225": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-sophnet-gpt-4.1-gaia-step-error-gate-v9-agent-judge-atom-v12-case8/scored/metrics.json",
+        "sha256": "b033f886a525a365f3b4bdb682a261f1e55c5e4a47afa99b3c65b15a0cee0456"
+      }
+    },
+    "run": {},
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R226": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-sophnet-gpt-4.1-gaia-step-error-gate-v9-agent-judge-atom-v13-backtrace-case8/scored/metrics.json",
+        "sha256": "fe3d9ed5c1bb94c11de64f6dfc553d1e5bd53edf021b243287ad49b86bcde98d"
+      }
+    },
+    "run": {},
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  },
+  "R227": {
+    "sources": {
+      "metrics": {
+        "path": "output/agenterrorbench-sophnet-gpt-4.1-gaia-structural-gate-v1-agent-judge-official-repo-canonical-v2-case10/scored/metrics.json",
+        "sha256": "26e615f343f3b82638ed284d93921696c2b0decb28f6e987c40d0ccd0258e36f"
+      }
+    },
+    "run": {},
+    "provider_settings": {},
+    "upstream_evidence": "not_recorded",
+    "live_stages": "not_recorded",
+    "same_case_frozen_upstream_proven": false
+  }
+}

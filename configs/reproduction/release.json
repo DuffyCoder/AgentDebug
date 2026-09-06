@@ -1,0 +1,6 @@
+{
+  "schema_version": "agentdebug.release-layout.v1",
+  "artifact_dir": "artifacts/releases/reference",
+  "snapshot_manifest": "research/archive/source-snapshot.json",
+  "snapshot_config_path": "configs/reproduction/gaia-v3p83.json"
+}

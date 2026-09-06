@@ -1,170 +1,101 @@
-<div align="center">
-  <img src="assets/logo.png" alt="AgentDebug Logo" width="400"/>
-
-  **Where LLM Agents Fail and How They Can Learn From Failures**
-
-  [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg)](https://arxiv.org/abs/2509.25370)
-  [![Dataset](https://img.shields.io/badge/Dataset-AgentErrorBench-blue.svg)](https://drive.google.com/drive/folders/1bQe6dQA85pktT63YnKIKJDTVaH3O3Vpu?usp=drive_link)
-  [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-</div>
-
 # AgentDebug
 
-AgentDebug is a framework for understanding, detecting, and recovering from LLM agent failures. It provides:
+Evidence-grounded failure diagnosis for agent execution traces.
 
-1. **AgentErrorTaxonomy**: A classification system covering 17 error types across 5 modules (memory, reflection, planning, action, system).
-2. **AgentErrorBench**: Annotated failure trajectories from ALFWorld, GAIA, and WebShop environments.
-3. **AgentDebug Framework**: A two-stage debugging pipeline that isolates root-cause failures and provides corrective feedback.
+AgentDebug locates critical failures in processed AgentErrorBench GAIA traces
+using an anchored diagnosis, one later challenger, and conservative arbitration.
+It uses one fixed configuration: GPT-5.5 with medium reasoning effort.
+General trace normalization, integrity checks and explicit scoring tools are
+also included.
 
-## Installation
+This is an independently maintained refactor of
+[ulab-uiuc/AgentDebug](https://github.com/ulab-uiuc/AgentDebug), not the upstream
+official release. The current Python API is not compatible with the original
+detector API.
 
-```bash
-git clone https://github.com/ulab-uiuc/AgentDebug.git
-cd AgentDebug
-pip install -e .
-```
+[Getting started](docs/getting-started.md) · [Documentation](docs/README.md) ·
+[Reproduction](REPRODUCING.md) · [Contributing](CONTRIBUTING.md)
 
-### Environment Setup
+## What it provides
 
-AgentDebug includes vendored environments (ALFWorld, WebShop, GAIA) with modular agent prompts. The rollout system requires these environments to be functional.
+- **Trace normalization:** retain source events, tool-call relationships, and
+  evidence references in a Canonical Trace.
+- **Integrity checks:** detect broken references, missing tool results, and
+  ambiguous execution branches before diagnosis.
+- **One diagnosis method:** a frozen chronological anchor, one causal challenger,
+  and an exact-copy arbiter produce evidence-validated predictions.
+- **Evaluation tools:** prepare benchmark inputs, validate predictions, and
+  compute explicit, fixed-denominator metrics.
 
-**API Keys**: Set the following environment variables (or put them in a `.env` file):
+## Quick start
 
-```bash
-export OPENAI_API_KEY="..."
-export ANTHROPIC_API_KEY="..."      # optional
-export GEMINI_API_KEY="..."         # optional
-export TOGETHER_API_KEY="..."       # optional
-```
-
-## Repository Structure
-
-```
-AgentDebug/
-├── detector/                  # Core error detection framework
-│   ├── fine_grained_analysis.py    # Phase 1: step-level per-module error detection
-│   ├── critical_error_detection.py # Phase 2: critical error identification
-│   └── error_definitions.py        # Error taxonomy (5 modules, 17 types)
-├── agentdebug/
-│   ├── engines/               # Multi-provider LLM abstraction
-│   │   ├── openai.py          # OpenAI (GPT-4o, GPT-4.1, etc.)
-│   │   ├── anthropic.py       # Anthropic (Claude)
-│   │   ├── gemini.py          # Google (Gemini)
-│   │   └── together.py        # Together AI (Llama, Qwen, etc.)
-│   ├── environments/          # Environment wrappers + modular prompts
-│   │   ├── alfworld/          # ALFWorld embodied tasks
-│   │   ├── webshop/           # WebShop e-commerce tasks
-│   │   └── gaia/              # GAIA general AI assistant tasks
-│   └── rollout/               # Trajectory collection
-│       ├── rollout.py         # Unified rollout across all environments
-│       └── step_to_episode.py # Step-level → episode-level conversion
-├── examples/                  # Sample data and demo scripts
-└── docs/                      # Documentation
-```
-
-## Quick Start
-
-### Run the Detector on a Trajectory
-
-```python
-from detector.fine_grained_analysis import ErrorTypeDetector
-from detector.critical_error_detection import CriticalErrorAnalyzer
-
-# Configure with your API key
-api_config = {
-    "base_url": "https://api.openai.com/v1/chat/completions",
-    "api_key": "your-api-key",
-    "model": "gpt-4o-mini",
-    "temperature": 0.0,
-    "max_retries": 3,
-    "timeout": 60,
-}
-
-# Phase 1: Step-level error detection
-detector = ErrorTypeDetector(api_config)
-trajectory_data = detector.parse_trajectory("path/to/trajectory.json")
-phase1_results = await detector.analyze_trajectory(trajectory_data)
-
-# Phase 2: Critical error identification
-analyzer = CriticalErrorAnalyzer(api_config)
-critical_error = await analyzer.identify_critical_error(phase1_results, trajectory_data)
-```
-
-### Collect Rollout Trajectories
+Python 3.10+ is required; Python 3.11 is the reference environment. Run from a
+source checkout:
 
 ```bash
-# AlfWorld rollout with Together AI (cheap, fast)
-python -m agentdebug.rollout.rollout \
-  --env alfworld \
-  --provider together \
-  --model meta-llama/Llama-3.3-70B-Instruct-Turbo \
-  --unique_envs \
-  --total_envs 100 \
-  --concurrency 4 \
-  --dump_path output/alfworld_steps.jsonl
+python -m pip install -e .
 
-# Convert steps to episodes
-python -m agentdebug.rollout.step_to_episode \
-  --input_jsonl output/alfworld_steps.jsonl \
-  --output_jsonl output/alfworld_episodes.jsonl
+agentdebug ingest \
+  --session examples/moltbot_failure_session.jsonl \
+  --task examples/email_triage_task.yaml \
+  --output output/example.canonical.json
+
+agentdebug validate \
+  --session examples/moltbot_failure_session.jsonl \
+  --task examples/email_triage_task.yaml \
+  --output output/example.integrity.json \
+  --strict
 ```
 
-### Multi-Provider LLM Engine
+These commands run locally without model calls or benchmark downloads. The
+included example is synthetic. To diagnose prepared GAIA inputs, follow
+[the configuration guide](docs/getting-started.md#configure-a-judge).
+Review sensitive trace contents before sending them to a provider.
 
-```python
-from agentdebug.engines import create_chat_model
+The saved AgentDebug observation is **26/50 Step Exact**, **16/50 Step + Module**,
+and **13/50 All Correct** on the exposed 50-case development cohort. It is not
+an unseen-test score or a fresh measurement of the standalone execution adapter.
+See [evaluation](docs/results/README.md) for execution provenance and limitations.
 
-# Automatically routes to the correct provider based on model name
-model = create_chat_model("gpt-4o-mini")                          # → OpenAI
-model = create_chat_model("claude-sonnet-4-6")                   # → Anthropic
-model = create_chat_model("gemini-2.5-flash")                     # → Gemini
-model = create_chat_model("meta-llama/Llama-3.3-70B-Instruct-Turbo")  # → Together
+## Documentation
 
-response = model("What is 2+2?")
+| Topic | Guide |
+|---|---|
+| Installation and a complete first run | [Getting started](docs/getting-started.md) |
+| Pipeline, components, and extension points | [Architecture](docs/architecture.md) |
+| Commands, inputs, and exit codes | [CLI reference](docs/reference/cli.md) |
+| Selected benchmark results and limitations | [Evaluation](docs/results/README.md) |
+| Artifact verification and fresh inference | [Reproduction](REPRODUCING.md) |
+| Development and tests | [Contributing](CONTRIBUTING.md) |
+
+## Development
+
+```bash
+uv sync --frozen --extra dev
+make check
 ```
 
-## Error Taxonomy
+The default checks use synthetic fixtures and repository-contained artifacts.
+They do not call model services or require private datasets. See the
+[testing guide](docs/development.md) for test boundaries and optional checks.
 
-| Module | Error Types | Description |
-|--------|------------|-------------|
-| **Memory** | hallucination, memory_retrieval_failure, over_simplification | Agent misremembers or fails to recall information |
-| **Reflection** | progress_misjudge, outcome_misinterpretation, causal_misattribution, hallucination | Agent incorrectly evaluates its own progress |
-| **Planning** | constraint_ignorance, impossible_action, inefficient_plan | Agent creates flawed plans |
-| **Action** | misalignment, invalid_action, format_error, parameter_error | Agent executes wrong actions |
-| **System** | step_limit, tool_execution_error, llm_limit, environment_error | External system failures |
-
-## AgentErrorBench Dataset
-
-Download annotated failure trajectories:
-[AgentErrorBench on Google Drive](https://drive.google.com/drive/folders/1bQe6dQA85pktT63YnKIKJDTVaH3O3Vpu?usp=drive_link)
-
-- **ALFWorld**: 100 trajectories from embodied agent tasks
-- **GAIA**: 50 trajectories from general AI assistant tasks
-- **WebShop**: 50 trajectories from web navigation tasks
-
-## Key Results
-
-| Metric | Improvement |
-|--------|------------|
-| All-Correct Accuracy | +24% |
-| Step Accuracy | +17% |
-| Task Success Rate | Up to +26% |
-
-## Citation
-
-```bibtex
-@article{agentdebug2025,
-  title={Where LLM Agents Fail and How They Can Learn From Failures},
-  author={Zhu, Kunlun and Liu, Zijia and Li, Bingxuan and Tian, Muxin and Yang Yingxuan and Zhang, Jiaxun and others},
-  journal={arXiv preprint arXiv:2509.25370},
-  year={2025}
-}
+```text
+agentdebug/   Trace processing, diagnosis, and benchmark adapters
+examples/     Small synthetic inputs
+configs/      Selected release layout
+tests/        Unit and regression tests
+scripts/      Reproduction and maintenance tools
+docs/         User and developer documentation
+artifacts/    Selected evaluation evidence
+research/     Separate research tools, results, and restorable source archive
 ```
 
-## License
+## Attribution and license
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Based on [AgentDebug](https://github.com/ulab-uiuc/AgentDebug) and its
+[paper](https://arxiv.org/abs/2509.25370). Code is licensed under [MIT](LICENSE).
+AgentErrorBench is distributed separately; datasets and quoted evidence do not
+automatically inherit the code license. See [data provenance](docs/data-provenance.md).
 
-## Contributing
-
-We welcome contributions! Please feel free to submit issues, create pull requests, or reach out for collaborations.
+[Security](SECURITY.md) · [Publication checklist](PUBLISHING.md) ·
+[Research archive](research/README.md)

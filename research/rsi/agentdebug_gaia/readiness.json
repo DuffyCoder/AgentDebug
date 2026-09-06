@@ -1,0 +1,21 @@
+{
+  "schema_version": "agentdebug.rsi-readiness.v1",
+  "stage": "proposal_draft",
+  "preferred_historical_model": "gpt-5.5",
+  "preferred_historical_transport": "Codex Python SDK 0.147.0",
+  "preferred_method_family": "Codex SDK",
+  "method_family_includes": ["Codex SDK/app-server", "host-orchestrated Codex agent/subagent"],
+  "reporting_policy": "research/results/method-family-policy.md",
+  "raw_metric": "step_exact",
+  "sealed_anchors": {"baseline": null, "reference": null, "upper_bound": null},
+  "requirements": [
+    {"id": "data_rights", "status": "open", "reason": "Maintainer confirmed data/evidence distribution permission for the current repository publication on 2026-09-06. Formal benchmark packaging still needs documented applicable terms and scope, including any additional hidden instances not yet obtained. Repository MIT is not a data grant."},
+    {"id": "hidden_split", "status": "open", "reason": "All historical GAIA-50 cases were repeatedly exposed. Need independently sealed, same-distribution data with reviewed source-task grouping and semantic deduplication."},
+    {"id": "offline_runtime", "status": "open", "reason": "The supplied form says no network, but public DiscoveryWorld and LoCoMo tasks use fixed-model allowlisted endpoints/proxies. Seek explicit approval for a credential-isolated GPT-5.5 SDK inference service and target-runtime validation; SDK access is neither categorically forbidden nor already approved."},
+    {"id": "starter_and_reference", "status": "open", "reason": "Historical SDK methods run locally but are not yet ported and validated in the official offline task harness."},
+    {"id": "sealed_calibration", "status": "open", "reason": "No baseline/reference measured on the final runtime and sealed data; historical visible scores are not hidden anchors."},
+    {"id": "container_seal", "status": "open", "reason": "Need official authoring kit, separate build contexts, artifact-only transfer, code re-execution and trusted grader. Python validation is not an OS sandbox."},
+    {"id": "budget_and_difficulty", "status": "open", "reason": "Need at least two measured evaluations within 12 hours on target hardware and a new fixed-model scratch optimization rollout; old heterogeneous history is supporting evidence only."},
+    {"id": "shortcut_audit", "status": "open", "reason": "Need constant/last-step/empty/memorization baselines, leakage and taxonomy/owner-projection audits on final inputs."}
+  ]
+}

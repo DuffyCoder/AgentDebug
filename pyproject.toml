@@ -1,31 +1,47 @@
 [build-system]
 requires = ["setuptools>=64", "wheel"]
-build-backend = "setuptools.backends._legacy:_Backend"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "agentdebug"
-version = "0.1.0"
-description = "A framework for understanding, detecting, and recovering from LLM agent failures"
+version = "0.4.0"
+description = "Evidence-grounded diagnostics for agent execution traces"
+keywords = ["agents", "diagnostics", "traces", "evaluation"]
 readme = "README.md"
-license = {text = "MIT"}
+license = "MIT"
+license-files = ["LICENSE"]
 requires-python = ">=3.10"
 dependencies = [
-    "numpy",
-    "torch",
-    "aiohttp",
-    "openai",
-    "anthropic",
-    "google-genai",
-    "together",
-    "python-dotenv",
-    "ray[default]",
+    "PyYAML>=6.0",
 ]
+
+[project.urls]
+Repository = "https://github.com/DuffyCoder/AgentDebug"
+Documentation = "https://github.com/DuffyCoder/AgentDebug/tree/main/docs"
+Issues = "https://github.com/DuffyCoder/AgentDebug/issues"
+
+[project.scripts]
+agentdebug = "agentdebug.cli:main"
+agentdebug-trace = "agentdebug.cli:main"
+agentdebug-benchmark = "agentdebug.cli:main"
+agentdebug-agent-judge = "agentdebug.cli:main"
 
 [project.optional-dependencies]
 dev = [
+    "aiohttp>=3.9",
+    "jsonschema>=4.21",
     "pytest",
     "pre-commit",
 ]
 
 [tool.setuptools.packages.find]
-include = ["agentdebug*"]
+include = [
+    "agentdebug",
+    "agentdebug.trace",
+    "agentdebug.diagnostics",
+    "agentdebug.benchmark",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

@@ -1,0 +1,1048 @@
+{
+  "schema_version": "agentdebug.reproduction-index.v1",
+  "primary_metric": "Step Exact accuracy, higher is better",
+  "historical_selection_metric": "step_exact",
+  "profiles": [
+    {
+      "id": "official-gpt41",
+      "history_id": "R150",
+      "role": "local_public_repository_topology_baseline",
+      "expected_counts": [
+        14,
+        9,
+        5
+      ],
+      "runner": "scripts.run_agent_judge_gaia_official_repo_gpt41_paper50",
+      "transport": "LLM API",
+      "method_family": "LLM API",
+      "execution_backend": "LLM API",
+      "model": "gpt-4.1",
+      "note": "Local result, not a reproduction of the paper's reported accuracy; the historical cohort file is called gaia-paper-v6 but has the same 50-case identity.",
+      "record": {
+        "run_dir": "output/agenterrorbench-sophnet-gpt-4.1-gaia-paper-v6-agent-judge-official-repo-topology-v1-case50",
+        "metrics_path": "output/agenterrorbench-sophnet-gpt-4.1-gaia-paper-v6-agent-judge-official-repo-topology-v1-case50/scored/metrics.json",
+        "metrics_sha256": "476923da6b7f8ee7b1e80a8f252a20a165f0f8e98fbabe780bd262cc845a32f3",
+        "name": "official-repo-topology-v1",
+        "method": "agent_judge",
+        "n": 50,
+        "failed_outputs": 0,
+        "model": "gpt-4.1",
+        "reasoning_effort": "not_applicable",
+        "temperature": 0.0,
+        "stage_models": {},
+        "provider": "sophnet",
+        "endpoint": "https://api.sophnet.com/v1/chat/completions",
+        "workers": 4,
+        "max_output_tokens": null,
+        "max_semantic_attempts": null,
+        "max_http_attempts": 3,
+        "legacy_max_retries": 3,
+        "timeout_seconds": 180.0,
+        "protocol": "agentdebug.llm-judge.gaia-official-repo-gpt4.1-v1",
+        "semantic_parent": null,
+        "mechanism": "official_repository_independent_step_module_phase1_calls_then_positive_only_full_trajectory_joint_phase2",
+        "cohort": "gaia-paper-v1",
+        "cohort_sha256": "193dea48f9f9cd672215a8bdf4c82ab771836cb3fffe8768468facd5c6870240",
+        "dataset_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+        "recorded_at": "2026-08-19T17:44:24+08:00",
+        "date_source": "metrics.run.started_at (API run / imported-prediction scoring start)",
+        "scoring_or_api_seconds": 15.422706,
+        "csv_verified": true,
+        "config_sources": {
+          "experiment-plan.json": {
+            "agent_judge_version": "agentdebug.llm-judge.gaia-official-repo-gpt4.1-v1",
+            "protocol": "gaia-official-repo-gpt4.1-v1",
+            "model": "gpt-4.1",
+            "temperature": 0.0,
+            "provider": "sophnet",
+            "endpoint": "https://api.sophnet.com/v1/chat/completions",
+            "official_repository_commit": "7740fe3a5c4822b2143cbde78ecfffeace0bb166",
+            "case_count": 50,
+            "phase1_topology": "public-repository sequential per-step conditional-system then memory/reflection/planning/action independent Chat Completions",
+            "phase2_topology": "one fresh public-repository global decision per case",
+            "max_concurrency": 4,
+            "max_http_attempts": 3,
+            "timeout_seconds": 180.0,
+            "max_phase2_semantic_attempts": 2,
+            "gold_free_inference": true,
+            "prior_predictions_visible": false
+          },
+          "run-result.json": {
+            "protocol": "gaia-official-repo-gpt4.1-v1",
+            "agent_judge_version": "agentdebug.llm-judge.gaia-official-repo-gpt4.1-v1",
+            "model": "gpt-4.1",
+            "temperature": 0.0,
+            "scope": {
+              "cohort_name": "gaia-paper-v1",
+              "dataset_manifest_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+              "cohort_sha256": "193dea48f9f9cd672215a8bdf4c82ab771836cb3fffe8768468facd5c6870240",
+              "prediction_manifest_sha256": "56aa8a2994ae793545b6620c665a945375e48cd6c05a4b9b1afc1f4f2885a3e5",
+              "trajectory_count": 50,
+              "environment_counts": {
+                "gaia": 50
+              },
+              "paper_release_label_count": 50,
+              "source_only_membership": true,
+              "paper_comparison_scope": true,
+              "development_cohort": false,
+              "generalization_claim_permitted": false,
+              "prediction_manifest_path": "${REPO_ROOT}/output/agenterrorbench-gaia-paper-v1-prediction-input-case50/prediction-manifest.json",
+              "cohort_manifest_path": "${REPO_ROOT}/benchmarks/cohorts/gaia-paper-v1.json"
+            },
+            "execution": {
+              "status": "predictions-frozen-and-audited",
+              "scope": {
+                "cohort_name": "gaia-paper-v1",
+                "dataset_manifest_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+                "cohort_sha256": "193dea48f9f9cd672215a8bdf4c82ab771836cb3fffe8768468facd5c6870240",
+                "prediction_manifest_sha256": "56aa8a2994ae793545b6620c665a945375e48cd6c05a4b9b1afc1f4f2885a3e5",
+                "trajectory_count": 50,
+                "environment_counts": {
+                  "gaia": 50
+                },
+                "paper_release_label_count": 50,
+                "source_only_membership": true,
+                "paper_comparison_scope": true,
+                "development_cohort": false,
+                "generalization_claim_permitted": false,
+                "prediction_manifest_path": "${REPO_ROOT}/output/agenterrorbench-gaia-paper-v1-prediction-input-case50/prediction-manifest.json",
+                "cohort_manifest_path": "${REPO_ROOT}/benchmarks/cohorts/gaia-paper-v1.json"
+              },
+              "gold_free_inference": true,
+              "prediction_count": 50,
+              "prediction_sha256": "564329aaa28c93dff15c535585307a7ec6019cb7ee7821f8ea3118ce07a2685e",
+              "prediction_audit_sha256": "a59726220051f3f82453f146879c34e3a2abcd367f0ff80a69ce28453706bc28",
+              "api_secret_absence_scan_passed": true,
+              "successful_llm_call_count": 3257,
+              "phase1_successful_llm_call_count": 3202,
+              "phase2_successful_llm_call_count": 55,
+              "failed_http_attempt_count": 170,
+              "response_model_ids": [
+                "gpt-4.1-2025-04-14"
+              ],
+              "prompt_tokens": 49222587,
+              "completion_tokens": 581621,
+              "total_tokens": 49804208
+            }
+          },
+          "prediction-audit.json": {
+            "agent_judge_version": "agentdebug.llm-judge.gaia-official-repo-gpt4.1-v1",
+            "model": "gpt-4.1",
+            "reasoning_effort": "not_applicable",
+            "case_count": 50,
+            "temperature": 0.0
+          }
+        },
+        "scoring_config": {
+          "experiment": "agentdebug.llm-judge.gaia-official-repo-gpt4.1-v1",
+          "semantic_topology": "official_repository_independent_step_module_phase1_calls_then_positive_only_full_trajectory_joint_phase2",
+          "provider": "sophnet",
+          "endpoint": "https://api.sophnet.com/v1/chat/completions",
+          "model": "gpt-4.1",
+          "reasoning_effort": "not_applicable",
+          "temperature": 0.0,
+          "max_output_tokens": null,
+          "timeout": null,
+          "max_retries": 3,
+          "workers": 4,
+          "prompt_versions": {
+            "agent_judge": "agentdebug.llm-judge.gaia-official-repo-gpt4.1-v1"
+          },
+          "transport_policy_version": "sophnet-openai-compatible-chat-completions",
+          "selection": {
+            "cohort": "gaia-paper-v1",
+            "cohort_manifest_path": "${REPO_ROOT}/benchmarks/cohorts/gaia-paper-v1.json",
+            "cohort_sha256": "193dea48f9f9cd672215a8bdf4c82ab771836cb3fffe8768468facd5c6870240",
+            "paper_release_scope": true
+          }
+        },
+        "environment_metrics": {
+          "gaia": {
+            "step_exact": 14,
+            "step_module_exact": 9,
+            "all_correct": 5,
+            "n": 50
+          }
+        },
+        "transport": "LLM API",
+        "method_family": "LLM API",
+        "execution_backend": "LLM API",
+        "step_exact": 14,
+        "step_exact_denominator": 50,
+        "step_exact_pct": 28.0,
+        "step_module_exact": 9,
+        "step_module_exact_denominator": 50,
+        "step_module_exact_pct": 18.0,
+        "all_correct": 5,
+        "all_correct_denominator": 50,
+        "all_correct_pct": 10.0,
+        "case_set_sha256": "ffd8b7d9ea5f75db522a3ab8ecf24cb449d716690c0cac10517503025de4ded4",
+        "per_example_sha256": "2756a5a1aa5db161992d10e58d9da260f59d90d17ecc89b0da2d7e3313f8b3a7",
+        "case_count_csv": 50,
+        "environment_counts": {
+          "gaia": 50
+        },
+        "group": "GAIA-50",
+        "evidence_files": [
+          "output/agenterrorbench-sophnet-gpt-4.1-gaia-paper-v6-agent-judge-official-repo-topology-v1-case50/scored/metrics.json",
+          "output/agenterrorbench-sophnet-gpt-4.1-gaia-paper-v6-agent-judge-official-repo-topology-v1-case50/scored/per_example.csv",
+          "output/agenterrorbench-sophnet-gpt-4.1-gaia-paper-v6-agent-judge-official-repo-topology-v1-case50/scored/report.md",
+          "output/agenterrorbench-sophnet-gpt-4.1-gaia-paper-v6-agent-judge-official-repo-topology-v1-case50/experiment-plan.json",
+          "output/agenterrorbench-sophnet-gpt-4.1-gaia-paper-v6-agent-judge-official-repo-topology-v1-case50/run-result.json",
+          "output/agenterrorbench-sophnet-gpt-4.1-gaia-paper-v6-agent-judge-official-repo-topology-v1-case50/prediction-audit.json"
+        ],
+        "fresh_end_to_end": true,
+        "status": "complete_scored",
+        "eligible": true,
+        "notes": "",
+        "run_kind": "scored_run",
+        "id": "R150"
+      },
+      "runner_path": "scripts/run_agent_judge_gaia_official_repo_gpt41_paper50.py",
+      "current_release_runner_sha256": "9ade8cb10f60779fae1e0390306bf23cd56a025c1629bcf7e56ef8169535ba83"
+    },
+    {
+      "id": "best-historical-v3p83",
+      "history_id": "R208",
+      "role": "accepted_step_exact_incumbent",
+      "expected_counts": [
+        26,
+        16,
+        13
+      ],
+      "runner": "scripts.reproduction.run_gaia_v3p83",
+      "transport": "Codex agent/subagent (historical); standalone CLI replay adapter",
+      "method_family": "Codex SDK",
+      "execution_backend": "host-orchestrated Codex agent/subagent",
+      "model": "gpt-5.5",
+      "note": "Best accepted Step result in the Codex SDK method family. Historical execution used host agents, not the SDK package; v3.107 is a separate app-server port. Frozen verification is not new inference.",
+      "record": {
+        "run_dir": "output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50",
+        "metrics_path": "output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50/scored/metrics.json",
+        "metrics_sha256": "8f18f7be50eab86febae61ecd8524e2e7c7801571fc799af7db5ad2e9fad5067",
+        "name": "gaia-v3.83-clean-v3.20-model-only-gpt55-medium",
+        "method": "agent_judge",
+        "n": 50,
+        "failed_outputs": 0,
+        "model": "gpt-5.5",
+        "reasoning_effort": "medium",
+        "temperature": null,
+        "stage_models": {},
+        "provider": "codex-subagent",
+        "endpoint": "orchestrator",
+        "workers": 4,
+        "max_output_tokens": null,
+        "max_semantic_attempts": 2,
+        "max_http_attempts": null,
+        "legacy_max_retries": 1,
+        "timeout_seconds": null,
+        "protocol": "agentdebug.codex-agent-judge.gaia-v3.83-clean-v3.20-model-only-gpt55-medium",
+        "semantic_parent": "agentdebug.codex-agent-judge.luna-gaia-v3.20-packet-state-closure",
+        "mechanism": "model only: gpt-5.6-luna to gpt-5.5",
+        "cohort": "gaia-paper-v1",
+        "cohort_sha256": "193dea48f9f9cd672215a8bdf4c82ab771836cb3fffe8768468facd5c6870240",
+        "dataset_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+        "recorded_at": "2026-08-28T23:54:07+08:00",
+        "date_source": "metrics.run.started_at (API run / imported-prediction scoring start)",
+        "scoring_or_api_seconds": 18.401163,
+        "csv_verified": true,
+        "config_sources": {
+          "tuning-plan.json": {
+            "protocol": "gaia-v3.83-clean-v3.20-model-only-gpt55-medium",
+            "agent_judge_version": "agentdebug.codex-agent-judge.gaia-v3.83-clean-v3.20-model-only-gpt55-medium",
+            "semantic_parent": "agentdebug.codex-agent-judge.luna-gaia-v3.20-packet-state-closure",
+            "single_major_change": "model only: gpt-5.6-luna to gpt-5.5",
+            "scope": {
+              "cohort_name": "gaia-paper-v1",
+              "dataset_manifest_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+              "cohort_sha256": "193dea48f9f9cd672215a8bdf4c82ab771836cb3fffe8768468facd5c6870240",
+              "prediction_manifest_sha256": "56aa8a2994ae793545b6620c665a945375e48cd6c05a4b9b1afc1f4f2885a3e5",
+              "trajectory_count": 50,
+              "environment_counts": {
+                "gaia": 50
+              },
+              "paper_release_label_count": 50,
+              "source_only_membership": true,
+              "paper_comparison_scope": true,
+              "development_cohort": false,
+              "generalization_claim_permitted": false,
+              "prediction_manifest_path": "${REPO_ROOT}/output/agenterrorbench-gaia-paper-v1-prediction-input-case50/prediction-manifest.json",
+              "cohort_manifest_path": "${REPO_ROOT}/benchmarks/cohorts/gaia-paper-v1.json"
+            },
+            "acceptance": "Step Exact > 25/50",
+            "goal_completion": "Step Exact >= 30/50",
+            "gold_free_inference": true,
+            "incumbent_or_prior_predictions_visible": false,
+            "session_topology": {
+              "case_count": 50,
+              "serial_stages_per_case": [
+                "packet-state-anchor",
+                "earliest-causal-challenger",
+                "default-keep-arbiter"
+              ],
+              "fresh_ephemeral_session_per_stage": true,
+              "planned_session_count": 150,
+              "trajectories_per_session": 1,
+              "max_concurrency": 4,
+              "max_attempts_per_stage": 2,
+              "cross_case_state_visible": false,
+              "model": "gpt-5.5",
+              "reasoning_effort": "medium"
+            }
+          },
+          "run-result.json": {
+            "protocol": "gaia-v3.83-clean-v3.20-model-only-gpt55-medium",
+            "agent_judge_version": "agentdebug.codex-agent-judge.gaia-v3.83-clean-v3.20-model-only-gpt55-medium",
+            "semantic_parent": "agentdebug.codex-agent-judge.luna-gaia-v3.20-packet-state-closure",
+            "single_major_change": "model only: gpt-5.6-luna to gpt-5.5",
+            "scope": {
+              "cohort_name": "gaia-paper-v1",
+              "dataset_manifest_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+              "cohort_sha256": "193dea48f9f9cd672215a8bdf4c82ab771836cb3fffe8768468facd5c6870240",
+              "prediction_manifest_sha256": "56aa8a2994ae793545b6620c665a945375e48cd6c05a4b9b1afc1f4f2885a3e5",
+              "trajectory_count": 50,
+              "environment_counts": {
+                "gaia": 50
+              },
+              "paper_release_label_count": 50,
+              "source_only_membership": true,
+              "paper_comparison_scope": true,
+              "development_cohort": false,
+              "generalization_claim_permitted": false,
+              "prediction_manifest_path": "${REPO_ROOT}/output/agenterrorbench-gaia-paper-v1-prediction-input-case50/prediction-manifest.json",
+              "cohort_manifest_path": "${REPO_ROOT}/benchmarks/cohorts/gaia-paper-v1.json"
+            },
+            "acceptance": "Step Exact > 25/50",
+            "goal_completion": "Step Exact >= 30/50",
+            "gold_free_inference": true,
+            "incumbent_or_prior_predictions_visible": false,
+            "session_topology": {
+              "case_count": 50,
+              "serial_stages_per_case": [
+                "packet-state-anchor",
+                "earliest-causal-challenger",
+                "default-keep-arbiter"
+              ],
+              "fresh_ephemeral_session_per_stage": true,
+              "planned_session_count": 150,
+              "trajectories_per_session": 1,
+              "max_concurrency": 4,
+              "max_attempts_per_stage": 2,
+              "cross_case_state_visible": false,
+              "model": "gpt-5.5",
+              "reasoning_effort": "medium"
+            }
+          },
+          "prediction-audit.json": {
+            "agent_judge_version": "agentdebug.codex-agent-judge.gaia-v3.83-clean-v3.20-model-only-gpt55-medium",
+            "model": "gpt-5.5",
+            "reasoning_effort": "medium",
+            "case_count": 50,
+            "semantic_parent": "agentdebug.codex-agent-judge.luna-gaia-v3.20-packet-state-closure"
+          }
+        },
+        "scoring_config": {
+          "experiment": "agentdebug.codex-agent-judge.gaia-v3.83-clean-v3.20-model-only-gpt55-medium",
+          "semantic_topology": "three_fresh_gpt55_sessions_with_exact_v3_20_packet_state_anchor_earliest_causal_challenger_and_default_keep_arbiter",
+          "provider": "codex-subagent",
+          "endpoint": "orchestrator",
+          "model": "gpt-5.5",
+          "reasoning_effort": "medium",
+          "temperature": null,
+          "max_output_tokens": null,
+          "timeout": null,
+          "max_retries": 1,
+          "workers": 4,
+          "prompt_versions": {
+            "agent_judge": "agentdebug.codex-agent-judge.gaia-v3.83-clean-v3.20-model-only-gpt55-medium"
+          },
+          "transport_policy_version": "codex-orchestrator-subagent",
+          "selection": {
+            "cohort": "gaia-paper-v1",
+            "cohort_manifest_path": "${REPO_ROOT}/benchmarks/cohorts/gaia-paper-v1.json",
+            "cohort_sha256": "193dea48f9f9cd672215a8bdf4c82ab771836cb3fffe8768468facd5c6870240",
+            "paper_release_scope": true
+          }
+        },
+        "environment_metrics": {
+          "gaia": {
+            "step_exact": 26,
+            "step_module_exact": 16,
+            "all_correct": 13,
+            "n": 50
+          }
+        },
+        "transport": "Codex agent/subagent",
+        "method_family": "Codex SDK",
+        "execution_backend": "host-orchestrated Codex agent/subagent",
+        "step_exact": 26,
+        "step_exact_denominator": 50,
+        "step_exact_pct": 52.0,
+        "step_module_exact": 16,
+        "step_module_exact_denominator": 50,
+        "step_module_exact_pct": 32.0,
+        "all_correct": 13,
+        "all_correct_denominator": 50,
+        "all_correct_pct": 26.0,
+        "case_set_sha256": "ffd8b7d9ea5f75db522a3ab8ecf24cb449d716690c0cac10517503025de4ded4",
+        "per_example_sha256": "1dcffa966ecbef00b4f6c99639283c2a0c8b19cd1a30c4b0e10bc6b04acf2b49",
+        "case_count_csv": 50,
+        "environment_counts": {
+          "gaia": 50
+        },
+        "group": "GAIA-50",
+        "evidence_files": [
+          "output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50/scored/metrics.json",
+          "output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50/scored/per_example.csv",
+          "output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50/scored/report.md",
+          "output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50/tuning-plan.json",
+          "output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50/run-result.json",
+          "output/agenterrorbench-codex-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p83-clean-v3p20-model-only-gpt55-medium-case50/prediction-audit.json"
+        ],
+        "fresh_end_to_end": true,
+        "status": "complete_scored",
+        "eligible": true,
+        "notes": "",
+        "run_kind": "scored_run",
+        "id": "R208"
+      },
+      "runner_path": "scripts/reproduction/run_gaia_v3p83.py",
+      "current_release_runner_sha256": "54503806513ff3e0aeb9ffa282e46228393ac094b6b3cb0ad3b77a215092c94f"
+    },
+    {
+      "id": "sdk-v3p107",
+      "history_id": "R216",
+      "role": "stronger_same_model_sdk_reference_candidate",
+      "expected_counts": [
+        23,
+        18,
+        13
+      ],
+      "runner": "scripts.run_agent_judge_gaia_v3_107_v3p83_codex_sdk_bounded_retry_gpt55_medium_paper50",
+      "transport": "Codex Python SDK/app-server 0.147.0",
+      "method_family": "Codex SDK",
+      "execution_backend": "Codex SDK/app-server",
+      "model": "gpt-5.5",
+      "note": "Predates Official SDK v3. Rejected against historical v3.83 on Step Exact; can be a stronger cross-sectional SDK comparator. Not a sealed RSI reference anchor.",
+      "record": {
+        "run_dir": "output/agenterrorbench-sophnet-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p107-v3p83-codex-sdk-bounded-retry-case50",
+        "metrics_path": "output/agenterrorbench-sophnet-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p107-v3p83-codex-sdk-bounded-retry-case50/scored/metrics.json",
+        "metrics_sha256": "ea88c654ae1ba4849b48b527f00beacf26985a26c0761017b2ee4140d157920e",
+        "name": "gaia-v3.107-v3.83-codex-sdk-bounded-retry",
+        "method": "agent_judge",
+        "n": 50,
+        "failed_outputs": 0,
+        "model": "gpt-5.5",
+        "reasoning_effort": "medium",
+        "temperature": null,
+        "stage_models": {},
+        "provider": "sophnet",
+        "endpoint": "https://api.sophnet.com/v1/responses",
+        "workers": 4,
+        "max_output_tokens": null,
+        "max_semantic_attempts": 2,
+        "max_http_attempts": null,
+        "legacy_max_retries": 1,
+        "timeout_seconds": null,
+        "protocol": "agentdebug.codex-agent-judge.gaia-v3.83-clean-v3.20-model-only-gpt55-medium",
+        "semantic_parent": "agentdebug.codex-agent-judge.gaia-v3.83-clean-v3.20-model-only-gpt55-medium",
+        "mechanism": "transport reliability only: within each fresh v3.83 SDK semantic attempt, bound provider request retries at 2 and SSE interruption retries at 2",
+        "cohort": "gaia-paper-v1",
+        "cohort_sha256": "193dea48f9f9cd672215a8bdf4c82ab771836cb3fffe8768468facd5c6870240",
+        "dataset_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+        "recorded_at": "2026-08-31T22:26:38+08:00",
+        "date_source": "metrics.run.started_at (API run / imported-prediction scoring start)",
+        "scoring_or_api_seconds": 13.224545,
+        "csv_verified": true,
+        "config_sources": {
+          "tuning-plan.json": {
+            "protocol": "gaia-v3.83-clean-v3.20-model-only-gpt55-medium",
+            "agent_judge_version": "agentdebug.codex-agent-judge.gaia-v3.83-clean-v3.20-model-only-gpt55-medium",
+            "semantic_parent": "agentdebug.codex-agent-judge.gaia-v3.83-clean-v3.20-model-only-gpt55-medium",
+            "single_major_change": "transport reliability only: within each fresh v3.83 SDK semantic attempt, bound provider request retries at 2 and SSE interruption retries at 2",
+            "scope": {
+              "cohort_name": "gaia-paper-v1",
+              "dataset_manifest_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+              "cohort_sha256": "193dea48f9f9cd672215a8bdf4c82ab771836cb3fffe8768468facd5c6870240",
+              "prediction_manifest_sha256": "56aa8a2994ae793545b6620c665a945375e48cd6c05a4b9b1afc1f4f2885a3e5",
+              "trajectory_count": 50,
+              "environment_counts": {
+                "gaia": 50
+              },
+              "paper_release_label_count": 50,
+              "source_only_membership": true,
+              "paper_comparison_scope": true,
+              "development_cohort": false,
+              "generalization_claim_permitted": false,
+              "prediction_manifest_path": "${REPO_ROOT}/output/agenterrorbench-gaia-paper-v1-prediction-input-case50/prediction-manifest.json",
+              "cohort_manifest_path": "${REPO_ROOT}/benchmarks/cohorts/gaia-paper-v1.json"
+            },
+            "acceptance": "Step Exact > 26/50",
+            "goal_completion": "Step Exact >= 30/50",
+            "gold_free_inference": true,
+            "incumbent_or_prior_predictions_visible": false,
+            "session_topology": {
+              "case_count": 50,
+              "serial_stages_per_case": [
+                "packet-state-anchor",
+                "earliest-causal-challenger",
+                "default-keep-arbiter"
+              ],
+              "fresh_ephemeral_session_per_stage": true,
+              "planned_session_count": 150,
+              "trajectories_per_session": 1,
+              "max_concurrency": 4,
+              "max_attempts_per_stage": 2,
+              "cross_case_state_visible": false,
+              "model": "gpt-5.5",
+              "reasoning_effort": "medium"
+            }
+          },
+          "run-result.json": {
+            "protocol": "gaia-v3.83-clean-v3.20-model-only-gpt55-medium",
+            "agent_judge_version": "agentdebug.codex-agent-judge.gaia-v3.83-clean-v3.20-model-only-gpt55-medium",
+            "semantic_parent": "agentdebug.codex-agent-judge.gaia-v3.83-clean-v3.20-model-only-gpt55-medium",
+            "single_major_change": "transport reliability only: within each fresh v3.83 SDK semantic attempt, bound provider request retries at 2 and SSE interruption retries at 2",
+            "scope": {
+              "cohort_name": "gaia-paper-v1",
+              "dataset_manifest_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+              "cohort_sha256": "193dea48f9f9cd672215a8bdf4c82ab771836cb3fffe8768468facd5c6870240",
+              "prediction_manifest_sha256": "56aa8a2994ae793545b6620c665a945375e48cd6c05a4b9b1afc1f4f2885a3e5",
+              "trajectory_count": 50,
+              "environment_counts": {
+                "gaia": 50
+              },
+              "paper_release_label_count": 50,
+              "source_only_membership": true,
+              "paper_comparison_scope": true,
+              "development_cohort": false,
+              "generalization_claim_permitted": false,
+              "prediction_manifest_path": "${REPO_ROOT}/output/agenterrorbench-gaia-paper-v1-prediction-input-case50/prediction-manifest.json",
+              "cohort_manifest_path": "${REPO_ROOT}/benchmarks/cohorts/gaia-paper-v1.json"
+            },
+            "acceptance": "Step Exact > 26/50",
+            "goal_completion": "Step Exact >= 30/50",
+            "gold_free_inference": true,
+            "incumbent_or_prior_predictions_visible": false,
+            "session_topology": {
+              "case_count": 50,
+              "serial_stages_per_case": [
+                "packet-state-anchor",
+                "earliest-causal-challenger",
+                "default-keep-arbiter"
+              ],
+              "fresh_ephemeral_session_per_stage": true,
+              "planned_session_count": 150,
+              "trajectories_per_session": 1,
+              "max_concurrency": 4,
+              "max_attempts_per_stage": 2,
+              "cross_case_state_visible": false,
+              "model": "gpt-5.5",
+              "reasoning_effort": "medium"
+            }
+          },
+          "prediction-audit.json": {
+            "agent_judge_version": "agentdebug.codex-agent-judge.gaia-v3.83-clean-v3.20-model-only-gpt55-medium",
+            "model": "gpt-5.5",
+            "reasoning_effort": "medium",
+            "case_count": 50,
+            "semantic_parent": "agentdebug.codex-agent-judge.luna-gaia-v3.20-packet-state-closure"
+          }
+        },
+        "scoring_config": {
+          "experiment": "agentdebug.codex-agent-judge.gaia-v3.83-clean-v3.20-model-only-gpt55-medium",
+          "semantic_topology": "three_fresh_gpt55_sessions_with_exact_v3_20_packet_state_anchor_earliest_causal_challenger_and_default_keep_arbiter",
+          "provider": "sophnet",
+          "endpoint": "https://api.sophnet.com/v1/responses",
+          "model": "gpt-5.5",
+          "reasoning_effort": "medium",
+          "temperature": null,
+          "max_output_tokens": null,
+          "timeout": null,
+          "max_retries": 1,
+          "workers": 4,
+          "prompt_versions": {
+            "agent_judge": "agentdebug.codex-agent-judge.gaia-v3.83-clean-v3.20-model-only-gpt55-medium"
+          },
+          "transport_policy_version": "codex-orchestrator-subagent",
+          "selection": {
+            "cohort": "gaia-paper-v1",
+            "cohort_manifest_path": "${REPO_ROOT}/benchmarks/cohorts/gaia-paper-v1.json",
+            "cohort_sha256": "193dea48f9f9cd672215a8bdf4c82ab771836cb3fffe8768468facd5c6870240",
+            "paper_release_scope": true
+          }
+        },
+        "environment_metrics": {
+          "gaia": {
+            "step_exact": 23,
+            "step_module_exact": 18,
+            "all_correct": 13,
+            "n": 50
+          }
+        },
+        "transport": "Codex SDK/app-server",
+        "method_family": "Codex SDK",
+        "execution_backend": "Codex SDK/app-server",
+        "step_exact": 23,
+        "step_exact_denominator": 50,
+        "step_exact_pct": 46.0,
+        "step_module_exact": 18,
+        "step_module_exact_denominator": 50,
+        "step_module_exact_pct": 36.0,
+        "all_correct": 13,
+        "all_correct_denominator": 50,
+        "all_correct_pct": 26.0,
+        "case_set_sha256": "ffd8b7d9ea5f75db522a3ab8ecf24cb449d716690c0cac10517503025de4ded4",
+        "per_example_sha256": "a510b2b78cda3237f7e1bb10844c739c15f8d0bff0fe03454bae9084c8905b07",
+        "case_count_csv": 50,
+        "environment_counts": {
+          "gaia": 50
+        },
+        "group": "GAIA-50",
+        "evidence_files": [
+          "output/agenterrorbench-sophnet-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p107-v3p83-codex-sdk-bounded-retry-case50/scored/metrics.json",
+          "output/agenterrorbench-sophnet-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p107-v3p83-codex-sdk-bounded-retry-case50/scored/per_example.csv",
+          "output/agenterrorbench-sophnet-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p107-v3p83-codex-sdk-bounded-retry-case50/scored/report.md",
+          "output/agenterrorbench-sophnet-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p107-v3p83-codex-sdk-bounded-retry-case50/tuning-plan.json",
+          "output/agenterrorbench-sophnet-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p107-v3p83-codex-sdk-bounded-retry-case50/run-result.json",
+          "output/agenterrorbench-sophnet-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p107-v3p83-codex-sdk-bounded-retry-case50/prediction-audit.json"
+        ],
+        "fresh_end_to_end": true,
+        "status": "complete_scored",
+        "eligible": true,
+        "notes": "",
+        "run_kind": "scored_run",
+        "id": "R216"
+      },
+      "runner_path": "scripts/run_agent_judge_gaia_v3_107_v3p83_codex_sdk_bounded_retry_gpt55_medium_paper50.py",
+      "current_release_runner_sha256": "448dea5b810cab41140196504e87d849229e727e462694d499b421565605b41d"
+    },
+    {
+      "id": "official-sdk-v3",
+      "history_id": "R219",
+      "role": "same_model_sdk_starter_candidate",
+      "expected_counts": [
+        19,
+        9,
+        6
+      ],
+      "runner": "scripts.run_agent_judge_gaia_official_repo_gpt55_codex_sdk_v3_paper50",
+      "transport": "Codex Python SDK/app-server 0.147.0",
+      "method_family": "Codex SDK",
+      "execution_backend": "Codex SDK/app-server",
+      "model": "gpt-5.5",
+      "note": "Public native taxonomy plus others owner bridge; not a controlled model-only comparison to the GPT-4.1 baseline. No claim of exact API equivalence.",
+      "record": {
+        "run_dir": "output/agenterrorbench-codex-gpt-5.5-medium-gaia-paper-v1-agent-judge-official-repo-topology-sdk-v3-native-taxonomy-bridge-case50",
+        "metrics_path": "output/agenterrorbench-codex-gpt-5.5-medium-gaia-paper-v1-agent-judge-official-repo-topology-sdk-v3-native-taxonomy-bridge-case50/scored/metrics.json",
+        "metrics_sha256": "4bddb397d84a2bfa81eb5dcfea235b8390d78869aac6f3fec7b28693e2e63a76",
+        "name": "official-repo-topology-sdk-v3-native-taxonomy-bridge",
+        "method": "agent_judge",
+        "n": 50,
+        "failed_outputs": 0,
+        "model": "gpt-5.5",
+        "reasoning_effort": "medium",
+        "temperature": null,
+        "stage_models": {},
+        "provider": "openai-codex-chatgpt-auth",
+        "endpoint": "codex-app-server",
+        "workers": 4,
+        "max_output_tokens": null,
+        "max_semantic_attempts": null,
+        "max_http_attempts": null,
+        "legacy_max_retries": 2,
+        "timeout_seconds": null,
+        "protocol": "agentdebug.codex-agent-judge.gaia-official-repo-gpt55-codex-sdk-v3",
+        "semantic_parent": "agentdebug.codex-agent-judge.gaia-official-repo-gpt55-codex-sdk-v1",
+        "mechanism": "public_native_taxonomy_and_others_owner_bridge",
+        "cohort": "gaia-paper-v1",
+        "cohort_sha256": "193dea48f9f9cd672215a8bdf4c82ab771836cb3fffe8768468facd5c6870240",
+        "dataset_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+        "recorded_at": "2026-09-03T04:00:19+08:00",
+        "date_source": "metrics.run.started_at (API run / imported-prediction scoring start)",
+        "scoring_or_api_seconds": 12.556661,
+        "csv_verified": true,
+        "config_sources": {
+          "experiment-plan.json": {
+            "experiment_role": "reporting-only-method-transport-reproduction",
+            "agent_judge_version": "agentdebug.codex-agent-judge.gaia-official-repo-gpt55-codex-sdk-v3",
+            "protocol": "gaia-official-repo-gpt55-codex-sdk-v3",
+            "semantic_parent": "agentdebug.codex-agent-judge.gaia-official-repo-gpt55-codex-sdk-v1",
+            "sole_mechanism_change": "public_native_taxonomy_and_others_owner_bridge",
+            "model": "gpt-5.5",
+            "reasoning_effort": "medium",
+            "temperature": null,
+            "provider": "openai-codex-chatgpt-auth",
+            "transport": "codex-python-sdk-app-server",
+            "sdk_version": "0.147.0",
+            "bundled_cli_version": "0.147.0",
+            "official_repository_commit": "7740fe3a5c4822b2143cbde78ecfffeace0bb166",
+            "case_count": 50,
+            "scope": {
+              "cohort_name": "gaia-paper-v1",
+              "dataset_manifest_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+              "cohort_sha256": "193dea48f9f9cd672215a8bdf4c82ab771836cb3fffe8768468facd5c6870240",
+              "prediction_manifest_sha256": "56aa8a2994ae793545b6620c665a945375e48cd6c05a4b9b1afc1f4f2885a3e5",
+              "trajectory_count": 50,
+              "environment_counts": {
+                "gaia": 50
+              },
+              "paper_release_label_count": 50,
+              "source_only_membership": true,
+              "paper_comparison_scope": true,
+              "development_cohort": false,
+              "generalization_claim_permitted": false,
+              "prediction_manifest_path": "${REPO_ROOT}/output/agenterrorbench-gaia-paper-v1-prediction-input-case50/prediction-manifest.json",
+              "cohort_manifest_path": "${REPO_ROOT}/benchmarks/cohorts/gaia-paper-v1.json"
+            },
+            "phase1_topology": "byte-identical parent public Phase1 topology",
+            "phase2_topology": "one public analyzer invocation; only native public Step1 memory/reflection retry",
+            "max_concurrency": 4,
+            "gold_free_inference": true,
+            "prior_predictions_visible": false
+          },
+          "run-result.json": {
+            "protocol": "gaia-official-repo-gpt55-codex-sdk-v3",
+            "agent_judge_version": "agentdebug.codex-agent-judge.gaia-official-repo-gpt55-codex-sdk-v3",
+            "model": "gpt-5.5",
+            "reasoning_effort": "medium",
+            "temperature": null,
+            "scope": {
+              "cohort_name": "gaia-paper-v1",
+              "dataset_manifest_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+              "cohort_sha256": "193dea48f9f9cd672215a8bdf4c82ab771836cb3fffe8768468facd5c6870240",
+              "prediction_manifest_sha256": "56aa8a2994ae793545b6620c665a945375e48cd6c05a4b9b1afc1f4f2885a3e5",
+              "trajectory_count": 50,
+              "environment_counts": {
+                "gaia": 50
+              },
+              "paper_release_label_count": 50,
+              "source_only_membership": true,
+              "paper_comparison_scope": true,
+              "development_cohort": false,
+              "generalization_claim_permitted": false,
+              "prediction_manifest_path": "${REPO_ROOT}/output/agenterrorbench-gaia-paper-v1-prediction-input-case50/prediction-manifest.json",
+              "cohort_manifest_path": "${REPO_ROOT}/benchmarks/cohorts/gaia-paper-v1.json"
+            },
+            "execution": {
+              "status": "predictions-frozen-and-audited",
+              "scope": {
+                "cohort_name": "gaia-paper-v1",
+                "dataset_manifest_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+                "cohort_sha256": "193dea48f9f9cd672215a8bdf4c82ab771836cb3fffe8768468facd5c6870240",
+                "prediction_manifest_sha256": "56aa8a2994ae793545b6620c665a945375e48cd6c05a4b9b1afc1f4f2885a3e5",
+                "trajectory_count": 50,
+                "environment_counts": {
+                  "gaia": 50
+                },
+                "paper_release_label_count": 50,
+                "source_only_membership": true,
+                "paper_comparison_scope": true,
+                "development_cohort": false,
+                "generalization_claim_permitted": false,
+                "prediction_manifest_path": "${REPO_ROOT}/output/agenterrorbench-gaia-paper-v1-prediction-input-case50/prediction-manifest.json",
+                "cohort_manifest_path": "${REPO_ROOT}/benchmarks/cohorts/gaia-paper-v1.json"
+              },
+              "plan_sha256": "0bdbe9b3020c4725366df5ac6863c3ad7abf35bba320a0fada2c43f34a8ac5e3",
+              "gold_free_inference": true,
+              "prediction_count": 50,
+              "prediction_sha256": "ba1a05dbe2cd02261223230917ebefb9a7f0967b8f2b92ff60dac7bbcf35c729",
+              "prediction_audit_sha256": "8327f13155f7554a9b2cf3488c9d813729660cd1de3d358c3585576df859fc20",
+              "preflight_through_prediction_validation_wall_seconds": 8383.938611261547,
+              "preflight": {
+                "process_preflight_count": 1,
+                "all_process_preflights_match_frozen_contract": true,
+                "stable_wire_contract_sha256": "79f6d3c17385f550cc19ca434f2e41055029315ef03224bf0562b593599967bd",
+                "model_visible_tools_sha256": "c33cfea2ab4eb8f8aa8a99c4dba2c55e2fc80f1fe3537845b1ec4c4e011770be"
+              },
+              "process_runtime": {
+                "process_launch_count": 1,
+                "process_wall_observation_count": 1,
+                "interrupted_process_wall_unavailable_count": 0,
+                "recorded_cumulative_process_wall_seconds": 8383.604207064956,
+                "interrupted_process_wall_seconds_available": false
+              },
+              "transport": {
+                "successful_llm_call_count": 3252,
+                "phase1_successful_llm_call_count": 3202,
+                "phase2_successful_llm_call_count": 50,
+                "failed_transport_attempt_count": 0,
+                "unique_sdk_thread_count": 3252,
+                "unique_sdk_turn_count": 3252,
+                "all_sdk_thread_ids_unique": true,
+                "all_sdk_turn_ids_unique": true,
+                "model_visible_core_tools": [
+                  "apply_patch",
+                  "request_user_input",
+                  "update_plan"
+                ],
+                "model_visible_core_tool_count": 3,
+                "parallel_tool_calls_visible": true,
+                "no_observed_tool_or_harness_items": true,
+                "observed_item_class_names": [
+                  "AgentMessageThreadItem",
+                  "ReasoningThreadItem",
+                  "UserMessageThreadItem"
+                ],
+                "public_phase2_calls_per_case": {
+                  "case-01": 1,
+                  "case-02": 1,
+                  "case-03": 1,
+                  "case-04": 1,
+                  "case-05": 1,
+                  "case-06": 1,
+                  "case-07": 1,
+                  "case-08": 1,
+                  "case-09": 1,
+                  "case-10": 1,
+                  "case-11": 1,
+                  "case-12": 1,
+                  "case-13": 1,
+                  "case-14": 1,
+                  "case-15": 1,
+                  "case-16": 1,
+                  "case-17": 1,
+                  "case-18": 1,
+                  "case-19": 1,
+                  "case-20": 1,
+                  "case-21": 1,
+                  "case-22": 1,
+                  "case-23": 1,
+                  "case-24": 1,
+                  "case-25": 1,
+                  "case-26": 1,
+                  "case-27": 1,
+                  "case-28": 1,
+                  "case-29": 1,
+                  "case-30": 1,
+                  "case-31": 1,
+                  "case-32": 1,
+                  "case-33": 1,
+                  "case-34": 1,
+                  "case-35": 1,
+                  "case-36": 1,
+                  "case-37": 1,
+                  "case-38": 1,
+                  "case-39": 1,
+                  "case-40": 1,
+                  "case-41": 1,
+                  "case-42": 1,
+                  "case-43": 1,
+                  "case-44": 1,
+                  "case-45": 1,
+                  "case-46": 1,
+                  "case-47": 1,
+                  "case-48": 1,
+                  "case-49": 1,
+                  "case-50": 1
+                },
+                "usage_complete": true,
+                "usage_scope": "successful_calls_only",
+                "failed_attempt_token_usage_available": false,
+                "provider_internal_retry_token_usage_separately_available": false,
+                "usage_totals": {
+                  "input_tokens": 51132527,
+                  "output_tokens": 1092056,
+                  "total_tokens": 52224583,
+                  "cached_tokens": 2588160,
+                  "reasoning_tokens": 670954
+                },
+                "failed_transport_attempt_elapsed_seconds": {
+                  "observation_count": 0,
+                  "sum": 0.0,
+                  "mean": null,
+                  "max": null
+                },
+                "latency_ms": {
+                  "sdk_duration_ms": {
+                    "observation_count": 3252,
+                    "sum": 33268166,
+                    "mean": 10230.063345633456,
+                    "p50": 9414,
+                    "p95": 16076,
+                    "max": 43816
+                  },
+                  "queue_duration_ms": {
+                    "observation_count": 3252,
+                    "sum": 181167218,
+                    "mean": 55709.4766297663,
+                    "p50": 51075,
+                    "p95": 97769,
+                    "max": 120594
+                  },
+                  "run_wall_duration_ms": {
+                    "observation_count": 3252,
+                    "sum": 33327953,
+                    "mean": 10248.44803198032,
+                    "p50": 9431,
+                    "p95": 16094,
+                    "max": 43830
+                  },
+                  "wall_duration_ms": {
+                    "observation_count": 3252,
+                    "sum": 214496774,
+                    "mean": 65958.4175891759,
+                    "p50": 61412,
+                    "p95": 108687,
+                    "max": 134282
+                  }
+                },
+                "stage_latency_ms": {
+                  "phase1": {
+                    "sdk_duration_ms": {
+                      "observation_count": 3202,
+                      "sum": 32322603,
+                      "mean": 10094.504372267333,
+                      "p50": 9376,
+                      "p95": 15856,
+                      "max": 43816
+                    },
+                    "queue_duration_ms": {
+                      "observation_count": 3202,
+                      "sum": 178287700,
+                      "mean": 55680.10618363523,
+                      "p50": 51052,
+                      "p95": 97507,
+                      "max": 120594
+                    },
+                    "run_wall_duration_ms": {
+                      "observation_count": 3202,
+                      "sum": 32381559,
+                      "mean": 10112.916614615866,
+                      "p50": 9394,
+                      "p95": 15872,
+                      "max": 43830
+                    },
+                    "wall_duration_ms": {
+                      "observation_count": 3202,
+                      "sum": 210670837,
+                      "mean": 65793.51561524048,
+                      "p50": 61256,
+                      "p95": 107651,
+                      "max": 134282
+                    }
+                  },
+                  "phase2": {
+                    "sdk_duration_ms": {
+                      "observation_count": 50,
+                      "sum": 945563,
+                      "mean": 18911.26,
+                      "p50": 18534,
+                      "p95": 28978,
+                      "max": 31857
+                    },
+                    "queue_duration_ms": {
+                      "observation_count": 50,
+                      "sum": 2879518,
+                      "mean": 57590.36,
+                      "p50": 53236,
+                      "p95": 113730,
+                      "max": 116659
+                    },
+                    "run_wall_duration_ms": {
+                      "observation_count": 50,
+                      "sum": 946394,
+                      "mean": 18927.88,
+                      "p50": 18549,
+                      "p95": 29000,
+                      "max": 31877
+                    },
+                    "wall_duration_ms": {
+                      "observation_count": 50,
+                      "sum": 3825937,
+                      "mean": 76518.74,
+                      "p50": 73191,
+                      "p95": 127728,
+                      "max": 130974
+                    }
+                  }
+                },
+                "public_native_taxonomy_sha256": "687d9213f72b069051a926f1f8a35658447474b74b64977b3c505f22ed3c5508",
+                "public_native_taxonomy_pair_count": 19,
+                "projection_conformance_case_count": 50,
+                "projection_conformance_step_count": 717,
+                "all_public_phase2_step_projections_exact": true,
+                "native_others_bridge_prediction_count": 1,
+                "legacy_owner_evidence_policy_unchanged": true,
+                "outer_phase2_semantic_resample_count": 0
+              }
+            }
+          },
+          "prediction-audit.json": {
+            "agent_judge_version": "agentdebug.codex-agent-judge.gaia-official-repo-gpt55-codex-sdk-v3",
+            "semantic_parent": "agentdebug.codex-agent-judge.gaia-official-repo-gpt55-codex-sdk-v1",
+            "model": "gpt-5.5",
+            "reasoning_effort": "medium",
+            "case_count": 50
+          }
+        },
+        "scoring_config": {
+          "experiment": "agentdebug.codex-agent-judge.gaia-official-repo-gpt55-codex-sdk-v3",
+          "semantic_topology": "official_repository_parent_topology_with_public_native_taxonomy_and_selected_step_others_owner_bridge_over_codex_sdk_threads",
+          "provider": "openai-codex-chatgpt-auth",
+          "endpoint": "codex-app-server",
+          "model": "gpt-5.5",
+          "reasoning_effort": "medium",
+          "temperature": null,
+          "max_output_tokens": null,
+          "timeout": null,
+          "max_retries": 2,
+          "workers": 4,
+          "prompt_versions": {
+            "agent_judge": "agentdebug.codex-agent-judge.gaia-official-repo-gpt55-codex-sdk-v3"
+          },
+          "transport_policy_version": "openai-codex-0.147-chatgpt-auth-fresh-atomic-thread-v1",
+          "selection": {
+            "cohort": "gaia-paper-v1",
+            "cohort_manifest_path": "${REPO_ROOT}/benchmarks/cohorts/gaia-paper-v1.json",
+            "cohort_sha256": "193dea48f9f9cd672215a8bdf4c82ab771836cb3fffe8768468facd5c6870240",
+            "paper_release_scope": true
+          }
+        },
+        "environment_metrics": {
+          "gaia": {
+            "step_exact": 19,
+            "step_module_exact": 9,
+            "all_correct": 6,
+            "n": 50
+          }
+        },
+        "transport": "Codex SDK/app-server",
+        "method_family": "Codex SDK",
+        "execution_backend": "Codex SDK/app-server",
+        "step_exact": 19,
+        "step_exact_denominator": 50,
+        "step_exact_pct": 38.0,
+        "step_module_exact": 9,
+        "step_module_exact_denominator": 50,
+        "step_module_exact_pct": 18.0,
+        "all_correct": 6,
+        "all_correct_denominator": 50,
+        "all_correct_pct": 12.0,
+        "case_set_sha256": "ffd8b7d9ea5f75db522a3ab8ecf24cb449d716690c0cac10517503025de4ded4",
+        "per_example_sha256": "651b448aad5cd1cbe1f5036b1ec3bca767428744dd26056d2a67fe51e13a14f9",
+        "case_count_csv": 50,
+        "environment_counts": {
+          "gaia": 50
+        },
+        "group": "GAIA-50",
+        "evidence_files": [
+          "output/agenterrorbench-codex-gpt-5.5-medium-gaia-paper-v1-agent-judge-official-repo-topology-sdk-v3-native-taxonomy-bridge-case50/scored/metrics.json",
+          "output/agenterrorbench-codex-gpt-5.5-medium-gaia-paper-v1-agent-judge-official-repo-topology-sdk-v3-native-taxonomy-bridge-case50/scored/per_example.csv",
+          "output/agenterrorbench-codex-gpt-5.5-medium-gaia-paper-v1-agent-judge-official-repo-topology-sdk-v3-native-taxonomy-bridge-case50/scored/report.md",
+          "output/agenterrorbench-codex-gpt-5.5-medium-gaia-paper-v1-agent-judge-official-repo-topology-sdk-v3-native-taxonomy-bridge-case50/experiment-plan.json",
+          "output/agenterrorbench-codex-gpt-5.5-medium-gaia-paper-v1-agent-judge-official-repo-topology-sdk-v3-native-taxonomy-bridge-case50/run-result.json",
+          "output/agenterrorbench-codex-gpt-5.5-medium-gaia-paper-v1-agent-judge-official-repo-topology-sdk-v3-native-taxonomy-bridge-case50/prediction-audit.json"
+        ],
+        "fresh_end_to_end": true,
+        "status": "complete_scored",
+        "eligible": true,
+        "notes": "",
+        "run_kind": "scored_run",
+        "id": "R219"
+      },
+      "runner_path": "scripts/run_agent_judge_gaia_official_repo_gpt55_codex_sdk_v3_paper50.py",
+      "current_release_runner_sha256": "2b7d92bb1903a1440446311d37a7f5d94da6f82252be588d47230f604438610e"
+    }
+  ]
+}

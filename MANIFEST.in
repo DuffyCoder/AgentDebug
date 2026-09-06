@@ -1,0 +1,21 @@
+include README.md LICENSE pyproject.toml setup.py
+recursive-include agentdebug *.py
+prune .git
+prune .github
+prune .venv
+prune data
+prune output
+prune AgentDebug
+prune artifacts
+prune benchmarks
+prune configs
+prune docs
+prune examples
+prune research
+prune tasks
+prune scripts
+prune tests
+prune build
+prune dist
+exclude uv.lock requirements-*.txt .env .env.*
+global-exclude __pycache__ *.py[cod] .DS_Store

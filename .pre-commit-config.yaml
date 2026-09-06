@@ -1,0 +1,28 @@
+# Checks only: never rewrite hash-bound source files or frozen artifacts.
+repos:
+  - repo: local
+    hooks:
+      - id: agentdebug-docs
+        name: Public documentation and navigation
+        entry: uv run --frozen python -m scripts.maintenance.check_public_docs
+        language: system
+        pass_filenames: false
+        always_run: true
+      - id: agentdebug-hygiene
+        name: Repository publishing hygiene
+        entry: uv run --frozen python -m scripts.maintenance.check_repository_hygiene
+        language: system
+        pass_filenames: false
+        always_run: true
+      - id: agentdebug-release
+        name: Frozen method and result integrity
+        entry: uv run --frozen python -m scripts.reproduction.release verify
+        language: system
+        pass_filenames: false
+        always_run: true
+      - id: agentdebug-layout
+        name: Active package and archived protocol boundary
+        entry: uv run --frozen python -m scripts.maintenance.check_layout
+        language: system
+        pass_filenames: false
+        always_run: true

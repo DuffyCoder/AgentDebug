@@ -1,0 +1,19 @@
+{
+  "source_sha256": "8c7b610e8281e6404854885cdcc6894bd65b30ca9f3f2cc5c4c07195b89445d0",
+  "script_sha256": "73a26ea9fee8c1ef0f21779564fedc235fdf35638f57ce61fd57a2eef27ac8c5",
+  "files": {
+    "01-api-tuning30-by-model.pdf": "3577f684ebfa83a36a245502f707b2975c12eadb6d6e0756a2b4f464ca28b6a9",
+    "01-api-tuning30-by-model.png": "b4baf2839d6aec4bbc8b7fd8f0c772bdfec48c707f2a8bc49c2d0608cb7a7f1b",
+    "02-gpt41-api-e9-dry3.pdf": "57ba143e69a8eee1cfeead4c1b3d191ff8123d17b7ac38bc317931c7c9f998fe",
+    "02-gpt41-api-e9-dry3.png": "fc4604ba548fb5c6415f768779abf07839eed989a6089fa49eebd48c966597f5",
+    "03-deepseek-api-default-dry3.pdf": "f2692840da1c79eb065f4a7adf8861f37b12f8130e1bd771251ff8feccd8e1e5",
+    "03-deepseek-api-default-dry3.png": "7e719029340c6567d56893b5523a52be5220cf5dcf875ebf70143749c527ae94",
+    "04-api-reference-runs.pdf": "279cc60671417046841fdf8f93867b46bd481690b2d01a5418c2156ac10a577d",
+    "04-api-reference-runs.png": "3b45494aca952644c1ad4c697569b4c48ba44446ba9d4f790fb3979a516a2ea6",
+    "05-all-api-config-groups.pdf": "83499757388b97c27c74686e77be7e9f96c623686ab45c75d7cb0944fc327cfd",
+    "api-records.csv": "6597b8c1f1676e7c780449c19db5c8cd3792cecd0958c53b417e8b7689dfcb11",
+    "api-records.json": "12355bcf2fd1ed9a0e6622438c62a967b29d1f632f3e180d2ed0187b302642a1",
+    "api-runtime-evidence.json": "9d8d76a62a2e34d705cef7bd95d5f313ed3e66424d9a8b8a6dc0238418e3aeef",
+    "verification-summary.json": "b204b0cb6bbd5cb95410991b3df1e3c9c009886b46cb338cfb1816e2f8eeddf8"
+  }
+}

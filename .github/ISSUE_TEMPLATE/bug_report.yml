@@ -1,0 +1,32 @@
+name: Bug report
+description: Report a reproducible framework or tooling problem.
+body:
+  - type: markdown
+    attributes:
+      value: Do not include credentials, private traces, or vulnerability details. See SECURITY.md for private reporting.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Expected and actual behavior
+      description: Explain the problem and its impact.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Minimal reproduction
+      description: Provide commands and a small synthetic input, not production data.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Commit/version, Python version, operating system, and relevant configuration. Remove secrets.
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: Checks performed
+      description: Include relevant test output and sanitized error messages.

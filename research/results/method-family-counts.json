@@ -1,0 +1,297 @@
+{
+  "schema_version": "agentdebug.method-family-counts.v1",
+  "reporting_policy": "agentdebug.result-taxonomy.v1",
+  "validity_rule": "csv_verified && eligible && status in {complete_scored, scored_failures_zero}",
+  "count_unit": "runs deduplicated by run_dir; records are run-by-method scores",
+  "total_archive_records": 227,
+  "valid": {
+    "runs": 209,
+    "records": 214
+  },
+  "families": {
+    "LLM API": {
+      "runs": 110,
+      "records": 115
+    },
+    "Codex SDK": {
+      "runs": 99,
+      "records": 99
+    }
+  },
+  "actual_codex_backends": {
+    "Codex SDK/app-server": {
+      "runs": 2,
+      "records": 2
+    },
+    "host-orchestrated Codex agent/subagent": {
+      "runs": 97,
+      "records": 97
+    }
+  },
+  "cohorts": [
+    {
+      "group": "Full / 200",
+      "n": 200,
+      "dataset_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+      "case_set_sha256": "84d2ecd29f6f3200b9f208f7abc5a70e6940f77eff400137d0260714e6f33813",
+      "llm_api_runs": 2,
+      "llm_api_records": 4,
+      "codex_sdk_family_runs": 0,
+      "codex_sdk_family_records": 0,
+      "codex_app_server_runs": 0,
+      "codex_host_agent_runs": 0
+    },
+    {
+      "group": "Full / 150",
+      "n": 150,
+      "dataset_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+      "case_set_sha256": "92070149e4fdb555b5e10c801a73395c2fd2aed99343378a9ed74bf5e03f51f4",
+      "llm_api_runs": 0,
+      "llm_api_records": 0,
+      "codex_sdk_family_runs": 1,
+      "codex_sdk_family_records": 1,
+      "codex_app_server_runs": 0,
+      "codex_host_agent_runs": 1
+    },
+    {
+      "group": "GAIA-50",
+      "n": 50,
+      "dataset_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+      "case_set_sha256": "ffd8b7d9ea5f75db522a3ab8ecf24cb449d716690c0cac10517503025de4ded4",
+      "llm_api_runs": 2,
+      "llm_api_records": 2,
+      "codex_sdk_family_runs": 67,
+      "codex_sdk_family_records": 67,
+      "codex_app_server_runs": 2,
+      "codex_host_agent_runs": 65
+    },
+    {
+      "group": "GAIA-smoke-30",
+      "n": 30,
+      "dataset_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+      "case_set_sha256": "500a41b7e4632f6a4ff3760214d83fdef26cb42b6dd5ff500b9648b6bea4e8df",
+      "llm_api_runs": 0,
+      "llm_api_records": 0,
+      "codex_sdk_family_runs": 14,
+      "codex_sdk_family_records": 14,
+      "codex_app_server_runs": 0,
+      "codex_host_agent_runs": 14
+    },
+    {
+      "group": "Mixed-30 / smoke-v1",
+      "n": 30,
+      "dataset_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+      "case_set_sha256": "a54247a7793acebc47092a753c454796673a9f0bfbad929e2d71aba87ffbb0de",
+      "llm_api_runs": 2,
+      "llm_api_records": 2,
+      "codex_sdk_family_runs": 0,
+      "codex_sdk_family_records": 0,
+      "codex_app_server_runs": 0,
+      "codex_host_agent_runs": 0
+    },
+    {
+      "group": "Mixed-30 / smoke-v1",
+      "n": 30,
+      "dataset_sha256": "",
+      "case_set_sha256": "a54247a7793acebc47092a753c454796673a9f0bfbad929e2d71aba87ffbb0de",
+      "llm_api_runs": 0,
+      "llm_api_records": 0,
+      "codex_sdk_family_runs": 1,
+      "codex_sdk_family_records": 1,
+      "codex_app_server_runs": 0,
+      "codex_host_agent_runs": 1
+    },
+    {
+      "group": "Mixed-30 / tuning-v1",
+      "n": 30,
+      "dataset_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+      "case_set_sha256": "0defb39f888f8e00ffc7279addd235558b584bb7ff10fac6d62eac68bb56d6f1",
+      "llm_api_runs": 18,
+      "llm_api_records": 18,
+      "codex_sdk_family_runs": 15,
+      "codex_sdk_family_records": 15,
+      "codex_app_server_runs": 0,
+      "codex_host_agent_runs": 15
+    },
+    {
+      "group": "Small diagnostics / 10",
+      "n": 10,
+      "dataset_sha256": "",
+      "case_set_sha256": "28a3480e7d20c393200a060699a5fe395e8a21f338f9f0277bf5326cbbfd1d24",
+      "llm_api_runs": 1,
+      "llm_api_records": 1,
+      "codex_sdk_family_runs": 0,
+      "codex_sdk_family_records": 0,
+      "codex_app_server_runs": 0,
+      "codex_host_agent_runs": 0
+    },
+    {
+      "group": "Small diagnostics / 9",
+      "n": 9,
+      "dataset_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+      "case_set_sha256": "ba7f8e604c93d834f4018e96cf3659d688513a547f5d19c716c292175afd5dc4",
+      "llm_api_runs": 0,
+      "llm_api_records": 0,
+      "codex_sdk_family_runs": 1,
+      "codex_sdk_family_records": 1,
+      "codex_app_server_runs": 0,
+      "codex_host_agent_runs": 1
+    },
+    {
+      "group": "Small diagnostics / 8",
+      "n": 8,
+      "dataset_sha256": "",
+      "case_set_sha256": "70d15690646b2f6b41bedcfdecaeff9f656966116ec14fb8ae25842eb9bb524c",
+      "llm_api_runs": 5,
+      "llm_api_records": 5,
+      "codex_sdk_family_runs": 0,
+      "codex_sdk_family_records": 0,
+      "codex_app_server_runs": 0,
+      "codex_host_agent_runs": 0
+    },
+    {
+      "group": "Small diagnostics / 5",
+      "n": 5,
+      "dataset_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+      "case_set_sha256": "01c397cc0bce2ceb631d0ce37506174fb486c852fc1d33cd1bed5e47a721b5f9",
+      "llm_api_runs": 2,
+      "llm_api_records": 2,
+      "codex_sdk_family_runs": 0,
+      "codex_sdk_family_records": 0,
+      "codex_app_server_runs": 0,
+      "codex_host_agent_runs": 0
+    },
+    {
+      "group": "Small diagnostics / 3",
+      "n": 3,
+      "dataset_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+      "case_set_sha256": "8068c52eb3c4d0cdb54c69b46a32e12241fdc0c04aba57fcd0701f0fcbddd494",
+      "llm_api_runs": 12,
+      "llm_api_records": 12,
+      "codex_sdk_family_runs": 0,
+      "codex_sdk_family_records": 0,
+      "codex_app_server_runs": 0,
+      "codex_host_agent_runs": 0
+    },
+    {
+      "group": "Small diagnostics / 3",
+      "n": 3,
+      "dataset_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+      "case_set_sha256": "b9b30e840192e1515abfc30d27cfed49849491c10cc6ff5873f580d2bd889cc7",
+      "llm_api_runs": 58,
+      "llm_api_records": 58,
+      "codex_sdk_family_runs": 0,
+      "codex_sdk_family_records": 0,
+      "codex_app_server_runs": 0,
+      "codex_host_agent_runs": 0
+    },
+    {
+      "group": "Small diagnostics / 1",
+      "n": 1,
+      "dataset_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+      "case_set_sha256": "6c4b4bf679559b28170a7b605b95792daf9fea17aee7067af4fa11bde05d8b33",
+      "llm_api_runs": 1,
+      "llm_api_records": 1,
+      "codex_sdk_family_runs": 0,
+      "codex_sdk_family_records": 0,
+      "codex_app_server_runs": 0,
+      "codex_host_agent_runs": 0
+    },
+    {
+      "group": "Small diagnostics / 1",
+      "n": 1,
+      "dataset_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+      "case_set_sha256": "6ea4a9b3a45f0ff818ac6b95a807a4dcf87ce0f6be776678a28a45298b2e80f1",
+      "llm_api_runs": 1,
+      "llm_api_records": 2,
+      "codex_sdk_family_runs": 0,
+      "codex_sdk_family_records": 0,
+      "codex_app_server_runs": 0,
+      "codex_host_agent_runs": 0
+    },
+    {
+      "group": "Small diagnostics / 1",
+      "n": 1,
+      "dataset_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+      "case_set_sha256": "7380b45786a04e1e405b694ffd1dee1f7cd210ca8bf0ef30a78fc400076bbce1",
+      "llm_api_runs": 3,
+      "llm_api_records": 5,
+      "codex_sdk_family_runs": 0,
+      "codex_sdk_family_records": 0,
+      "codex_app_server_runs": 0,
+      "codex_host_agent_runs": 0
+    },
+    {
+      "group": "Small diagnostics / 1",
+      "n": 1,
+      "dataset_sha256": "fa78de42eb1de06e3566555bd8c68f09deaa6930f2b07ac8937ded858cc6ac11",
+      "case_set_sha256": "dc8189fad94d190dda312aa26eaa92fd9156bedea5439817c7596d85f622bea8",
+      "llm_api_runs": 3,
+      "llm_api_records": 3,
+      "codex_sdk_family_runs": 0,
+      "codex_sdk_family_records": 0,
+      "codex_app_server_runs": 0,
+      "codex_host_agent_runs": 0
+    }
+  ],
+  "distinct_case_sets": 16,
+  "gaia50_codex_family": {
+    "valid": {
+      "runs": 67,
+      "records": 67
+    },
+    "recorded_fresh": {
+      "runs": 64,
+      "records": 64
+    },
+    "stage_replay_ids": [
+      "R144",
+      "R146",
+      "R147"
+    ]
+  },
+  "gpt55_gaia50_all_stage_fresh_ids": [
+    "R148",
+    "R208",
+    "R210",
+    "R211",
+    "R212",
+    "R213",
+    "R215",
+    "R216",
+    "R219"
+  ],
+  "gpt55_medium_gaia50_all_stage_fresh_ids": [
+    "R208",
+    "R211",
+    "R212",
+    "R213",
+    "R215",
+    "R216",
+    "R219"
+  ],
+  "matched_host_three_stage_ids": [
+    "R208",
+    "R211",
+    "R212",
+    "R213"
+  ],
+  "status_counts_all_records": {
+    "scored_failures_zero": 43,
+    "complete_scored": 171,
+    "historical_prior_prediction": 6,
+    "audit_qualified": 1,
+    "audit_invalid": 4,
+    "composed_report": 1,
+    "mutated_diagnostic": 1
+  },
+  "new_inference_performed": false,
+  "caveats": [
+    "Valid score accounting does not prove fresh or independent inference.",
+    "API fresh_end_to_end is not a reliable frozen-upstream audit.",
+    "Method-family grouping does not imply matched backends, models or budgets.",
+    "All historical GAIA-50 cases are exposed; no hidden-set result is claimed."
+  ],
+  "source_archive": "research/results/experiment-history-2026-09-05/all-results.json",
+  "source_archive_sha256": "8c7b610e8281e6404854885cdcc6894bd65b30ca9f3f2cc5c4c07195b89445d0"
+}

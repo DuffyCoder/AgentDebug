@@ -1,0 +1,57 @@
+{
+  "schema_version": "agentdebug.research-profiles.v1",
+  "selection_metric": "step_exact",
+  "providers_are_not_comparison_groups": true,
+  "reporting_taxonomy": "agentdebug.result-taxonomy.v1",
+  "method_family_scope": "Codex SDK includes SDK/app-server and host-orchestrated Codex agent/subagent; actual execution provenance is retained.",
+  "profiles": [
+    {
+      "id": "official-gpt41",
+      "history_id": "R150",
+      "role": "local_public_repository_topology_baseline",
+      "expected_counts": [14, 9, 5],
+      "runner": "scripts.run_agent_judge_gaia_official_repo_gpt41_paper50",
+      "transport": "LLM API",
+      "method_family": "LLM API",
+      "execution_backend": "LLM API",
+      "model": "gpt-4.1",
+      "note": "Local result, not a reproduction of the paper's reported accuracy; the historical cohort file is called gaia-paper-v6 but has the same 50-case identity."
+    },
+    {
+      "id": "best-historical-v3p83",
+      "history_id": "R208",
+      "role": "accepted_step_exact_incumbent",
+      "expected_counts": [26, 16, 13],
+      "runner": "scripts.reproduction.run_gaia_v3p83",
+      "transport": "Codex agent/subagent (historical); standalone CLI replay adapter",
+      "method_family": "Codex SDK",
+      "execution_backend": "host-orchestrated Codex agent/subagent",
+      "model": "gpt-5.5",
+      "note": "Best accepted Step result in the Codex SDK method family. Historical execution used host agents, not the SDK package; v3.107 is a separate app-server port. Frozen verification is not new inference."
+    },
+    {
+      "id": "sdk-v3p107",
+      "history_id": "R216",
+      "role": "stronger_same_model_sdk_reference_candidate",
+      "expected_counts": [23, 18, 13],
+      "runner": "scripts.run_agent_judge_gaia_v3_107_v3p83_codex_sdk_bounded_retry_gpt55_medium_paper50",
+      "transport": "Codex Python SDK/app-server 0.147.0",
+      "method_family": "Codex SDK",
+      "execution_backend": "Codex SDK/app-server",
+      "model": "gpt-5.5",
+      "note": "Predates Official SDK v3. Rejected against historical v3.83 on Step Exact; can be a stronger cross-sectional SDK comparator. Not a sealed RSI reference anchor."
+    },
+    {
+      "id": "official-sdk-v3",
+      "history_id": "R219",
+      "role": "same_model_sdk_starter_candidate",
+      "expected_counts": [19, 9, 6],
+      "runner": "scripts.run_agent_judge_gaia_official_repo_gpt55_codex_sdk_v3_paper50",
+      "transport": "Codex Python SDK/app-server 0.147.0",
+      "method_family": "Codex SDK",
+      "execution_backend": "Codex SDK/app-server",
+      "model": "gpt-5.5",
+      "note": "Public native taxonomy plus others owner bridge; not a controlled model-only comparison to the GPT-4.1 baseline. No claim of exact API equivalence."
+    }
+  ]
+}

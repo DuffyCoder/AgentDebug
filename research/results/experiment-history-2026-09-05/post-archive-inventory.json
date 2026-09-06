@@ -1,0 +1,21 @@
+{
+  "archive_through": "2026-09-05",
+  "status": "outside_reviewed_snapshot_not_counted_as_valid_experiments",
+  "records": [
+    {
+      "run_dir": "output/agenterrorbench-codex-gpt-5.5-medium-rest150-official-v3-recovery-union86plus64-case150",
+      "metrics_path": "output/agenterrorbench-codex-gpt-5.5-medium-rest150-official-v3-recovery-union86plus64-case150/scored/agenterrorbench200/metrics.json",
+      "metrics_sha256": "e537a59dd7caab913034ec9047a2ea319a239e538163157f5757722038ff449d",
+      "recorded_at": "2026-09-06T14:28:40+08:00",
+      "n": 200
+    },
+    {
+      "run_dir": "output/agenterrorbench-codex-gpt-5.5-medium-rest150-official-v3-recovery-union86plus64-case150",
+      "metrics_path": "output/agenterrorbench-codex-gpt-5.5-medium-rest150-official-v3-recovery-union86plus64-case150/scored/rest150/metrics.json",
+      "metrics_sha256": "33d1e93c7dbf4b8c0098c5f6bb98e25bee7e171f7f1713f02431cbe8a499b09e",
+      "recorded_at": "2026-09-06T14:28:23+08:00",
+      "n": 150
+    }
+  ],
+  "note": "New records require execution/provenance/recovery review; this list makes no validity or freshness claim."
+}

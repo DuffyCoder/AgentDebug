@@ -1,0 +1,43 @@
+{
+  "metric_files": 222,
+  "rows": 227,
+  "statuses": {
+    "scored_failures_zero": 43,
+    "complete_scored": 171,
+    "historical_prior_prediction": 6,
+    "audit_qualified": 1,
+    "audit_invalid": 4,
+    "composed_report": 1,
+    "mutated_diagnostic": 1
+  },
+  "groups": {
+    "Small diagnostics / 1": 11,
+    "Full / 200": 5,
+    "Mixed-30 / tuning-v1": 40,
+    "Mixed-30 / smoke-v1": 3,
+    "Small diagnostics / 3": 70,
+    "Small diagnostics / 5": 2,
+    "Small diagnostics / 9": 1,
+    "GAIA-smoke-30": 14,
+    "GAIA-50": 73,
+    "Full / 150": 1,
+    "Small diagnostics / 8": 6,
+    "Small diagnostics / 10": 1
+  },
+  "csv_verification": {
+    "True": 227
+  },
+  "unknown_dates": [
+    "R220: codex-gpt-5.6-terra-smoke-v1-experiment-b-v1",
+    "R221: candidate-v3",
+    "R222: serial-v4",
+    "R223: boundary-v5",
+    "R224: strict-v8",
+    "R225: atom-v12",
+    "R226: atom-v13-backtrace",
+    "R227: official-repo-canonical-v2"
+  ],
+  "unscored_directories": 64,
+  "archive_through": "2026-09-05",
+  "post_archive_records_pending_review": 2
+}

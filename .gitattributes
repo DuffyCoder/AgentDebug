@@ -1,0 +1,13 @@
+* text=auto
+*.json text eol=lf
+*.jsonl text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+# Frozen CSV evidence is hashed byte-for-byte; preserve its original line endings.
+*.csv -text whitespace=cr-at-eol
+*.png binary
+*.pdf binary
+*.zip binary

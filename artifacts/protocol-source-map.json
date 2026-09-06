@@ -1,0 +1,86 @@
+{
+  "schema_version": "agentdebug.protocol-relocation.v1",
+  "transformation": "bounded module-token substitution only, including executable paths in prompts",
+  "semantic_constants_and_audit_identities_unchanged": true,
+  "fresh_accuracy_measured": false,
+  "modules": [
+    {
+      "original_path": "agentdebug/diagnostics/agent_judge.py",
+      "current_path": "agentdebug/diagnostics/_contract.py",
+      "original_sha256": "9e61c6268a1559c127f2ef25af5dcaa61715d06328eb1dd8ebdf1f31ea475a1b",
+      "current_sha256": "7a48d958eddcb09ad86bf1e316df347f4a7749228ca563cee74cab4ece50e301"
+    },
+    {
+      "original_path": "agentdebug/diagnostics/agent_judge_v2_4.py",
+      "current_path": "agentdebug/diagnostics/_owner_sources.py",
+      "original_sha256": "9b3604498086f6b62b7b0a410a585dfbed2b22b7269bf22db4bd5e93d1e1f1b2",
+      "current_sha256": "82d43a43fcf56ac1aae8e149b7af7c7cc579205fb2a44612ddb0ef6fc8dacf66"
+    },
+    {
+      "original_path": "agentdebug/diagnostics/agent_judge_luna_v3.py",
+      "current_path": "agentdebug/diagnostics/_causal_task.py",
+      "original_sha256": "1bd0932eeca58925d249af47d432fb0ae9ce9a37dce8d451c0dd6541a7bb1f2f",
+      "current_sha256": "b9c5e0f177d58ceb558e0b5f2f1a72914dccef7ba19c43de24b1c425d2120386"
+    },
+    {
+      "original_path": "agentdebug/diagnostics/agent_judge_luna_gaia_v1.py",
+      "current_path": "agentdebug/diagnostics/_nested_sources.py",
+      "original_sha256": "4dfab2dc096befc8cc7b293e922a69e2f1b852e1e05f005132544c693bc45070",
+      "current_sha256": "4207a8496303499c28ff9b83bb075379c465104bf16f38ab43bef8fd3b2c590a"
+    },
+    {
+      "original_path": "agentdebug/diagnostics/agent_judge_luna_gaia_v2.py",
+      "current_path": "agentdebug/diagnostics/_feedback_sources.py",
+      "original_sha256": "d5c51df328dae227560edd4aa5979ceaae5ece601d6e1ca26a6bdd565110441f",
+      "current_sha256": "3a234c9a25dae4776e403afc162700231f9a76d7ed3e5d039f792602edca1408"
+    },
+    {
+      "original_path": "agentdebug/diagnostics/agent_judge_luna_gaia_v2_1.py",
+      "current_path": "agentdebug/diagnostics/_evidence_policy.py",
+      "original_sha256": "1e80ed40d51badab51a65a7599be75e9ed321d8a1cc2ce3d35bb6afe8c5f6079",
+      "current_sha256": "7841a9f485d068e17bf82aafaf031722322c82a8768c73d792a554d9f05b3045"
+    },
+    {
+      "original_path": "agentdebug/diagnostics/agent_judge_luna_gaia_v3.py",
+      "current_path": "agentdebug/diagnostics/_step_freeze.py",
+      "original_sha256": "62173c33df5a8406d900443db9342a20fdb1197e17d98da7b17e2cd63af246c1",
+      "current_sha256": "3813f863ad1bd592af9fd853e57a1422691edb540c660eb17613b6dfb5d1287d"
+    },
+    {
+      "original_path": "agentdebug/diagnostics/agent_judge_luna_gaia_v3_1.py",
+      "current_path": "agentdebug/diagnostics/_anchor_policy.py",
+      "original_sha256": "5c676f40b2b704ed7c67019dc70ab517c414958e2bb2b0f7b72149c32646869b",
+      "current_sha256": "f1bcfcf538501cbbe02e48325897e7e346bfe7257332d9228e97af695ffdb0bf"
+    },
+    {
+      "original_path": "agentdebug/diagnostics/agent_judge_luna_gaia_v3_4.py",
+      "current_path": "agentdebug/diagnostics/_candidate_ledger.py",
+      "original_sha256": "a7ecc53fdca63174e6577becebbc8ba7a81acad77d5fc64571cf12597b1311a6",
+      "current_sha256": "22400afc7d058a8529098f7793e7ce8e2774f59677e71cf8ec0c7a1404c0fd90"
+    },
+    {
+      "original_path": "agentdebug/diagnostics/agent_judge_luna_gaia_v3_13_conservative_challenger.py",
+      "current_path": "agentdebug/diagnostics/_debate.py",
+      "original_sha256": "a3376ad62b6d5888040141d26104b527265ebf5036481154e20a9508bae77a6c",
+      "current_sha256": "21e65b04e051ca7f424a45825f235f25d830abc45c0d62bac685dd1a2c1dbf65"
+    },
+    {
+      "original_path": "agentdebug/diagnostics/agent_judge_luna_gaia_v3_14_earliest_causal_challenger.py",
+      "current_path": "agentdebug/diagnostics/_protocol_challenger.py",
+      "original_sha256": "9896daf28b4257df02d203cfaa3a90bcce75c402a83e9d526dc0bbbf7764a41a",
+      "current_sha256": "fbdb73ed4a4c2d2380563ca223a41e5bb39ae7521868579b51a09ce04f88ff7b"
+    },
+    {
+      "original_path": "agentdebug/diagnostics/agent_judge_luna_gaia_v3_20_packet_state_closure.py",
+      "current_path": "agentdebug/diagnostics/_state_closure.py",
+      "original_sha256": "3e886325bf0a4b4d4a3e770071c0a36fe81dab2bebaf5015561ca828b6c2e4f9",
+      "current_sha256": "17b076c236311b1b0b7a96b4dd2bd0ff0df9d510f10788b00f55c72c2af82eb5"
+    },
+    {
+      "original_path": "agentdebug/diagnostics/agent_judge_gaia_v3_83_clean_v3p20_model_only_gpt55_medium.py",
+      "current_path": "agentdebug/diagnostics/protocol.py",
+      "original_sha256": "a97908a78cec8df5fe9e4777d30aa9ecf498d1cdd1d692a42cc66976e9844531",
+      "current_sha256": "1334ed6cf52fc1ccc62bdf2bb825d50213c1bb7f6ad161dba41b12245df8c4c2"
+    }
+  ]
+}

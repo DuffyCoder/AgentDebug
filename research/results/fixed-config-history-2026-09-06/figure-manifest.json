@@ -1,0 +1,21 @@
+{
+  "source_archive_sha256": "8c7b610e8281e6404854885cdcc6894bd65b30ca9f3f2cc5c4c07195b89445d0",
+  "plot_script_sha256": "c923f58e789198d978793acc2fb559154176b73bbc6f6def88992ee715c3fd87",
+  "files": {
+    "01-luna-gaia50-fixed-three-stage.pdf": "25f5c0a12c077a201c6983e2e26cad9625579b94ed057ede7e7479ae35c854b6",
+    "01-luna-gaia50-fixed-three-stage.png": "1eade37e36805ff2cf563f8b847a3e5b16bdb6dbc835fc1366e8aee86201d40d",
+    "02-gpt55-gaia50-fixed-three-stage.pdf": "0f19e31c1da1a9b61b5bfe4961666633fca69db8e99f55f1be43767f5a3e233d",
+    "02-gpt55-gaia50-fixed-three-stage.png": "d51abc1c13d14031017a37804022d43633d870d4a0ab078d911a27b7dde80849",
+    "03-luna-gaia30-fixed-case-session.pdf": "c53733ba5238ef92fbef33cd920a2cf8e00a032f9d770bc8f12bd12911315abe",
+    "03-luna-gaia30-fixed-case-session.png": "5ba4e72686fe4fc47bf31a5ec63bc691f6fec94d00d1d6cb2277f776fe952268",
+    "04-sdk-and-api-unmatched-comparisons.pdf": "e7f5dc50b7b58b36536698725161a14f5838d068e8f3769f0f48acfa3c4172df",
+    "04-sdk-and-api-unmatched-comparisons.png": "163911dfa60095a2d36e5f3bbb6ff7f93864478b7f0f3f37aabd89165e2fa85e",
+    "05-luna-gaia50-runtime-only.pdf": "4686ad2260e357e429a21fe09f15799d60ec95983355c2f39c434b187e106ac2",
+    "05-luna-gaia50-runtime-only.png": "34e5a1e97737970180892f313101de62b52f8f5a05840be33b4a2fea5a96dd98",
+    "06-all-gaia-config-groups.pdf": "f8554341fa3aea65fab5fb270ac5c8428ba9ef905cbf2c584bd0758b22707c7b",
+    "fixed-config-records.csv": "341d479e9f8fbbd2190ce7fa16f3e3d9a3e225d0fda3a14f616a1c25749cdf85",
+    "fixed-config-records.json": "8ad8b9c3128ae2a1b06b8bee474f355dee4a2bc8b7eb618876c37c3a63614446",
+    "sdk-runtime-evidence.json": "41d7f3e51370c1644976b8247fe84f8c121f21254ec909ed07507f1f575ef591",
+    "verification-summary.json": "290af10bd460a67977d817689f643b268163cef23b287d08f8eb001d82604796"
+  }
+}

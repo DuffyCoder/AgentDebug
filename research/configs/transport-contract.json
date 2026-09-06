@@ -1,0 +1,68 @@
+{
+  "agentic_api_approximation": true,
+  "api_key_used": false,
+  "approval_policy": "never",
+  "auth_mode": "chatgpt",
+  "builtin_provider_internal_retries_configurable": false,
+  "bundled_cli_version": "0.147.0",
+  "config_overrides_sha256": "56a4ab4dee9fc23ab63213ccee4ddfd9787173e27176e5e2f52ba427e9119c15",
+  "fresh_ephemeral_thread_per_call": true,
+  "internal_retry_attempts_observable": false,
+  "model_provider": "openai",
+  "model_verbosity_configured": "low",
+  "model_visible_tool_count": 3,
+  "model_visible_tool_names": [
+    "apply_patch",
+    "request_user_input",
+    "update_plan"
+  ],
+  "optional_context_included": false,
+  "output_schema_used": false,
+  "parallel_tool_calls": true,
+  "prompt_role_mapping": {
+    "system_prompt": "thread.base_instructions",
+    "user_prompt": "turn.input"
+  },
+  "provider_wire_api": "responses",
+  "reasoning_effort": "medium",
+  "requested_model": "gpt-5.5",
+  "responses_include": [
+    "reasoning.encrypted_content"
+  ],
+  "responses_parameters_not_sent": [
+    "conversation",
+    "max_output_tokens",
+    "previous_response_id",
+    "temperature",
+    "top_p"
+  ],
+  "responses_store": false,
+  "responses_stream": true,
+  "responses_top_level_keys": [
+    "client_metadata",
+    "include",
+    "input",
+    "instructions",
+    "model",
+    "parallel_tool_calls",
+    "prompt_cache_key",
+    "reasoning",
+    "store",
+    "stream",
+    "text",
+    "tool_choice",
+    "tools"
+  ],
+  "responses_text_config": {
+    "verbosity": "low"
+  },
+  "responses_tool_choice": "auto",
+  "sandbox_mode": "read-only",
+  "schema_version": "agentdebug.official-repo-codex-sdk-chatgpt-request-contract.v1",
+  "sdk_version": "0.147.0",
+  "shared_app_server": true,
+  "temperature_parameter_available": false,
+  "thread_config_sha256": "7ae6f4d34c8106efa06a181f708041c0055734b3b5ec3e30c8bcb8997da74597",
+  "tool_use_policy": "fail_closed_on_any_observed_tool_or_harness_item",
+  "transport": "codex-python-sdk-app-server-chatgpt"
+}

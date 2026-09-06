@@ -1,0 +1,33 @@
+{
+  "R216": {
+    "source": "output/agenterrorbench-sophnet-gpt-5.5-gaia-paper-v1-agent-judge-gaia-v3p107-v3p83-codex-sdk-bounded-retry-case50/transport-preflight.json",
+    "source_sha256": "b17d71889380da2994b4d030a069c104a0b3ac71c0776535ed5ffcf06b59c02a",
+    "sdk_version": "0.147.0",
+    "transport_retry_policy": {
+      "policy": "codex-sdk-provider-request2-stream2.v1",
+      "provider_request_max_retries": 2,
+      "provider_stream_max_retries": 2,
+      "maximum_request_attempts_including_initial": 3,
+      "maximum_stream_recoveries": 2,
+      "scope": "within_one_fresh_sdk_thread_and_turn",
+      "does_not_consume_fresh_semantic_attempt": true,
+      "max_fresh_semantic_attempts_per_stage": 2,
+      "actual_transport_retry_count_observable_from_sdk_result": false
+    },
+    "semantic_attempts": 2,
+    "semantic_attempt_unit": "stage",
+    "output_contract": "v3.83 strict owner/taxonomy/evidence validation"
+  },
+  "R219": {
+    "source": "output/agenterrorbench-codex-gpt-5.5-medium-gaia-paper-v1-agent-judge-official-repo-topology-sdk-v3-native-taxonomy-bridge-case50/experiment-plan.json",
+    "source_sha256": "0bdbe9b3020c4725366df5ac6863c3ad7abf35bba320a0fada2c43f34a8ac5e3",
+    "sdk_version": "0.147.0",
+    "bundled_cli_version": "0.147.0",
+    "outer_semantic_retries": 0,
+    "max_same_prompt_transport_attempts": 3,
+    "provider_internal_retry_budget_observable": false,
+    "semantic_attempts": 1,
+    "semantic_attempt_unit": "call",
+    "output_contract": "native taxonomy + others virtual-owner bridge"
+  }
+}

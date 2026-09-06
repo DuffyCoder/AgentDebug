@@ -1,0 +1,50 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  public-checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install locked tooling
+        run: python -m pip install uv==0.11.15
+      - name: Install dependencies
+        run: uv sync --frozen --extra dev
+      - name: Check public interfaces, documentation, and artifacts
+        run: make check
+      - name: Validate optional local commit hooks
+        run: uv run pre-commit validate-config
+      - name: Build framework distributions
+        run: uv build
+      - name: Inspect distribution contents
+        run: uv run python -m scripts.maintenance.check_distribution dist/agentdebug-0.4.0*
+      - name: Smoke-test installed wheel outside the checkout
+        run: |
+          uv venv "$RUNNER_TEMP/agentdebug-wheel"
+          uv pip install --python "$RUNNER_TEMP/agentdebug-wheel/bin/python" dist/*.whl
+          cd "$RUNNER_TEMP"
+          for command in agentdebug agentdebug-trace agentdebug-benchmark agentdebug-agent-judge; do
+            "$RUNNER_TEMP/agentdebug-wheel/bin/$command" --help
+          done
+          "$RUNNER_TEMP/agentdebug-wheel/bin/agentdebug" ingest \
+            --session "$GITHUB_WORKSPACE/examples/moltbot_failure_session.jsonl" \
+            --task "$GITHUB_WORKSPACE/examples/email_triage_task.yaml" \
+            --output "$RUNNER_TEMP/agentdebug-wheel/example.canonical.json" --strict
+          "$RUNNER_TEMP/agentdebug-wheel/bin/agentdebug" validate \
+            --session "$GITHUB_WORKSPACE/examples/moltbot_failure_session.jsonl" \
+            --task "$GITHUB_WORKSPACE/examples/email_triage_task.yaml" \
+            --output "$RUNNER_TEMP/agentdebug-wheel/example.integrity.json" --strict

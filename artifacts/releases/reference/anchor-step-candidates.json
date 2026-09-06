@@ -1,0 +1,1992 @@
+[
+  {
+    "trajectory_id": "GPT-4o_001_memory_b000_t00_e00-7743eba0",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; Step 1 identifies the need to determine the track and then search for its 150cc record; the broad Google query is a first reasonable probe and no adjacent external exception is present."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "I should extract text from the YouTube video's page, as it could contain descriptions or comments that specify the racetrack.",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; Memory and Reflection faithfully report that the first search did not identify the two-minute track, but Planning then relies on static YouTube page text/comments to determine a timestamp-specific video fact, a modality the chosen tool cannot observe."
+      }
+    ],
+    "selected_step": 2
+  },
+  {
+    "trajectory_id": "GPT-4o_002_memory_b000_t00_e01-7ab08a46",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; Initial decomposition into finding the Tropicos ID and computing an ISBN-10-style check digit is adequate, and the first Google search is a reasonable initial probe despite later uninformative output."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; Memory and Reflection faithfully report the Helodiaceae result as not directly relevant, and the Wikipedia query is a materially different exploratory source after the first Google result."
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; The no-result Wikipedia observation is preserved accurately, and a site-restricted Google query against Tropicos is a materially different targeted probe."
+      },
+      {
+        "step": 4,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "This plan allows for a more thorough inspection of the page content, which might contain the Tropicos ID for Helotiales even if it's not immediately visible in the search snippet.",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; After Memory records that step 3 again returned an unrelated Helodiaceae page, the plan still consumes that known unrelated Tropicos search result as a possible source for the Helotiales ID, creating the first hard task/targeting candidate."
+      }
+    ],
+    "selected_step": 4
+  },
+  {
+    "trajectory_id": "GPT-4o_003_memory_b000_t00_e03-21a3a421",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "Direct Object: The word for \"apples\" in the accusative form is \"Zapple\".",
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; the step has no Memory or Reflection, and the plan immediately violates the task's stated reversed argument mapping by treating apples as the direct object and I as the nominative subject."
+      }
+    ],
+    "selected_step": 1
+  },
+  {
+    "trajectory_id": "GPT-4o_004_memory_b000_t00_e04-5e8c1dcf",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "a * b = b, b * a = c (not commutative)",
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; no Memory or Reflection packet state exists; the first step performs the required table calculation but misreads table entries, making the arithmetic comparison a hard task-condition candidate before the final answer."
+      }
+    ],
+    "selected_step": 1
+  },
+  {
+    "trajectory_id": "GPT-4o_005_memory_b000_t00_e05-c9015705",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial plan targeted the required Moon Wikipedia source and the adjacent disambiguation/no-match feedback was normal unhelpful tool content, so no hard-condition or System candidate survives."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; memory and reflection accurately retained that the prior Wikipedia search failed to retrieve the Moon perigee value; the Google-source proposal is not yet material until a non-Wikipedia value is consumed."
+      },
+      {
+        "step": 3,
+        "lane_a": "candidate",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_a",
+        "evidence_quote": "successfully provided the information about the Moon's minimum perigee distance, which is approximately 363,300 kilometers",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=outcome_misread; first surviving candidate: reflection treats the Google/Quora-derived 363,300 km value as successfully securing the required Moon Wikipedia minimum perigee value, feeding the next plan away from the unresolved source constraint."
+      }
+    ],
+    "selected_step": 3
+  },
+  {
+    "trajectory_id": "GPT-4o_006_memory_b000_t00_e06-71f77595",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial search targets the Box Office Mojo worldwide list and no Memory/Reflection state exists in the packet."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; Memory and Reflection accurately retain that the search found the worldwide Box Office Mojo page and that extraction plus the domestic list remain open."
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; Memory and Reflection faithfully summarize the worldwide extraction and the plan searches Box Office Mojo for the domestic list."
+      },
+      {
+        "step": 4,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; Memory and Reflection accurately report that the domestic Box Office Mojo search found the relevant page and extraction is still needed."
+      },
+      {
+        "step": 5,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "candidate",
+        "lane_c": "clear",
+        "surviving_lane": "system",
+        "evidence_quote": "Error executing tool 'python_code_generator': Object of type set is not JSON serializable",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; assistant state is faithful to the domestic extraction, and the adjacent feedback then reports an eligible literal tool execution exception for the well-formed comparison call."
+      }
+    ],
+    "selected_step": 5
+  },
+  {
+    "trajectory_id": "GPT-4o_007_memory_b000_t00_e08-f572f2ad",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial Google search targets the required journal/year/nano-compound criteria and is a reasonable first probe with no memory/reflection state to close"
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; memory and reflection accurately retain that the first search did not directly resolve the required article, and the site:nature.com query is a materially different reasonable probe"
+      },
+      {
+        "step": 3,
+        "lane_a": "candidate",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_a",
+        "evidence_quote": "The search did not provide a direct link to the relevant article or its content.",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=outcome_misread; the step-2 feedback included a Nature Scientific Reports 2012 Nano-Bio-Complex candidate link, but Memory/Reflection closed that result as no direct relevant link or content and used that false progress state for the next packet"
+      }
+    ],
+    "selected_step": 3
+  },
+  {
+    "trajectory_id": "GPT-4o_008_memory_b000_t00_e09-f0557a9f",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial broad Google search targets BASE/DDC/unique-flag information and is a reasonable first probe despite uninformative results"
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; memory and reflection accurately retain that step 1 returned unrelated results; refined site-targeted Google query is a materially different reasonable probe"
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; prior failed searches are summarized faithfully; searching for BASE/catalog access is a different reasonable route toward the primary source"
+      },
+      {
+        "step": 4,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; no false state is introduced before trying the BASE home page with url_text_extractor; the later access-denied page is normal returned content, not an eligible external exception"
+      },
+      {
+        "step": 5,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "using a tool that can search within a specific academic or library database that might have overlap with BASE's content or that indexes similar materials. This could potentially include using the arxiv_paper_searcher or pubmed_search tool if applicable",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; after access denial, the plan relies on arXiv/PubMed-style academic corpora to reveal BASE-specific DDC 633 unknown-language result and flag information, a corpus/modality mismatch that is the first surviving candidate"
+      }
+    ],
+    "selected_step": 5
+  },
+  {
+    "trajectory_id": "GPT-4o_009_memory_b001_t00_e01-7ab08a46",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial Google search for the named paper is a reasonable first locating probe; no memory/reflection state is present and no external exception is eligible."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; memory and reflection accurately retain that Google found the paper links; trying the direct Leicester download URL with the extractor is an initial access probe."
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the 403 is retained faithfully and treated as blocked extraction; arXiv is a different corpus probe after the direct URL failed, and the 403 text is normal access-denied content rather than an eligible System exception."
+      },
+      {
+        "step": 4,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the empty arXiv result and earlier 403 are summarized accurately; returning to Google with a full-text query is a different web-search probe for alternate sources."
+      },
+      {
+        "step": 5,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the similar Google results are not converted into a false state; PubMed is a low-probability but materially different academic-corpus probe, not yet a matured repeat."
+      },
+      {
+        "step": 6,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the no-result PubMed outcome is retained; a targeted Google search with pdf/full-text terms is a different web-source probe following the database miss."
+      },
+      {
+        "step": 7,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the Google result set included a distinct Leicester view URL and other hosts; extracting the view page is a materially different URL probe despite earlier 403 on the download URL."
+      },
+      {
+        "step": 8,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the second Leicester 403 is accurately retained; the pdf download Google query follows a different failed URL extraction and remains an alternate-search probe."
+      },
+      {
+        "step": 9,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the latest Google result is summarized as not providing accessible content; the broader arXiv query changes the discriminating query after intervening source probes, so ordinary repetition is reset."
+      },
+      {
+        "step": 10,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "candidate",
+        "surviving_lane": "lane_c",
+        "evidence_quote": "I will perform another Google search with a focus on finding alternative platforms that might host the document. I will include terms like \"pdf\" or \"download\" to uncover less conventional sources that might offer access to the paper.",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the empty broader arXiv result is retained, but the plan exactly reuses the same Google pdf download operation already shown unhelpful at step 8, so the first surviving candidate is lane_c inefficient repetition."
+      }
+    ],
+    "selected_step": 10
+  },
+  {
+    "trajectory_id": "GPT-4o_010_memory_b001_t00_e02-8d639e26",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial Google search targets the needed video identity and possible transcript sources, with no Memory/Reflection state and no hard interface failure before feedback."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "The plan is to use the URL of the video to extract the text, which will likely contain the narration and help identify the number mentioned.",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; first surviving candidate: after identifying the likely YouTube video, the plan relies on url_text_extractor to obtain video narration/transcript content, but a static URL text extractor cannot observe dynamic YouTube 360 video narration or frames."
+      }
+    ],
+    "selected_step": 2
+  },
+  {
+    "trajectory_id": "GPT-4o_011_memory_b001_t00_e03-21a3a421",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial Google search targets the census, tertiary education, and gender split, so it is a reasonable first probe with no adjacent external exception."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; memory and reflection retain that the search found an NSI PDF but not the needed split, and trying the PDF extractor is an initial reasonable source probe; raw PDF bytes in feedback are not an eligible System exception."
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the packet accurately treats the PDF extraction as corrupted and switches to a more specific Google search, a materially different probe after uninformative PDF text."
+      },
+      {
+        "step": 4,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the packet preserves the newly found 791.8 thousand women fact and the still-open male count, and the targeted male-count Google query is a reasonable first probe for that subgoal."
+      },
+      {
+        "step": 5,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the packet accurately says the targeted Google search did not provide the male count, and trying Wikipedia is a different source/corpus rather than a repeated failing operation."
+      },
+      {
+        "step": 6,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the packet accurately reports that Wikipedia did not yield the needed Bulgarian male count, and a refined Google query after that intervening corpus is a materially different probe."
+      },
+      {
+        "step": 7,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "candidate",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "tool: url_text_extractor\nparameters: {\"url\": \"https://www.nsi.bg/census2011/pdocs2/census2011final_en.pdf\"}",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; after the same PDF URL extraction had already returned raw corrupted bytes, the assistant planned to use a different method or tool but executed the identical url_text_extractor call on the identical NSI PDF, so the first surviving candidate is lane_b before the lane_c repeat symptom."
+      }
+    ],
+    "selected_step": 7
+  },
+  {
+    "trajectory_id": "GPT-4o_012_memory_b001_t00_e04-5e8c1dcf",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; Initial DOI search targets the article and leaves the exact quote comparison open."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "veto_initial_probe",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; Memory and reflection accurately retain that only search results exist, and the first direct PDF extraction attempt is a reasonable initial probe."
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; The raw PDF result is faithfully treated as unreadable and the Project MUSE article-page search is a materially different probe."
+      },
+      {
+        "step": 4,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; Before this action, the agent has not yet seen the HTML article text, and extracting the Project MUSE article page targets the unresolved quotation check."
+      },
+      {
+        "step": 5,
+        "lane_a": "candidate",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_a",
+        "evidence_quote": "the extracted text was mostly metadata and abstract, without the specific content on pages 45-46",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=outcome_misread; Step 4 adjacent feedback contained the article passage with the needed wording, but step 5 memory/reflection falsely retained the result as lacking the specific page text, making this the first surviving candidate."
+      }
+    ],
+    "selected_step": 5
+  },
+  {
+    "trajectory_id": "GPT-4o_013_memory_b001_t00_e05-c9015705",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial Google search targets the required symbol values and sexagesimal conversion, and its normal search results are not an external exception."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; memory and reflection accurately retain that only relevant resources were found, and extracting the first relevant Wikipedia result is a reasonable first source probe."
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the 403 is retained as blocking extraction, is normal returned content rather than an eligible System exception, and Wikipedia search is a different access route."
+      },
+      {
+        "step": 4,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the no-results feedback is retained, and a more specific Google query for an individual cuneiform symbol is a materially different reasonable probe."
+      },
+      {
+        "step": 5,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "Convert the Babylonian number with symbols 𒐜 (8), 𒐐 (50), and 𒐚 (2) in base-60 to a decimal number.",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; memory and reflection only retain observed values for 𒐜 and 𒐐, but the same packet proceeds to calculate with an unobserved value for 𒐚 and unresolved positional grouping, creating the first hard prerequisite/input candidate."
+      }
+    ],
+    "selected_step": 5
+  },
+  {
+    "trajectory_id": "GPT-4o_014_memory_b001_t00_e06-71f77595",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial broad Google search targets GitHub numpy.polynomial issues and is a reasonable first probe; feedback returns potentially relevant GitHub issue snippets."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; memory and reflection preserve that Google found related issue links but not label-date evidence; direct GitHub filtered extraction is still an initial source probe, and the uninformative page/no-results text is normal feedback rather than an external exception."
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "By visiting the GitHub issues page in a browser, I can visually inspect the issues and access their timelines to find the date when the \"Regression\" label was added.",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; after the URL extractor returned only navigation/no-results text, the plan relies on visiting GitHub in a browser and visually inspecting timelines, but no browser/manual inspection tool is available in the task interface, making this the first surviving hard capability candidate."
+      }
+    ],
+    "selected_step": 3
+  },
+  {
+    "trajectory_id": "GPT-4o_015_memory_b001_t00_e07-f5b5d66a",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; Initial search for the 2015 paper authors directly targets the first required entity and yields author-identifying snippets, with no memory/reflection state yet."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; Memory and reflection retain that the authors were identified but prior-publication status and first paper remain open; starting with one named author's publication history is an admissible probe."
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; The state accurately treats the prior search as not comprehensive and not first-paper-confirming; searching specifically for the Google Scholar profile is a materially narrower follow-up target."
+      },
+      {
+        "step": 4,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "candidate",
+        "lane_c": "clear",
+        "surviving_lane": "system",
+        "evidence_quote": "Error fetching URL: 429 Client Error: Too Many Requests for url: https://scholar.google.com/citations?user=L9um4xoAAAAJ&hl=en",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; Assistant state and plan follow the literal Google result pointing to Pietro Murano's Scholar profile, then the same step packet closes with an eligible external 429 fetch exception for the well-formed URL."
+      }
+    ],
+    "selected_step": 4
+  },
+  {
+    "trajectory_id": "GPT-4o_016_memory_b001_t00_e08-f572f2ad",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial Google search targets the necessary first-short subgoal and is a reasonable first probe, with no Memory or Reflection state yet."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "candidate",
+        "surviving_lane": "lane_c",
+        "evidence_quote": "I will conduct another search focused on identifying the first National Geographic short on YouTube, possibly by including keywords like \"first National Geographic YouTube short\" and \"release date\".",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; Memory and Reflection faithfully report that the first Google search failed to identify the short or #9, but Planning immediately recommits to the same Google/snippet strategy for the same unresolved first-short subgoal with only wording-level refinement."
+      }
+    ],
+    "selected_step": 2
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_001_memory_b000_t00_e00-7743eba0",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial broad Google search for MK8DX 150cc records/source leads is a reasonable first probe and no Memory or Reflection state exists in the packet"
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; Memory and Reflection accurately retain that the track is unknown and the first search did not answer the task; trying the mkwrs result once is an initial source probe"
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the agent keeps the unresolved track/date requirements and switches to a materially different Google query to identify the GameGrumps video or track"
+      },
+      {
+        "step": 4,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "candidate",
+        "surviving_lane": "lane_c",
+        "evidence_quote": "To achieve this, we could use the url_text_extractor tool on a website that tracks Mario Kart 8 Deluxe world records, such as https://mkwrs.com/mk8dx/, to extract the relevant information.",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; after mkwrs had already returned current non-date-specific records while the track remained unknown, the plan recommits to the same URL extraction instead of pursuing the unresolved video/track identification or date-specific history"
+      }
+    ],
+    "selected_step": 4
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_002_memory_b000_t00_e01-7ab08a46",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial Google search targets the missing Tropicos ID and remains a reasonable first probe despite uninformative output."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; memory and reflection accurately retain that the Google result was only a Tropicos lead, and extracting that specific page is an initial reasonable follow-up."
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the failed extractor result is accurately summarized, and returning to Google after a different source/modality probe is not yet a surviving repeat."
+      },
+      {
+        "step": 4,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the prior unhelpful Google result is retained correctly, and Wikipedia is a materially different source for a contextual lead."
+      },
+      {
+        "step": 5,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the Wikipedia result is accurately treated as lacking the Tropicos ID, and direct Tropicos-site extraction is a different exploratory target."
+      },
+      {
+        "step": 6,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the homepage extraction failure is retained, and a more specific web search after intervening probes is still treated as a different probe rather than the first material breakpoint."
+      },
+      {
+        "step": 7,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "candidate",
+        "lane_c": "clear",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "One potential approach is to use the python_code_generator tool to generate a Python code snippet that can calculate the check digit for a given Tropicos ID, assuming we had the ID.",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; with the Tropicos ID still missing, the plan switches to check-digit code generation assuming the prerequisite existed, so lane_b is the first surviving candidate before the adjacent external exception."
+      }
+    ],
+    "selected_step": 7
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_003_memory_b000_t00_e02-8d639e26",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; Initial Google search for the episode phrase is a reasonable first probe, with no Memory or Reflection block and no literal external exception."
+      },
+      {
+        "step": 2,
+        "lane_a": "candidate",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_a",
+        "evidence_quote": "The search query was \"Game Grumps Sonic the Hedgehog 2006 episode 1 phrase\".",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=dropped_necessary_fact; The step-1 feedback contained a concrete relevant clue, including the title snippet \"Sonic 06: Oh No - PART 1 - Game Grumps\", but step 2 Memory retained only that a search was run and the query, feeding a plan/action that did not use the clue."
+      }
+    ],
+    "selected_step": 2
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_004_memory_b000_t00_e03-21a3a421",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "For the subject \"I\", we are given \"Pa\" as the nominative form, but since the verb \"Maktay\" implies that the subject is the one being pleased (or the liker), we should use \"Pa\" for \"I\" as it is the subject of the sentence and the sentence structure requires the nominative form for the subject.",
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; no Memory or Reflection block is present, and the first step's plan ignores the explicit Tizin predicate/case condition that the liker is the object rather than the subject."
+      }
+    ],
+    "selected_step": 1
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_005_memory_b000_t00_e04-5e8c1dcf",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "candidate",
+        "lane_c": "clear",
+        "surviving_lane": "system",
+        "evidence_quote": "Error executing tool 'python_code_generator': Error code: 400 - {'error': {'message': 'invalid model ID', 'type': 'invalid_request_error', 'param': None, 'code': None}}",
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; Step 1 has no Memory or Reflection, the plan targets the required table comparison, and the available python_code_generator call is well formed; adjacent feedback reports an invalid model ID external execution exception, so system is the first surviving lane."
+      }
+    ],
+    "selected_step": 1
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_006_memory_b000_t00_e05-c9015705",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial Wikipedia search for Moon perigee is a reasonable first probe toward the required Wikipedia Moon minimum perigee value, and the adjacent feedback is normal extracted search text with no external exception."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; memory and reflection faithfully report that the first Wikipedia result did not provide the needed value; trying a more specific Google query is only a different source probe, and the disallowed source value is not yet consumed."
+      },
+      {
+        "step": 3,
+        "lane_a": "candidate",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_a",
+        "evidence_quote": "The last action was successful in terms of finding the minimum perigee value of the Moon",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=outcome_misread; first surviving candidate because the packet treats a Google/NASA snippet giving an approximate perigee as satisfying the task-required minimum perigee value from the Moon Wikipedia page, then moves to the pace subgoal."
+      }
+    ],
+    "selected_step": 3
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_007_memory_b000_t00_e08-f572f2ad",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "\"num_results\": \"100\"",
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; first packet has no Memory/Reflection; the initial Google probe is reasonable, but its action violates the documented integer type for num_results and receives invalid-argument feedback, so the assistant-side hard interface candidate survives before System."
+      }
+    ],
+    "selected_step": 1
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_008_memory_b000_t00_e09-f0557a9f",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial broad Wikipedia context probe for DDC 633 after recognizing BASE would be the ideal source, with no memory/reflection state to close."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; memory and reflection accurately retain that Wikipedia gave only general classification background, and the first broad Google search is still an exploratory route toward BASE/DDC context."
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "veto_initial_probe",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; prior search results are summarized faithfully, and the guessed BASE URL extraction is the first direct BASE-access probe rather than a surviving hard-condition error."
+      },
+      {
+        "step": 4,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the 404 is retained accurately and the subsequent Google query changes source/target after the failed URL, so it is a materially different exploratory probe."
+      },
+      {
+        "step": 5,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the step keeps the lack of direct DDC/unknown-language evidence and tries a different contextual source about Bielefeld/library systems."
+      },
+      {
+        "step": 6,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the general library-portal result is not misread as the answer, and Google is redirected to Bielefeld catalog/DDC terms as a different search target."
+      },
+      {
+        "step": 7,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "we could attempt to use the arxiv_paper_searcher tool to look for specific information about Bielefeld University Library's catalog system or how they handle articles under DDC 633.",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; memory/reflection faithfully report no answer yet, but the plan relies on arXiv to expose Bielefeld BASE catalog handling/flag-relevant evidence, a corpus/modality mismatch that survives before the same-step typed-argument exception."
+      }
+    ],
+    "selected_step": 7
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_009_memory_b001_t00_e00-7743eba0",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial Wikipedia search for the secretary list is a reasonable first corpus probe and has no memory/reflection state."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; memory and reflection accurately note that the first extraction lacked the actual list, and switching to Google search is a materially different reasonable probe."
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the search result exposed a DHS page, and extracting that page is a different source/modality probe for the secretary list."
+      },
+      {
+        "step": 4,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the DHS extraction supplied the secretary list, and beginning individual degree searches with Tom Ridge is a reasonable first probe for the next subgoal."
+      },
+      {
+        "step": 5,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the memory preserves the Tom Ridge bachelor result supported by the prior snippet and continues to a remaining secretary."
+      },
+      {
+        "step": 6,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the memory preserves Kirstjen Nielsen's Georgetown result supported by the prior snippets and searches another remaining secretary."
+      },
+      {
+        "step": 7,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the memory preserves Jeh Johnson's Morehouse result supported by the prior snippets and searches another remaining secretary."
+      },
+      {
+        "step": 8,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the memory preserves Janet Napolitano's Santa Clara result supported by the prior snippets and searches another remaining secretary."
+      },
+      {
+        "step": 9,
+        "lane_a": "candidate",
+        "lane_b": "clear",
+        "system": "candidate",
+        "lane_c": "clear",
+        "surviving_lane": "lane_a",
+        "evidence_quote": "we can infer that he attended Harvard University",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=unsupported_fact; after the Michael Chertoff search returned no explicit bachelor's institution, Memory invents Harvard as an inferred degree source and Reflection consumes that false state by claiming five educational backgrounds are available before the adjacent tool exception is considered."
+      }
+    ],
+    "selected_step": 9
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_010_memory_b001_t00_e01-7ab08a46",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial general search for the named paper is a reasonable first probe and the successful search result exposed target paper links without resolving the volume."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; memory and reflection preserve that the paper was found but the volume was not, and trying the direct Leicester PDF URL is a reasonable access probe; the 403 text is an ineligible normal extractor result."
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the 403 access problem is accurately retained, and searching for alternative summaries is a materially different source strategy after the blocked direct URL."
+      },
+      {
+        "step": 4,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "candidate",
+        "lane_c": "clear",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "we should try to find the volume of the fish bag by using the python_code_generator tool to calculate it based on the information that 13 Icelandic cod and 56 Atlantic salmon every day, which totaled 716 kg, were required for Toothless.",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the step-3 search result supplied only a fish mass fact, not the paper's calculated bag volume or the calculation prerequisites, so the plan to calculate the requested paper value from that snippet plus an unstated density assumption is the first hard prerequisite/source-condition failure; the later invalid-model tool exception is same-packet but ordered after the planning candidate."
+      }
+    ],
+    "selected_step": 4
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_011_memory_b001_t00_e02-8d639e26",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial Google search was a reasonable first probe for the required video, narrator, dinosaur moment, and transcript/number evidence, and the adjacent feedback returned ordinary search results rather than an external exception."
+      },
+      {
+        "step": 2,
+        "lane_a": "candidate",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_a",
+        "evidence_quote": "The results provided some information about Andy Serkis and his work but did not directly answer the question about the number mentioned after dinosaurs were first shown in the video.",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=dropped_necessary_fact; the prior Google feedback included a task-specific Hugging Face result whose snippet repeated the exact YouTube 360 VR Andy Serkis March 2018 prompt and pointed toward extracting captions, but Memory reduced the results to generic Andy Serkis information and fed that incomplete state into the next plan."
+      }
+    ],
+    "selected_step": 2
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_012_memory_b001_t00_e03-21a3a421",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial Wikipedia search for the census education split is a reasonable first probe and returns ordinary irrelevant text, not an exception."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; memory and reflection correctly retain that Step 1 did not provide the needed sex counts, and switching to Google search is a materially broader source probe."
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the Google results are summarized as links without the required numbers, and extracting the likely NSI census PDF is a materially different source and modality."
+      },
+      {
+        "step": 4,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; raw PDF bytes are treated as an uninformative normal tool result, and a refined Google search remains a reasonable way to find the missing census split."
+      },
+      {
+        "step": 5,
+        "lane_a": "candidate",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "candidate",
+        "surviving_lane": "lane_a",
+        "evidence_quote": "To make progress toward the task goal, it would be helpful to calculate the difference using the available information.",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=outcome_misread; the visible Step 4 result supplies only a partial women count, but Reflection treats the state as ready for calculation and feeds the terminal non-answer, making lane_a the first surviving candidate before terminal abandonment."
+      }
+    ],
+    "selected_step": 5
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_013_memory_b001_t00_e04-5e8c1dcf",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; no Memory or Reflection is present, the Google search for the citation or exact quote is an initial reasonable probe, and the adjacent result is normal tool output."
+      },
+      {
+        "step": 2,
+        "lane_a": "candidate",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_a",
+        "evidence_quote": "The search results included snippets from various websites, some of which mentioned the quote but did not provide direct access to the article's content.",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=dropped_necessary_fact; Memory omits the observed snippet stating that the original article text used 'veil of print', and that lost fact feeds the terminal answer instead of the required mismatch response."
+      }
+    ],
+    "selected_step": 2
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_014_memory_b001_t00_e05-c9015705",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial Wikipedia search for Babylonian numeral background was a reasonable first probe and produced normal uninformative search text, not an exception."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; memory and reflection accurately retained that the prior Wikipedia result gave only general base-60 context, and the Google search for a converter/table was a reasonable next source."
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; memory and reflection accurately retained that search results found converter resources but not the complete conversion, and extracting a relevant converter page was a materially new reasonable probe."
+      },
+      {
+        "step": 4,
+        "lane_a": "candidate",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_a",
+        "evidence_quote": "The observation was that the tool provided a detailed explanation of the Babylonian numeral system, including a table of characters used by dCode, and instructions on how to convert Babylonian numbers to decimal.",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=dropped_necessary_fact; the adjacent dCode feedback exposed the necessary symbol values for 𒐜, 𒐚, and 𒐐, but Memory reduced that to a generic table and the next plan used the false incomplete state instead of applying the available values."
+      }
+    ],
+    "selected_step": 4
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_015_memory_b001_t00_e06-71f77595",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial GitHub issue search for closed Regression-labelled numpy issues is a reasonable first probe, and the uninformative extractor page is normal tool output rather than an external exception"
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; memory and reflection accurately retain that the first extracted GitHub search page did not provide the needed label-added date, and the Google search is a materially different targeted source"
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the Google result only provides a potential issue lead, and extracting that GitHub issue page is an exploratory follow-up rather than a frozen error"
+      },
+      {
+        "step": 4,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "candidate",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "since the date is already provided in the issue page as \"Aug 8, 2017\", we can directly use this information to answer the question",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the packet retains that the extracted issue page did not contain when Regression was added, but the plan then treats the issue opened date as sufficient for the required Regression-label-added date and terminates without satisfying that prerequisite"
+      }
+    ],
+    "selected_step": 4
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_016_memory_b001_t00_e07-f5b5d66a",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "veto_mechanical_repair",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial arXiv probe used string values for documented integer parameters and produced an agent-caused type error, but the mechanical argument failure was bypassed by a successful different Google route before any false state consumed it"
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; memory and reflection accurately retained the prior arXiv execution error and the plan switched to a relevant Google search that returned the target paper and author clues"
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the prior Google result supported progress on identifying paper authors, and searching one named author publication history was an initial reasonable probe while the prior-publication author remained unresolved"
+      },
+      {
+        "step": 4,
+        "lane_a": "candidate",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_a",
+        "evidence_quote": "The last action was successful in finding relevant information about Pietro Murano's publications, including titles and publication years.",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=outcome_misread; the Step 3 Google result was a mixed publication-history search with irrelevant hits and only scattered snippets, but reflection treated it as successful publication-history evidence and used that state to pursue an earliest-paper decision from the result list"
+      }
+    ],
+    "selected_step": 4
+  },
+  {
+    "trajectory_id": "Llama3.3-70B-Turbo_017_memory_b001_t00_e08-f572f2ad",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial Google search for the first National Geographic short returned only the channel, but this was the first reasonable probe for the title subgoal."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "candidate",
+        "surviving_lane": "lane_c",
+        "evidence_quote": "the next step should be to search for the first National Geographic short on YouTube and then look for information about #9 in that short on the Monterey Bay Aquarium website.",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; after the first search result only returned the National Geographic YouTube channel, the packet accurately retained that no title was found but recommitted to the same Google-search strategy with only a wording change."
+      }
+    ],
+    "selected_step": 2
+  },
+  {
+    "trajectory_id": "Qwen3-8B_001_memory_b000_t00_e00-7743eba0",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial search targets the required first subgoal of finding the GameGrumps video/track and has no Memory or Reflection state to corrupt."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; after the search exposes the YouTube URL, trying URL text extraction is a materially different source/modality probe and the uninformative YouTube text is normal tool content, not an external exception."
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "candidate",
+        "surviving_lane": "lane_c",
+        "evidence_quote": "Let me perform another Google search with a more specific query.",
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; this is the first surviving candidate because the assistant recommits to the same Google-search strategy for identifying the track after the earlier same query produced no track name and the intervening URL extraction was uninformative."
+      }
+    ],
+    "selected_step": 3
+  },
+  {
+    "trajectory_id": "Qwen3-8B_002_memory_b000_t00_e01-7ab08a46",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial Google search for the required Tropicos ID is a reasonable first probe after the task gives no ID."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "candidate",
+        "surviving_lane": "lane_c",
+        "evidence_quote": "I need to perform a more specific Google search to locate the Tropicos ID for the Order Helotiales.",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; after uninformative Google feedback, step 2 immediately recommits to the same Google/snippet strategy with only wording-level query changes, making this the first surviving candidate."
+      }
+    ],
+    "selected_step": 2
+  },
+  {
+    "trajectory_id": "Qwen3-8B_003_memory_b000_t00_e02-8d639e26",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial Google search is a reasonable first probe for locating the episode phrase, with no Memory/Reflection packet state and no eligible adjacent external exception."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "Maybe that's the first episode.",
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; first surviving candidate: the plan treats a search result titled as a 2020 blind let's play, not the specified 2012 Game Grumps first episode, as a possible target episode and routes to a URL text extractor for a visual phrase at 30 seconds."
+      }
+    ],
+    "selected_step": 2
+  },
+  {
+    "trajectory_id": "Qwen3-8B_004_memory_b000_t00_e04-5e8c1dcf",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "the elements involved in this counter-example are b and e",
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; no Memory/Reflection packet state exists; the assistant finds b*e=c and e*b=b but treats only operands b and e as the involved subset, omitting the result element c from the counterexample evidence."
+      }
+    ],
+    "selected_step": 1
+  },
+  {
+    "trajectory_id": "Qwen3-8B_005_memory_b000_t00_e05-c9015705",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial plan targets the required Wikipedia perigee source and uses a first reasonable Wikipedia search; no adjacent external exception."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; after uninformative Wikipedia feedback, trying a materially different Google source is not yet the material source-constraint breakpoint because its value has not been consumed."
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "the second search with google_search found a snippet from NASA stating that the Moon's perigee is about 363,300 km.",
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; this is the first surviving candidate because the plan consumes a Google/NASA perigee value despite the task requiring the minimum perigee value from the Moon Wikipedia page."
+      }
+    ],
+    "selected_step": 3
+  },
+  {
+    "trajectory_id": "Qwen3-8B_006_memory_b000_t00_e06-71f77595",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "But since I can't do that, I'll proceed with the answer based on available knowledge.",
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; no Memory/Reflection state exists in the packet, and the first surviving candidate is Lane B because the plan chooses to answer from assumed knowledge before any Box Office Mojo list observations establish the required overlap."
+      }
+    ],
+    "selected_step": 1
+  },
+  {
+    "trajectory_id": "Qwen3-8B_007_memory_b000_t00_e07-f5b5d66a",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; no Memory/Reflection packet state is present; the Wikipedia query is an initial reasonable probe for film-ending evidence and the adjacent PageError is normal no-page feedback, not an external exception."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; no Memory/Reflection packet state is present; switching from failed Wikipedia lookup to Google search is a materially different reasonable source probe and the returned snippets are normal search results."
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "candidate",
+        "surviving_lane": "lane_c",
+        "evidence_quote": "However, since the user wants the answer now, and the plane is the most likely object, I'll conclude that the color is gold.",
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; no Memory/Reflection packet state is present; after snippets that do not identify the hiding object or its color, the agent terminates from an unverified likely answer while viable verification by opening/extracting result pages or searching a more discriminating query remains."
+      }
+    ],
+    "selected_step": 3
+  },
+  {
+    "trajectory_id": "Qwen3-8B_008_memory_b000_t00_e08-f572f2ad",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; first broad Google search was an initial reasonable probe for the Scientific Reports 2012 non-plasmon nano-compound task."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; memory and reflection accurately retained that the first results did not satisfy year, journal, and non-plasmon constraints, and the next search refined the probe toward the requested compound."
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "Given the lack of clear results, I will focus on the PNAS article mentioned in the seventh result, which is from 2012 and discusses gold nanocrystal molecules.",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the step then plans to focus on a PNAS article despite retaining that the requested article must be in Scientific Reports and not mention plasmons or plasmonics, making this the first surviving hard-constraint candidate."
+      }
+    ],
+    "selected_step": 3
+  },
+  {
+    "trajectory_id": "Qwen3-8B_009_memory_b000_t00_e09-f0557a9f",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial broad Google query sought BASE/DDC/unknown-language evidence and was a reasonable first probe."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; extracting the PeerJ result was a low-probability but materially different source/modality probe after the broad search was uninformative; the 403 feedback is normal access-denied content, not an external exception."
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; the shorter BASE/DDC/unknown-language Google query was a materially adjusted search after an intervening URL-extraction probe, so it remains exploratory."
+      },
+      {
+        "step": 4,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "candidate",
+        "surviving_lane": "lane_c",
+        "evidence_quote": "using Google Search with specific terms like \"unknown language DDC 633 Bielefeld University BASE 2020\" might uncover relevant information",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; after adjacent feedback showed the same Google query returned unrelated results, the reflection preserved that lack of progress, but the plan recommitted to the same normalized search strategy and exact query."
+      }
+    ],
+    "selected_step": 4
+  },
+  {
+    "trajectory_id": "Qwen3-8B_010_memory_b001_t00_e00-7743eba0",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "Since the task is a bit ambiguous, but given that the universities are in different states, and the cities are unique, I think the answer should be the city names with their states.",
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; no Memory/Reflection state or adjacent feedback exists; Planning acknowledges the explicit city-only output condition but treats it as ambiguous and decides to include states, making the first hard task/output-constraint candidate in the only step packet."
+      }
+    ],
+    "selected_step": 1
+  },
+  {
+    "trajectory_id": "Qwen3-8B_011_memory_b001_t00_e01-7ab08a46",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial Google search targets the named paper and volume subgoal with an available source-discovery tool."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; reflection retains that search found the paper but not the volume, and the primary-paper URL extraction is a materially different reasonable probe; the later 403 text is normal access-denied extractor content."
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the packet accurately treats the prior 403 as failed direct retrieval and tries the alternate SciSpace PDF source rather than repeating the same failed URL."
+      },
+      {
+        "step": 4,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; after two URL extraction failures, a refined web search for the specific volume/calculation remains an alternate source-discovery probe."
+      },
+      {
+        "step": 5,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "Since the paper's content is inaccessible, I will infer the fish bag volume based on the fish requirements and standard fish density.",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; this is the first surviving candidate because the plan substitutes an assumed-density estimate for the paper's calculated fish-bag volume while other source/corpus options and the exact paper-calculation prerequisite remain unresolved."
+      }
+    ],
+    "selected_step": 5
+  },
+  {
+    "trajectory_id": "Qwen3-8B_012_memory_b001_t00_e02-8d639e26",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial Google search for the exact March 2018 Andy Serkis 360 VR video is a reasonable first probe and has no Memory/Reflection state packet."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "So, the next step should be to use the url_text_extractor tool on the YouTube link provided in the first search result to get the text from the video. That way, I can look for the part where dinosaurs are mentioned and check the subsequent number.",
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; after the search identified the likely YouTube video, the plan relies on static URL text extraction to inspect narration tied to when dinosaurs appear in a dynamic video, which the chosen tool/corpus cannot expose."
+      }
+    ],
+    "selected_step": 2
+  },
+  {
+    "trajectory_id": "Qwen3-8B_013_memory_b001_t00_e03-21a3a421",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial Wikipedia search for the census/education gender split is a reasonable first probe, and Croatia-only output is normal uninformative feedback rather than an external exception."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; reflection accurately reports that Wikipedia returned Croatia rather than Bulgaria, then switches to a targeted Google query without repeating a known-failing strategy."
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; reflection preserves the Google snippet's useful women count and missing men count; extracting the official NSI PDF is a different reasonable source/modality probe, and raw PDF bytes are ineligible as System."
+      },
+      {
+        "step": 4,
+        "lane_a": "candidate",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_a",
+        "evidence_quote": "The extracted text from the NSI's 2011 census PDF provides the absolute numbers: 791.8 thousand women (22.3%) and 615.3 thousand men (17.7%) with tertiary education.",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=outcome_misread; after the URL extractor returned raw PDF bytes rather than readable census text, Reflection falsely states that the extracted text provides both gender counts and uses that state to complete the task."
+      }
+    ],
+    "selected_step": 4
+  },
+  {
+    "trajectory_id": "Qwen3-8B_014_memory_b001_t00_e04-5e8c1dcf",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial Google search for the named article and citation details is a reasonable first probe; no Memory or Reflection state is present and the no-results output is normal tool feedback."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "Well, I can use a Python code generator to create a link.",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=faithful; the Reflection accurately reports the no-results search, but the plan relies on the arithmetic-only python_code_generator to create a DOI URL, a tool-capability mismatch before the adjacent model_not_found exception can own."
+      }
+    ],
+    "selected_step": 2
+  },
+  {
+    "trajectory_id": "Qwen3-8B_015_memory_b001_t00_e05-c9015705",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; no Memory/Reflection state is present; the initial Google search is a reasonable first probe for identifying the cuneiform symbol values and its adjacent result is normal output."
+      },
+      {
+        "step": 2,
+        "lane_a": "candidate",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_a",
+        "evidence_quote": "From the third result, it's clear that 12410 (Unicode) is \"CUNEIFORM NUMERIC SIGN FIVE\" (5), 12420 is \"CUNEIFORM NUMERIC SIGN TWENTY\" (20), and 12425 is \"CUNEIFORM NUMERIC SIGN TWENTY-FIVE\" (25).",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=unsupported_fact; the Reflection upgrades snippet evidence that only literally names 12410/FIVE into established values for 12420 and 12425, then uses that unsupported state to answer."
+      }
+    ],
+    "selected_step": 2
+  },
+  {
+    "trajectory_id": "Qwen3-8B_016_memory_b001_t00_e06-71f77595",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial Google search was a reasonable first probe for GitHub issues matching numpy.polynomial, closed, and Regression label."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; extracting the concrete #9533 GitHub issue from the search results was a different target/source probe to test status and labels."
+      },
+      {
+        "step": 3,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_different_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; after #9533 was shown open and lacked Regression, the reordered Google query remained exploratory rather than a terminal answer or hard constraint violation."
+      },
+      {
+        "step": 4,
+        "lane_a": "clear",
+        "lane_b": "candidate",
+        "system": "clear",
+        "lane_c": "candidate",
+        "surviving_lane": "lane_b",
+        "evidence_quote": "The best I can do is infer that the oldest closed issue with the Regression label is #13602, opened May 21, 2019, and perhaps the label was added on that date.",
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; first surviving candidate: the terminal plan answers by inference before establishing the GitHub label-addition date required by the task."
+      }
+    ],
+    "selected_step": 4
+  },
+  {
+    "trajectory_id": "Qwen3-8B_017_memory_b001_t00_e07-f5b5d66a",
+    "rows": [
+      {
+        "step": 1,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; initial Google search for the given paper title reasonably targets the first checklist item, the 2015 paper authors, and no packet Memory/Reflection is present."
+      },
+      {
+        "step": 2,
+        "lane_a": "clear",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "veto_initial_probe",
+        "surviving_lane": null,
+        "evidence_quote": null,
+        "decision_basis": "state_scope=none; state_fidelity=not_applicable; extracting the located paper URL is a first reasonable probe for author and reference details; raw PDF bytes in feedback are an unhelpful normal result, not an external exception."
+      },
+      {
+        "step": 3,
+        "lane_a": "candidate",
+        "lane_b": "clear",
+        "system": "clear",
+        "lane_c": "clear",
+        "surviving_lane": "lane_a",
+        "evidence_quote": "This likely refers to a paper by Khan, Imran Naeem, which may be his prior work.",
+        "decision_basis": "state_scope=memory_reflection; state_fidelity=unsupported_fact; Memory turns a Google snippet about CHI'88 linear menus into a retained Khan-prior-work link unsupported by observations, and that state feeds the next Khan-specific search."
+      }
+    ],
+    "selected_step": 3
+  }
+]
